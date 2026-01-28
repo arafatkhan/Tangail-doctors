@@ -169,27 +169,29 @@ header {
 /* Search and Filter Section */
 .search-filter-section {
     background: var(--card-bg);
-    padding: 30px;
-    border-radius: 20px;
+    padding: 25px;
+    border-radius: 16px;
     margin-bottom: 30px;
     box-shadow: var(--shadow-lg);
     width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
 .search-box {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .search-box input {
     width: 100%;
-    padding: 18px 25px;
-    font-size: 1.1rem;
+    padding: 16px 20px;
+    font-size: 1rem;
     border: 2px solid var(--border-color);
-    border-radius: 50px;
+    border-radius: 12px;
     font-family: 'Hind Siliguri', sans-serif;
     transition: all 0.3s ease;
     background: #f8fafc;
+    box-sizing: border-box;
 }
 
 .search-box input:focus {
@@ -201,8 +203,8 @@ header {
 
 .filter-section {
     display: grid;
-    grid-template-columns: 1fr 1fr auto;
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
     align-items: end;
 }
 
@@ -210,23 +212,26 @@ header {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    width: 100%;
 }
 
 .filter-group label {
     font-weight: 600;
     color: var(--text-primary);
-    font-size: 0.95rem;
+    font-size: 0.9rem;
 }
 
 .filter-group select {
-    padding: 14px 20px;
-    font-size: 1rem;
+    padding: 12px 16px;
+    font-size: 0.95rem;
     border: 2px solid var(--border-color);
-    border-radius: 12px;
+    border-radius: 10px;
     font-family: 'Hind Siliguri', sans-serif;
     background: #f8fafc;
     cursor: pointer;
     transition: all 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .filter-group select:focus {
@@ -237,16 +242,18 @@ header {
 }
 
 .reset-btn {
-    padding: 14px 30px;
+    padding: 12px 24px;
     background: var(--danger-color);
     color: white;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     font-family: 'Hind Siliguri', sans-serif;
-    font-size: 1rem;
+    font-size: 0.95rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+    white-space: nowrap;
+    align-self: end;
 }
 
 .reset-btn:hover {
@@ -667,25 +674,39 @@ footer p {
     }
 
     .search-filter-section {
-        padding: 15px 10px;
-        border-radius: 15px;
+        padding: 20px 15px;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+
+    .search-box {
+        margin-bottom: 15px;
     }
 
     .search-box input {
-        padding: 14px 18px;
-        font-size: 1rem;
-        width: 100%;
-        box-sizing: border-box;
+        padding: 14px 16px;
+        font-size: 0.95rem;
+        border-radius: 10px;
     }
 
     .filter-section {
         grid-template-columns: 1fr;
-        gap: 15px;
+        gap: 12px;
+    }
+
+    .filter-group label {
+        font-size: 0.85rem;
+    }
+
+    .filter-group select {
+        padding: 12px 14px;
+        font-size: 0.9rem;
     }
 
     .reset-btn {
         width: 100%;
         padding: 14px 20px;
+        margin-top: 5px;
     }
 
     .doctor-card {
