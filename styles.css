@@ -24,6 +24,7 @@ body {
     min-height: 100vh;
     color: var(--text-primary);
     line-height: 1.7;
+    overflow-x: hidden;
 }
 
 /* Navigation Header */
@@ -172,6 +173,8 @@ header {
     border-radius: 20px;
     margin-bottom: 30px;
     box-shadow: var(--shadow-lg);
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .search-box {
@@ -664,12 +667,15 @@ footer p {
     }
 
     .search-filter-section {
-        padding: 20px 15px;
+        padding: 15px 10px;
+        border-radius: 15px;
     }
 
     .search-box input {
         padding: 14px 18px;
         font-size: 1rem;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .filter-section {
