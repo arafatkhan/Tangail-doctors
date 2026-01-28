@@ -664,7 +664,22 @@ footer p {
     }
 
     .search-filter-section {
-        padding: 20px;
+        padding: 20px 15px;
+    }
+
+    .search-box input {
+        padding: 14px 18px;
+        font-size: 1rem;
+    }
+
+    .filter-section {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .reset-btn {
+        width: 100%;
+        padding: 14px 20px;
     }
 
     .doctor-card {
