@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>যোগাযোগ - Tangail Doctors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #1e293b;
+        }
+
+        /* Navigation Header */
+        .navbar {
+            background: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: #2563eb;
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+
+        .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .logo-main {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .logo-sub {
+            font-size: 0.8rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #1e293b;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: #2563eb;
+        }
+
+        .nav-link.active {
+            color: #2563eb;
+        }
+
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: #2563eb;
+            border-radius: 2px;
+        }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: #2563eb;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+
+        /* Main Content */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            margin-bottom: 50px;
+            color: white;
+        }
+
+        .page-header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .page-header p {
+            font-size: 1.1rem;
+            opacity: 0.95;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+
+        .contact-card {
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.15);
+        }
+
+        .contact-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #1e293b;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            color: #64748b;
+            font-size: 1rem;
+            line-height: 1.8;
+        }
+
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .info-section {
+            background: white;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .info-section h2 {
+            font-size: 1.8rem;
+            color: #2563eb;
+            margin-bottom: 20px;
+        }
+
+        .info-section p {
+            color: #64748b;
+            line-height: 1.8;
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .info-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .info-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #e2e8f0;
+            color: #64748b;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-list li:last-child {
+            border-bottom: none;
+        }
+
+        .info-list li::before {
+            content: '✓';
+            color: #10b981;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            color: #1e293b;
+            text-align: center;
+            padding: 25px 20px;
+            margin-top: 40px;
+        }
+
+        footer p {
+            font-size: 0.95rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                gap: 0;
+                padding: 20px;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                display: none;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-link {
+                padding: 15px 0;
+                width: 100%;
+                text-align: center;
+                border-bottom: 1px solid #e2e8f0;
+            }
+
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+
+            .nav-link.active::after {
+                display: none;
+            }
+
+            .page-header h1 {
+                font-size: 1.8rem;
+            }
+
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .info-section {
+                padding: 25px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-main {
+                font-size: 1.1rem;
+            }
+
+            .logo-sub {
+                font-size: 0.7rem;
+            }
+
+            .logo-icon {
+                width: 38px;
+                height: 38px;
+                font-size: 1.5rem;
+            }
+
+            .page-header h1 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🏥</div>
+                <div class="logo-text">
+                    <span class="logo-main">Tangail Doctors</span>
+                    <span class="logo-sub">টাঙ্গাইল ডাক্তার তালিকা</span>
+                </div>
+            </a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">হোম</a></li>
+                <li><a href="category-page.html" class="nav-link">ক্যাটাগরি</a></li>
+                <li><a href="table.html" class="nav-link">টেবিল ভিউ</a></li>
+                <li><a href="contact.html" class="nav-link active">যোগাযোগ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="page-header">
+            <h1>📞 যোগাযোগ করুন</h1>
+            <p>আমাদের সাথে যোগাযোগ করতে নিচের তথ্য ব্যবহার করুন</p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-icon">📧</div>
+                <h3 class="contact-title">ইমেইল</h3>
+                <div class="contact-info">
+                    <p>সাধারণ তথ্যের জন্য:</p>
+                    <a href="mailto:info@tangaildoctors.com">info@tangaildoctors.com</a>
+                    <p style="margin-top: 10px;">সাহায্যের জন্য:</p>
+                    <a href="mailto:support@tangaildoctors.com">support@tangaildoctors.com</a>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">📱</div>
+                <h3 class="contact-title">ফোন</h3>
+                <div class="contact-info">
+                    <p>হেল্পলাইন নম্বর:</p>
+                    <a href="tel:+8801700000000">+880 1700-000000</a>
+                    <p style="margin-top: 10px;">কার্যসময়: সকাল ৯টা - রাত ৯টা</p>
+                    <p>(শুক্রবার সহ প্রতিদিন)</p>
+                </div>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">📍</div>
+                <h3 class="contact-title">ঠিকানা</h3>
+                <div class="contact-info">
+                    <p>Tangail Doctors</p>
+                    <p>টাঙ্গাইল সদর</p>
+                    <p>টাঙ্গাইল - ১৯০০</p>
+                    <p>বাংলাদেশ</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>💡 এই ওয়েবসাইট সম্পর্কে</h2>
+            <p>
+                Tangail Doctors হলো টাঙ্গাইল জেলার সবচেয়ে বড় ডাক্তার তথ্য ডিরেক্টরি। 
+                আমরা টাঙ্গাইল জেলার বিভিন্ন হাসপাতাল ও ক্লিনিকে কর্মরত বিশেষজ্ঞ ডাক্তারদের 
+                সম্পূর্ণ তথ্য সরবরাহ করি যাতে রোগীরা সহজেই তাদের প্রয়োজনীয় ডাক্তার খুঁজে পেতে পারেন।
+            </p>
+            <p>
+                আমাদের লক্ষ্য হলো স্বাস্থ্যসেবা গ্রহণকারীদের জন্য সঠিক ডাক্তার খুঁজে পাওয়া সহজ করা 
+                এবং দ্রুততম সময়ে চিকিৎসা সেবা নিশ্চিত করা।
+            </p>
+        </div>
+
+        <div class="info-section">
+            <h2>🎯 আমাদের সেবাসমূহ</h2>
+            <ul class="info-list">
+                <li>৩৮০+ বিশেষজ্ঞ ডাক্তারের তথ্য</li>
+                <li>১৫টি বিভিন্ন মেডিকেল ক্যাটাগরি</li>
+                <li>হাসপাতাল ও ক্লিনিক অনুযায়ী খোঁজার সুবিধা</li>
+                <li>ডাক্তারদের চেম্বার সময়সূচী</li>
+                <li>সরাসরি যোগাযোগের তথ্য</li>
+                <li>মোবাইল ফ্রেন্ডলি ডিজাইন</li>
+                <li>সম্পূর্ণ বাংলা ভাষায় তথ্য</li>
+            </ul>
+        </div>
+
+        <div class="info-section">
+            <h2>⚠️ গুরুত্বপূর্ণ তথ্য</h2>
+            <p>
+                <strong>দাবিত্যাগ:</strong> এই ওয়েবসাইটে প্রদত্ত সকল তথ্য শুধুমাত্র তথ্যমূলক উদ্দেশ্যে প্রদান করা হয়েছে। 
+                ডাক্তারের চেম্বারে যাওয়ার আগে অনুগ্রহ করে ফোনে যোগাযোগ করে সময়সূচী নিশ্চিত করুন।
+            </p>
+            <p>
+                কোনো তথ্য ভুল বা পুরানো থাকলে অনুগ্রহ করে আমাদের জানান। আমরা যত দ্রুত সম্ভব তথ্য আপডেট করব।
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; ২০২৬ Tangail Doctors | টাঙ্গাইল ডাক্তার তালিকা | সকল তথ্য শুধুমাত্র তথ্যমূলক উদ্দেশ্যে</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const navMenu = document.getElementById('navMenu');
+            const menuToggle = document.querySelector('.menu-toggle');
+            const navbar = document.querySelector('.navbar');
+            
+            if (!navbar.contains(event.target)) {
+                navMenu.classList.remove('active');
+            }
+        });
+
+        // WhatsApp button functionality
+        function toggleWhatsAppMenu() {
+            const menu = document.getElementById('whatsappMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function sendWhatsApp(message) {
+            const phoneNumber = '8801700000000'; // Replace with actual WhatsApp number
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+            document.getElementById('whatsappMenu').style.display = 'none';
+        }
+
+        // Close WhatsApp menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const whatsappFloat = document.querySelector('.whatsapp-float');
+            const whatsappMenu = document.getElementById('whatsappMenu');
+            if (whatsappFloat && !whatsappFloat.contains(event.target)) {
+                whatsappMenu.style.display = 'none';
+            }
+        });
+    </script>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <div id="whatsappMenu" class="whatsapp-menu">
+            <div class="whatsapp-menu-item" onclick="sendWhatsApp('কোন ডাক্তার খুঁজছেন?')">
+                <span>কোন ডাক্তার খুঁজছেন?</span>
+            </div>
+            <div class="whatsapp-menu-item" onclick="sendWhatsApp('ডাক্তারের চেম্বার সময় জানতে চাই')">
+                <span>ডাক্তারের চেম্বার সময় জানতে চাই</span>
+            </div>
+            <div class="whatsapp-menu-item" onclick="sendWhatsApp('ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই')">
+                <span>ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই</span>
+            </div>
+        </div>
+        <button class="whatsapp-button" onclick="toggleWhatsAppMenu()" title="WhatsApp এ যোগাযোগ করুন">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="white" d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.957 0-7.51 6.11-13.62 13.62-13.62s13.62 6.11 13.62 13.62-6.11 13.62-13.62 13.62zM21.305 19.26c-0.346-0.174-2.049-1.007-2.366-1.123-0.316-0.117-0.547-0.174-0.776 0.174s-0.893 1.123-1.094 1.347c-0.201 0.231-0.401 0.26-0.747 0.087s-1.456-0.537-2.772-1.711c-1.024-0.913-1.716-2.042-1.918-2.388s-0.022-0.536 0.152-0.71c0.156-0.155 0.346-0.401 0.518-0.603 0.174-0.201 0.231-0.346 0.346-0.574 0.117-0.231 0.058-0.431-0.028-0.603s-0.776-1.87-1.063-2.565c-0.28-0.672-0.56-0.58-0.776-0.591-0.201-0.010-0.431-0.012-0.661-0.012s-0.603 0.087-0.918 0.431c-0.316 0.346-1.206 1.179-1.206 2.873s1.235 3.333 1.406 3.561c0.174 0.231 2.385 3.786 5.858 5.168 3.473 1.382 3.473 0.922 4.099 0.864 0.625-0.058 2.049-0.835 2.337-1.645 0.289-0.808 0.289-1.501 0.201-1.645-0.087-0.144-0.316-0.231-0.661-0.403z"/>
+            </svg>
+        </button>
+    </div>
+</body>
+</html>

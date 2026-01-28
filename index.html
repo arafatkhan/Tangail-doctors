@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>হোম - Tangail Doctors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🏥</div>
+                <div class="logo-text">
+                    <span class="logo-main">Tangail Doctors</span>
+                    <span class="logo-sub">টাঙ্গাইল ডাক্তার তালিকা</span>
+                </div>
+            </a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link active">হোম</a></li>
+                <li><a href="category-page.html" class="nav-link">ক্যাটাগরি</a></li>
+                <li><a href="table.html" class="nav-link">টেবিল ভিউ</a></li>
+                <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>🏥 টাঙ্গাইল ডাক্তার তালিকা</h1>
+                <p class="subtitle">টাঙ্গাইলের সকল ক্লিনিক ও হাসপাতালের বিশেষজ্ঞ ডাক্তারদের তথ্য</p>
+            </div>
+        </header>
+
+        <div class="search-filter-section">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 ডাক্তার, বিশেষত্ব বা হাসপাতালের নাম লিখুন...">
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-group">
+                    <label for="categoryFilter">রোগের ধরন</label>
+                    <select id="categoryFilter">
+                        <option value="">সকল ক্যাটাগরি</option>
+                    </select>
+                </div>
+
+                <div class="filter-group">
+                    <label for="hospitalFilter">হাসপাতাল/ক্লিনিক</label>
+                    <select id="hospitalFilter">
+                        <option value="">সকল হাসপাতাল</option>
+                    </select>
+                </div>
+
+                <button id="resetBtn" class="reset-btn">রিসেট করুন</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <p>মোট <span id="totalDoctors">0</span> জন ডাক্তার পাওয়া গেছে</p>
+        </div>
+
+        <div id="doctorList" class="doctor-grid">
+            <!-- Doctor cards will be inserted here -->
+        </div>
+
+        <div id="noResults" class="no-results" style="display: none;">
+            <p>😔 কোন ডাক্তার পাওয়া যায়নি</p>
+            <p class="small">অন্য কিছু দিয়ে খুঁজে দেখুন</p>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>লোড হচ্ছে...</p>
+        </div>
+    </div>
+
+    <!-- WhatsApp Floating Button -->
+    <div class="whatsapp-float">
+        <div class="whatsapp-menu" id="whatsappMenu">
+            <div class="whatsapp-menu-header">আমাদের সাথে যোগাযোগ করুন</div>
+            <div class="whatsapp-option" onclick="sendWhatsApp('কোন ডাক্তার খুঁজছেন?')">
+                কোন ডাক্তার খুঁজছেন?
+            </div>
+            <div class="whatsapp-option" onclick="sendWhatsApp('ডাক্তারের চেম্বার সময় জানতে চাই')">
+                ডাক্তারের চেম্বার সময় জানতে চাই
+            </div>
+            <div class="whatsapp-option" onclick="sendWhatsApp('ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই')">
+                ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই
+            </div>
+        </div>
+        <button class="whatsapp-button" onclick="toggleWhatsAppMenu()">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 8.188-2.113c2.35 1.275 5.012 1.95 7.812 1.95 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.333c-2.488 0-4.912-0.675-7.037-1.95l-0.512-0.3-5.288 1.363 1.4-5.2-0.337-0.537c-1.4-2.225-2.138-4.8-2.138-7.475 0-7.725 6.287-14 14-14s14 6.275 14 14-6.287 14-14 14zM23.113 19.488c-0.387-0.2-2.313-1.15-2.675-1.275-0.362-0.15-0.625-0.2-0.887 0.2s-1.025 1.275-1.25 1.538c-0.225 0.262-0.45 0.3-0.837 0.1s-1.638-0.6-3.113-1.913c-1.15-1.025-1.925-2.287-2.15-2.675-0.225-0.387-0.025-0.6 0.175-0.787 0.175-0.175 0.387-0.45 0.575-0.675 0.2-0.225 0.262-0.387 0.4-0.65 0.137-0.262 0.075-0.488-0.038-0.675-0.1-0.2-0.887-2.15-1.212-2.938-0.325-0.775-0.65-0.662-0.887-0.675-0.225-0.012-0.487-0.012-0.75-0.012s-0.687 0.1-1.05 0.488c-0.362 0.387-1.387 1.35-1.387 3.3s1.413 3.825 1.613 4.087c0.2 0.262 2.8 4.275 6.787 5.988 0.95 0.412 1.687 0.65 2.262 0.837 0.95 0.3 1.812 0.262 2.488 0.15 0.762-0.112 2.313-0.937 2.637-1.85 0.325-0.912 0.325-1.688 0.225-1.85-0.1-0.15-0.362-0.25-0.75-0.45z"/>
+            </svg>
+        </button>
+    </div>
+
+    <footer>
+        <p>&copy; ২০২৬ Tangail Doctors | টাঙ্গাইল ডাক্তার তালিকা | সকল তথ্য শুধুমাত্র তথ্যমূলক উদ্দেশ্যে</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        function toggleWhatsAppMenu() {
+            const menu = document.getElementById('whatsappMenu');
+            menu.classList.toggle('active');
+        }
+
+        function sendWhatsApp(message) {
+            const phoneNumber = '8801700000000'; // Replace with actual WhatsApp number
+            const encodedMessage = encodeURIComponent(message);
+            const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+            window.open(whatsappUrl, '_blank');
+        }
+
+        // Close WhatsApp menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const whatsappFloat = document.querySelector('.whatsapp-float');
+            const menu = document.getElementById('whatsappMenu');
+            
+            if (!whatsappFloat.contains(event.target)) {
+                menu.classList.remove('active');
+            }
+        });
+    </script>
+</body>
+</html>

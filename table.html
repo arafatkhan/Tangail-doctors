@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>টেবিল ভিউ - Tangail Doctors</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary-color: #2563eb;
+            --primary-dark: #1e40af;
+            --secondary-color: #10b981;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #64748b;
+            --border-color: #e2e8f0;
+            --header-bg: #667eea;
+            --row-hover: #f1f5f9;
+        }
+
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: var(--text-primary);
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Navigation Header */
+        .navbar {
+            background: white;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+        }
+
+        .logo-text {
+            display: flex;
+            flex-direction: column;
+            line-height: 1.2;
+        }
+
+        .logo-main {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #2563eb;
+        }
+
+        .logo-sub {
+            font-size: 0.8rem;
+            color: #64748b;
+            font-weight: 500;
+        }
+
+        .nav-menu {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            align-items: center;
+        }
+
+        .nav-link {
+            text-decoration: none;
+            color: #1e293b;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-link:hover {
+            color: #2563eb;
+        }
+
+        .nav-link.active {
+            color: #2563eb;
+        }
+
+        .nav-link.active::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: #2563eb;
+            border-radius: 2px;
+        }
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .menu-toggle span {
+            width: 25px;
+            height: 3px;
+            background: #2563eb;
+            border-radius: 2px;
+        }
+
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.95;
+        }
+
+        .filter-section {
+            background: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .filter-group label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .filter-group select {
+            width: 100%;
+            padding: 12px 18px;
+            font-size: 1rem;
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            font-family: 'Hind Siliguri', sans-serif;
+            background: var(--bg-color);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-group select:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+        }
+
+        .reset-btn {
+            padding: 12px 30px;
+            background: #ef4444;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            align-self: flex-end;
+        }
+
+        .reset-btn:hover {
+            background: #dc2626;
+            transform: translateY(-2px);
+        }
+
+        .stats {
+            background: white;
+            padding: 12px 25px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        .stats p {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .stats span {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+        }
+
+        .table-container {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        .table-wrapper {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th {
+            padding: 18px 15px;
+            text-align: left;
+            font-weight: 700;
+            font-size: 1rem;
+            white-space: nowrap;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid var(--border-color);
+            transition: background-color 0.2s ease;
+        }
+
+        tbody tr:hover {
+            background-color: var(--row-hover);
+        }
+
+        tbody tr:last-child {
+            border-bottom: none;
+        }
+
+        td {
+            padding: 15px;
+            vertical-align: top;
+            line-height: 1.6;
+        }
+
+        td:first-child {
+            font-weight: 600;
+            color: var(--primary-color);
+            text-align: center;
+        }
+
+        .doctor-name {
+            font-weight: 700;
+            color: var(--text-primary);
+            font-size: 1rem;
+        }
+
+        .specialty-cell {
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+
+        .hospital-cell {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .contact-cell {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            display: none;
+        }
+
+        .no-results p {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+        }
+
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            border-top-color: white;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            color: var(--text-primary);
+            text-align: center;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 1024px) {
+            .container {
+                padding: 15px;
+            }
+
+            table {
+                font-size: 0.9rem;
+            }
+
+            th, td {
+                padding: 12px 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            .nav-menu {
+                position: absolute;
+                top: 70px;
+                left: 0;
+                right: 0;
+                background: white;
+                flex-direction: column;
+                gap: 0;
+                padding: 20px;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+                display: none;
+            }
+
+            .nav-menu.active {
+                display: flex;
+            }
+
+            .nav-link {
+                padding: 15px 0;
+                width: 100%;
+                text-align: center;
+                border-bottom: 1px solid #e2e8f0;
+            }
+
+            .nav-link:last-child {
+                border-bottom: none;
+            }
+
+            .nav-link.active::after {
+                display: none;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .subtitle {
+                font-size: 0.9rem;
+            }
+
+            header {
+                padding: 20px;
+            }
+
+            .filter-section {
+                flex-direction: column;
+                padding: 20px;
+            }
+
+            .filter-group {
+                width: 100%;
+                min-width: auto;
+            }
+
+            .reset-btn {
+                width: 100%;
+                align-self: stretch;
+            }
+
+            .stats {
+                padding: 10px 20px;
+            }
+
+            .stats p {
+                font-size: 1rem;
+            }
+
+            .stats span {
+                font-size: 1.2rem;
+            }
+
+            /* Mobile: Stack table data vertically */
+            .table-wrapper {
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+
+            table {
+                font-size: 0.8rem;
+                min-width: 800px;
+            }
+
+            th, td {
+                padding: 8px 6px;
+                font-size: 0.8rem;
+            }
+
+            th {
+                font-size: 0.85rem;
+            }
+
+            .doctor-name {
+                font-size: 0.9rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .logo-main {
+                font-size: 1.1rem;
+            }
+
+            .logo-sub {
+                font-size: 0.7rem;
+            }
+
+            .logo-icon {
+                width: 38px;
+                height: 38px;
+                font-size: 1.5rem;
+            }
+
+            h1 {
+                font-size: 1.3rem;
+            }
+
+            .subtitle {
+                font-size: 0.85rem;
+            }
+
+            header {
+                padding: 15px;
+            }
+
+            .filter-section {
+                padding: 15px;
+            }
+
+            .filter-group select {
+                padding: 10px 14px;
+                font-size: 0.9rem;
+            }
+
+            .reset-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+            }
+
+            table {
+                font-size: 0.75rem;
+                min-width: 700px;
+            }
+
+            th, td {
+                padding: 6px 4px;
+                font-size: 0.75rem;
+            }
+
+            th {
+                font-size: 0.8rem;
+                padding: 12px 6px;
+            }
+
+            .doctor-name {
+                font-size: 0.85rem;
+            }
+
+            footer {
+                padding: 15px;
+                font-size: 0.85rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">🏥</div>
+                <div class="logo-text">
+                    <span class="logo-main">Tangail Doctors</span>
+                    <span class="logo-sub">টাঙ্গাইল ডাক্তার তালিকা</span>
+                </div>
+            </a>
+            <div class="menu-toggle" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">হোম</a></li>
+                <li><a href="category-page.html" class="nav-link">ক্যাটাগরি</a></li>
+                <li><a href="table.html" class="nav-link active">টেবিল ভিউ</a></li>
+                <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header>
+            <h1>🏥 টাঙ্গাইল ডাক্তার তালিকা - টেবিল ভিউ</h1>
+            <p class="subtitle">হাসপাতাল অনুযায়ী ডাক্তারদের সম্পূর্ণ তথ্য</p>
+        </header>
+
+        <div class="filter-section">
+            <div class="filter-group">
+                <label for="hospitalFilter">🏥 হাসপাতাল/ক্লিনিক নির্বাচন করুন</label>
+                <select id="hospitalFilter">
+                    <option value="">সকল হাসপাতাল</option>
+                </select>
+            </div>
+            <button id="resetBtn" class="reset-btn">রিসেট করুন</button>
+        </div>
+
+        <div class="stats">
+            <p>মোট <span id="totalDoctors">0</span> জন ডাক্তার পাওয়া গেছে</p>
+        </div>
+
+        <div id="loading" class="loading">
+            <div class="spinner"></div>
+            <p>লোড হচ্ছে...</p>
+        </div>
+
+        <div id="tableContainer" class="table-container" style="display: none;">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>আইডি</th>
+                            <th>ডাক্তারের নাম</th>
+                            <th>যোগ্যতা</th>
+                            <th>বিশেষত্ব</th>
+                            <th>সময়সূচী</th>
+                            <th>হাসপাতাল/ক্লিনিক</th>
+                            <th>যোগাযোগ</th>
+                        </tr>
+                    </thead>
+                    <tbody id="doctorTableBody">
+                        <!-- Table rows will be inserted here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div id="noResults" class="no-results">
+            <p>😔 কোন ডাক্তার পাওয়া যায়নি</p>
+            <p style="font-size: 1rem; color: var(--text-secondary); font-weight: 400;">অন্য হাসপাতাল নির্বাচন করুন</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; ২০২৬ Tangail Doctors | টাঙ্গাইল ডাক্তার তালিকা | সকল তথ্য শুধুমাত্র তথ্যমূলক উদ্দেশ্যে</p>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('navMenu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Global variables
+        let allDoctors = [];
+        let filteredDoctors = [];
+
+        // DOM Elements
+        const hospitalFilter = document.getElementById('hospitalFilter');
+        const resetBtn = document.getElementById('resetBtn');
+        const doctorTableBody = document.getElementById('doctorTableBody');
+        const totalDoctorsSpan = document.getElementById('totalDoctors');
+        const noResults = document.getElementById('noResults');
+        const loading = document.getElementById('loading');
+        const tableContainer = document.getElementById('tableContainer');
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadDoctors();
+            hospitalFilter.addEventListener('change', filterDoctors);
+            resetBtn.addEventListener('click', resetFilters);
+        });
+
+        // Load doctors data
+        function loadDoctors() {
+            loading.style.display = 'block';
+            tableContainer.style.display = 'none';
+
+            fetch('data.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    allDoctors = data;
+                    filteredDoctors = [...allDoctors];
+                    
+                    populateHospitalFilter();
+                    displayDoctors(filteredDoctors);
+                    
+                    loading.style.display = 'none';
+                    tableContainer.style.display = 'block';
+                })
+                .catch(error => {
+                    console.error('Error loading doctors:', error);
+                    loading.innerHTML = '<p>ডেটা লোড করতে সমস্যা হয়েছে। অনুগ্রহ করে পেজ রিফ্রেশ করুন।</p>';
+                });
+        }
+
+        // Populate hospital filter
+        function populateHospitalFilter() {
+            const hospitals = new Set();
+
+            allDoctors.forEach(doctor => {
+                if (doctor.hospital) {
+                    const hospital = cleanText(doctor.hospital);
+                    // Only add non-empty hospital names
+                    if (hospital.trim()) {
+                        hospitals.add(hospital);
+                    }
+                }
+            });
+
+            // Sort and add unique hospitals to filter
+            Array.from(hospitals).sort().forEach(hospital => {
+                const option = document.createElement('option');
+                option.value = hospital;
+                option.textContent = hospital;
+                hospitalFilter.appendChild(option);
+            });
+        }
+
+        // Filter doctors
+        function filterDoctors() {
+            const selectedHospital = hospitalFilter.value;
+
+            filteredDoctors = allDoctors.filter(doctor => {
+                return !selectedHospital || cleanText(doctor.hospital) === selectedHospital;
+            });
+
+            displayDoctors(filteredDoctors);
+        }
+
+        // Display doctors in table
+        function displayDoctors(doctors) {
+            doctorTableBody.innerHTML = '';
+            totalDoctorsSpan.textContent = doctors.length;
+
+            if (doctors.length === 0) {
+                noResults.style.display = 'block';
+                tableContainer.style.display = 'none';
+                return;
+            }
+
+            noResults.style.display = 'none';
+            tableContainer.style.display = 'block';
+
+            doctors.forEach(doctor => {
+                const row = createTableRow(doctor);
+                doctorTableBody.appendChild(row);
+            });
+        }
+
+        // Create table row
+        function createTableRow(doctor) {
+            const row = document.createElement('tr');
+
+            const id = doctor.id || '';
+            const name = cleanText(doctor.name || 'নাম পাওয়া যায়নি');
+            const qualification = formatText(doctor.qualification || '-');
+            const specialty = cleanText(doctor.specialty || '-');
+            const schedule = formatText(doctor.schedule || '-');
+            const hospital = cleanText(doctor.hospital || '-');
+            const contact = formatContact(doctor.contact || '-');
+
+            row.innerHTML = `
+                <td>${id}</td>
+                <td><span class="doctor-name">${name}</span></td>
+                <td>${qualification}</td>
+                <td class="specialty-cell">${specialty}</td>
+                <td>${schedule}</td>
+                <td class="hospital-cell">${hospital}</td>
+                <td class="contact-cell">${contact}</td>
+            `;
+
+            return row;
+        }
+
+        // Utility functions
+        function cleanText(text) {
+            if (!text) return '';
+            // Remove HTML tags, extra spaces, and normalize
+            return text
+                .replace(/<br\s*\/?>/gi, ' ')
+                .replace(/<[^>]*>/g, '')
+                .replace(/\s+/g, ' ')
+                .trim();
+        }
+
+        function formatText(text) {
+            if (!text) return '';
+            return text.replace(/<br>/g, '<br>').trim();
+        }
+
+        function formatContact(contact) {
+            if (!contact) return '';
+            return contact.replace(/<br>/g, ', ');
+        }
+
+        function resetFilters() {
+            hospitalFilter.value = '';
+            filteredDoctors = [...allDoctors];
+            displayDoctors(filteredDoctors);
+        }
+
+        // WhatsApp button functionality
+        function toggleWhatsAppMenu() {
+            const menu = document.getElementById('whatsappMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        function sendWhatsApp(message) {
+            const phoneNumber = '8801700000000'; // Replace with actual WhatsApp number
+            const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+            window.open(url, '_blank');
+            document.getElementById('whatsappMenu').style.display = 'none';
+        }
+
+        // Close WhatsApp menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const whatsappFloat = document.querySelector('.whatsapp-float');
+            const whatsappMenu = document.getElementById('whatsappMenu');
+            if (whatsappFloat && !whatsappFloat.contains(event.target)) {
+                whatsappMenu.style.display = 'none';
+            }
+        });
+    </script>
+
+    <!-- Floating WhatsApp Button -->
+    <div class="whatsapp-float">
+        <div id="whatsappMenu" class="whatsapp-menu">
+            <div class="whatsapp-menu-item" onclick="sendWhatsApp('কোন ডাক্তার খুঁজছেন?')">
+                <span>কোন ডাক্তার খুঁজছেন?</span>
+            </div>
+            <div class="whatsapp-menu-item" onclick="sendWhatsApp('ডাক্তারের চেম্বার সময় জানতে চাই')">
+                <span>ডাক্তারের চেম্বার সময় জানতে চাই</span>
+            </div>
+            <div class="whatsapp-menu-item" onclick="sendWhatsApp('ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই')">
+                <span>ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই</span>
+            </div>
+        </div>
+        <button class="whatsapp-button" onclick="toggleWhatsAppMenu()" title="WhatsApp এ যোগাযোগ করুন">
+            <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path fill="white" d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-4.713 1.262 1.262-4.669-0.292-0.508c-1.207-2.100-1.847-4.507-1.847-6.957 0-7.51 6.11-13.62 13.62-13.62s13.62 6.11 13.62 13.62-6.11 13.62-13.62 13.62zM21.305 19.26c-0.346-0.174-2.049-1.007-2.366-1.123-0.316-0.117-0.547-0.174-0.776 0.174s-0.893 1.123-1.094 1.347c-0.201 0.231-0.401 0.26-0.747 0.087s-1.456-0.537-2.772-1.711c-1.024-0.913-1.716-2.042-1.918-2.388s-0.022-0.536 0.152-0.71c0.156-0.155 0.346-0.401 0.518-0.603 0.174-0.201 0.231-0.346 0.346-0.574 0.117-0.231 0.058-0.431-0.028-0.603s-0.776-1.87-1.063-2.565c-0.28-0.672-0.56-0.58-0.776-0.591-0.201-0.010-0.431-0.012-0.661-0.012s-0.603 0.087-0.918 0.431c-0.316 0.346-1.206 1.179-1.206 2.873s1.235 3.333 1.406 3.561c0.174 0.231 2.385 3.786 5.858 5.168 3.473 1.382 3.473 0.922 4.099 0.864 0.625-0.058 2.049-0.835 2.337-1.645 0.289-0.808 0.289-1.501 0.201-1.645-0.087-0.144-0.316-0.231-0.661-0.403z"/>
+            </svg>
+        </button>
+    </div>
+</body>
+</html>
