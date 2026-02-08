@@ -689,6 +689,7 @@
                 loadError: 'ডেটা লোড করতে সমস্যা হয়েছে। অনুগ্রহ করে পেজ রিফ্রেশ করুন।',
                 noResults: '😔 কোন ডাক্তার পাওয়া যায়নি',
                 noResultsSub: 'অন্য হাসপাতাল নির্বাচন করুন',
+                nameNotAvailable: 'নাম পাওয়া যায়নি',
                 tableHeaders: {
                     id: 'আইডি',
                     name: 'ডাক্তারের নাম',
@@ -711,6 +712,7 @@
                 loadError: 'Failed to load data. Please refresh the page.',
                 noResults: '😔 No doctors found',
                 noResultsSub: 'Select another hospital',
+                nameNotAvailable: 'Name not available',
                 tableHeaders: {
                     id: 'ID',
                     name: 'Doctor Name',
@@ -905,9 +907,10 @@
         // Create table row
         function createTableRow(doctor) {
             const row = document.createElement('tr');
+            const texts = uiText[currentLanguage];
 
             const id = doctor.id || '';
-            const name = cleanText(doctor.name || (currentLanguage === 'bn' ? 'নাম পাওয়া যায়নি' : 'Name not available'));
+            const name = cleanText(doctor.name || texts.nameNotAvailable);
             const qualification = formatText(doctor.qualification || '-');
             const specialty = cleanText(doctor.specialty || '-');
             const schedule = formatText(doctor.schedule || '-');
