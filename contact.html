@@ -130,6 +130,34 @@
             transition: all 0.3s ease;
         }
 
+        .language-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            font-family: 'Hind Siliguri', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .language-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            background: linear-gradient(135deg, #5568d3, #6a3f8f);
+        }
+
+        .language-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
         /* Main Content */
         .container {
             max-width: 1200px;
@@ -337,6 +365,12 @@
             .page-header h1 {
                 font-size: 1.5rem;
             }
+
+            .language-btn {
+                width: 100%;
+                justify-content: center;
+                margin-top: 10px;
+            }
         }
     </style>
 </head>
@@ -361,6 +395,7 @@
                 <li><a href="category-page.html" class="nav-link">ক্যাটাগরি</a></li>
                 <li><a href="table.html" class="nav-link">টেবিল ভিউ</a></li>
                 <li><a href="contact.html" class="nav-link active">যোগাযোগ</a></li>
+                <li><button id="languageBtn" class="language-btn">🌐 English</button></li>
             </ul>
         </div>
     </nav>
@@ -450,6 +485,222 @@
     </footer>
 
     <script>
+        // Language support
+        let currentLanguage = localStorage.getItem('language') || 'bn';
+
+        // UI Text translations for contact page
+        const uiText = {
+            bn: {
+                pageTitle: 'যোগাযোগ - Tangail Doctors',
+                navHome: 'হোম',
+                navCategory: 'ক্যাটাগরি',
+                navTable: 'টেবিল ভিউ',
+                navContact: 'যোগাযোগ',
+                pageHeading: '📞 যোগাযোগ করুন',
+                pageSubtitle: 'আমাদের সাথে যোগাযোগ করতে নিচের তথ্য ব্যবহার করুন',
+                emailTitle: 'ইমেইল',
+                emailGeneral: 'সাধারণ তথ্যের জন্য:',
+                emailSupport: 'সাহায্যের জন্য:',
+                phoneTitle: 'ফোন',
+                phoneHelpline: 'হেল্পলাইন নম্বর:',
+                phoneHours: 'কার্যসময়: সকাল ৯টা - রাত ৯টা',
+                phoneDaily: '(শুক্রবার সহ প্রতিদিন)',
+                addressTitle: 'ঠিকানা',
+                addressLine1: 'Tangail Doctors',
+                addressLine2: 'টাঙ্গাইল সদর',
+                addressLine3: 'টাঙ্গাইল - ১৯০০',
+                addressLine4: 'বাংলাদেশ',
+                aboutHeading: '💡 এই ওয়েবসাইট সম্পর্কে',
+                aboutText1: 'Tangail Doctors হলো টাঙ্গাইল জেলার সবচেয়ে বড় ডাক্তার তথ্য ডিরেক্টরি। আমরা টাঙ্গাইল জেলার বিভিন্ন হাসপাতাল ও ক্লিনিকে কর্মরত বিশেষজ্ঞ ডাক্তারদের সম্পূর্ণ তথ্য সরবরাহ করি যাতে রোগীরা সহজেই তাদের প্রয়োজনীয় ডাক্তার খুঁজে পেতে পারেন।',
+                aboutText2: 'আমাদের লক্ষ্য হলো স্বাস্থ্যসেবা গ্রহণকারীদের জন্য সঠিক ডাক্তার খুঁজে পাওয়া সহজ করা এবং দ্রুততম সময়ে চিকিৎসা সেবা নিশ্চিত করা।',
+                servicesHeading: '🎯 আমাদের সেবাসমূহ',
+                service1: '৩৮০+ বিশেষজ্ঞ ডাক্তারের তথ্য',
+                service2: '১৫টি বিভিন্ন মেডিকেল ক্যাটাগরি',
+                service3: 'হাসপাতাল ও ক্লিনিক অনুযায়ী খোঁজার সুবিধা',
+                service4: 'ডাক্তারদের চেম্বার সময়সূচী',
+                service5: 'সরাসরি যোগাযোগের তথ্য',
+                service6: 'মোবাইল ফ্রেন্ডলি ডিজাইন',
+                service7: 'সম্পূর্ণ বাংলা ভাষায় তথ্য',
+                importantHeading: '⚠️ গুরুত্বপূর্ণ তথ্য',
+                importantText1: '<strong>দাবিত্যাগ:</strong> এই ওয়েবসাইটে প্রদত্ত সকল তথ্য শুধুমাত্র তথ্যমূলক উদ্দেশ্যে প্রদান করা হয়েছে। ডাক্তারের চেম্বারে যাওয়ার আগে অনুগ্রহ করে ফোনে যোগাযোগ করে সময়সূচী নিশ্চিত করুন।',
+                importantText2: 'কোনো তথ্য ভুল বা পুরানো থাকলে অনুগ্রহ করে আমাদের জানান। আমরা যত দ্রুত সম্ভব তথ্য আপডেট করব।',
+                footerText: '&copy; ২০২৬ Tangail Doctors | টাঙ্গাইল ডাক্তার তালিকা | সকল তথ্য শুধুমাত্র তথ্যমূলক উদ্দেশ্যে',
+                whatsappOption1: 'কোন ডাক্তার খুঁজছেন?',
+                whatsappOption2: 'ডাক্তারের চেম্বার সময় জানতে চাই',
+                whatsappOption3: 'ডাক্তার তালিকায় নতুন তথ্য যোগ করতে চাই',
+                whatsappTitle: 'WhatsApp এ যোগাযোগ করুন'
+            },
+            en: {
+                pageTitle: 'Contact - Tangail Doctors',
+                navHome: 'Home',
+                navCategory: 'Categories',
+                navTable: 'Table View',
+                navContact: 'Contact',
+                pageHeading: '📞 Contact Us',
+                pageSubtitle: 'Use the information below to get in touch with us',
+                emailTitle: 'Email',
+                emailGeneral: 'For general information:',
+                emailSupport: 'For support:',
+                phoneTitle: 'Phone',
+                phoneHelpline: 'Helpline Number:',
+                phoneHours: 'Working hours: 9 AM - 9 PM',
+                phoneDaily: '(Daily including Friday)',
+                addressTitle: 'Address',
+                addressLine1: 'Tangail Doctors',
+                addressLine2: 'Tangail Sadar',
+                addressLine3: 'Tangail - 1900',
+                addressLine4: 'Bangladesh',
+                aboutHeading: '💡 About This Website',
+                aboutText1: 'Tangail Doctors is the largest doctor information directory in Tangail district. We provide complete information about specialist doctors working in various hospitals and clinics in Tangail district so that patients can easily find the doctors they need.',
+                aboutText2: 'Our goal is to make it easier for healthcare seekers to find the right doctor and ensure the fastest medical service.',
+                servicesHeading: '🎯 Our Services',
+                service1: '380+ specialist doctor information',
+                service2: '15 different medical categories',
+                service3: 'Search by hospital and clinic',
+                service4: 'Doctor chamber schedules',
+                service5: 'Direct contact information',
+                service6: 'Mobile friendly design',
+                service7: 'Complete information in Bengali',
+                importantHeading: '⚠️ Important Information',
+                importantText1: '<strong>Disclaimer:</strong> All information provided on this website is for informational purposes only. Please confirm the schedule by phone before visiting the doctor\'s chamber.',
+                importantText2: 'If any information is incorrect or outdated, please let us know. We will update the information as soon as possible.',
+                footerText: '&copy; 2026 Tangail Doctors | For Informational Purposes Only',
+                whatsappOption1: 'Looking for a doctor?',
+                whatsappOption2: 'Want to know doctor\'s chamber time',
+                whatsappOption3: 'Want to add new information to the doctor list',
+                whatsappTitle: 'Contact us on WhatsApp'
+            }
+        };
+
+        // Toggle language function
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'bn' ? 'en' : 'bn';
+            localStorage.setItem('language', currentLanguage);
+            document.documentElement.lang = currentLanguage;
+            updateUIText();
+        }
+
+        // Update all UI text based on current language
+        function updateUIText() {
+            const texts = uiText[currentLanguage];
+            
+            // Update page title
+            document.title = texts.pageTitle;
+            
+            // Update language button
+            const langBtn = document.getElementById('languageBtn');
+            if (langBtn) {
+                langBtn.innerHTML = currentLanguage === 'bn' ? '🌐 English' : '🌐 বাংলা';
+            }
+            
+            // Update navigation
+            const navLinks = document.querySelectorAll('.nav-link');
+            if (navLinks[0]) navLinks[0].textContent = texts.navHome;
+            if (navLinks[1]) navLinks[1].textContent = texts.navCategory;
+            if (navLinks[2]) navLinks[2].textContent = texts.navTable;
+            if (navLinks[3]) navLinks[3].textContent = texts.navContact;
+            
+            // Update page header
+            const pageHeading = document.querySelector('.page-header h1');
+            const pageSubtitle = document.querySelector('.page-header p');
+            if (pageHeading) pageHeading.textContent = texts.pageHeading;
+            if (pageSubtitle) pageSubtitle.textContent = texts.pageSubtitle;
+            
+            // Update contact cards
+            const contactTitles = document.querySelectorAll('.contact-title');
+            if (contactTitles[0]) contactTitles[0].textContent = texts.emailTitle;
+            if (contactTitles[1]) contactTitles[1].textContent = texts.phoneTitle;
+            if (contactTitles[2]) contactTitles[2].textContent = texts.addressTitle;
+            
+            // Update email card
+            const emailCard = document.querySelectorAll('.contact-card')[0];
+            if (emailCard) {
+                const emailPs = emailCard.querySelectorAll('p');
+                if (emailPs[0]) emailPs[0].textContent = texts.emailGeneral;
+                if (emailPs[1]) emailPs[1].textContent = texts.emailSupport;
+            }
+            
+            // Update phone card
+            const phoneCard = document.querySelectorAll('.contact-card')[1];
+            if (phoneCard) {
+                const phonePs = phoneCard.querySelectorAll('p');
+                if (phonePs[0]) phonePs[0].textContent = texts.phoneHelpline;
+                if (phonePs[1]) phonePs[1].textContent = texts.phoneHours;
+                if (phonePs[2]) phonePs[2].textContent = texts.phoneDaily;
+            }
+            
+            // Update address card
+            const addressCard = document.querySelectorAll('.contact-card')[2];
+            if (addressCard) {
+                const addressPs = addressCard.querySelectorAll('p');
+                if (addressPs[0]) addressPs[0].textContent = texts.addressLine1;
+                if (addressPs[1]) addressPs[1].textContent = texts.addressLine2;
+                if (addressPs[2]) addressPs[2].textContent = texts.addressLine3;
+                if (addressPs[3]) addressPs[3].textContent = texts.addressLine4;
+            }
+            
+            // Update info sections
+            const infoSections = document.querySelectorAll('.info-section');
+            
+            // About section
+            if (infoSections[0]) {
+                const aboutH2 = infoSections[0].querySelector('h2');
+                const aboutPs = infoSections[0].querySelectorAll('p');
+                if (aboutH2) aboutH2.textContent = texts.aboutHeading;
+                if (aboutPs[0]) aboutPs[0].textContent = texts.aboutText1;
+                if (aboutPs[1]) aboutPs[1].textContent = texts.aboutText2;
+            }
+            
+            // Services section
+            if (infoSections[1]) {
+                const servicesH2 = infoSections[1].querySelector('h2');
+                const serviceLis = infoSections[1].querySelectorAll('.info-list li');
+                if (servicesH2) servicesH2.textContent = texts.servicesHeading;
+                if (serviceLis[0]) serviceLis[0].textContent = texts.service1;
+                if (serviceLis[1]) serviceLis[1].textContent = texts.service2;
+                if (serviceLis[2]) serviceLis[2].textContent = texts.service3;
+                if (serviceLis[3]) serviceLis[3].textContent = texts.service4;
+                if (serviceLis[4]) serviceLis[4].textContent = texts.service5;
+                if (serviceLis[5]) serviceLis[5].textContent = texts.service6;
+                if (serviceLis[6]) serviceLis[6].textContent = texts.service7;
+            }
+            
+            // Important section
+            if (infoSections[2]) {
+                const importantH2 = infoSections[2].querySelector('h2');
+                const importantPs = infoSections[2].querySelectorAll('p');
+                if (importantH2) importantH2.textContent = texts.importantHeading;
+                if (importantPs[0]) importantPs[0].innerHTML = texts.importantText1;
+                if (importantPs[1]) importantPs[1].textContent = texts.importantText2;
+            }
+            
+            // Update footer
+            const footer = document.querySelector('footer p');
+            if (footer) footer.innerHTML = texts.footerText;
+            
+            // Update WhatsApp options
+            const whatsappOptions = document.querySelectorAll('.whatsapp-menu-item span');
+            if (whatsappOptions[0]) whatsappOptions[0].textContent = texts.whatsappOption1;
+            if (whatsappOptions[1]) whatsappOptions[1].textContent = texts.whatsappOption2;
+            if (whatsappOptions[2]) whatsappOptions[2].textContent = texts.whatsappOption3;
+            
+            const whatsappBtn = document.querySelector('.whatsapp-button');
+            if (whatsappBtn) whatsappBtn.title = texts.whatsappTitle;
+        }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set initial language
+            document.documentElement.lang = currentLanguage;
+            updateUIText();
+            
+            // Language button event listener
+            const langBtn = document.getElementById('languageBtn');
+            if (langBtn) {
+                langBtn.addEventListener('click', toggleLanguage);
+            }
+        });
+
         function toggleMenu() {
             const navMenu = document.getElementById('navMenu');
             navMenu.classList.toggle('active');
