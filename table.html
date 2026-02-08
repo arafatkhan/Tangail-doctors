@@ -141,6 +141,24 @@
             border-radius: 2px;
         }
 
+        .language-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-family: 'Hind Siliguri', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .language-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+        }
+
         .container {
             max-width: 1600px;
             margin: 0 auto;
@@ -576,6 +594,7 @@
                 <li><a href="category-page.html" class="nav-link">ক্যাটাগরি</a></li>
                 <li><a href="table.html" class="nav-link active">টেবিল ভিউ</a></li>
                 <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
+                <li><button id="languageBtn" class="language-btn">🌐 English</button></li>
             </ul>
         </div>
     </nav>
@@ -645,6 +664,7 @@
         // Global variables
         let allDoctors = [];
         let filteredDoctors = [];
+        let currentLanguage = localStorage.getItem('language') || 'bn';
 
         // DOM Elements
         const hospitalFilter = document.getElementById('hospitalFilter');
@@ -655,8 +675,135 @@
         const loading = document.getElementById('loading');
         const tableContainer = document.getElementById('tableContainer');
 
+        // UI Text translations
+        const uiText = {
+            bn: {
+                pageTitle: '🏥 টাঙ্গাইল ডাক্তার তালিকা - টেবিল ভিউ',
+                subtitle: 'হাসপাতাল অনুযায়ী ডাক্তারদের সম্পূর্ণ তথ্য',
+                hospitalLabel: '🏥 হাসপাতাল/ক্লিনিক নির্বাচন করুন',
+                hospitalAll: 'সকল হাসপাতাল',
+                resetBtn: 'রিসেট করুন',
+                totalDoctors: 'মোট',
+                doctorsFound: 'জন ডাক্তার পাওয়া গেছে',
+                loading: 'লোড হচ্ছে...',
+                loadError: 'ডেটা লোড করতে সমস্যা হয়েছে। অনুগ্রহ করে পেজ রিফ্রেশ করুন।',
+                noResults: '😔 কোন ডাক্তার পাওয়া যায়নি',
+                noResultsSub: 'অন্য হাসপাতাল নির্বাচন করুন',
+                nameNotAvailable: 'নাম পাওয়া যায়নি',
+                tableHeaders: {
+                    id: 'আইডি',
+                    name: 'ডাক্তারের নাম',
+                    qualification: 'যোগ্যতা',
+                    specialty: 'বিশেষত্ব',
+                    schedule: 'সময়সূচী',
+                    hospital: 'হাসপাতাল/ক্লিনিক',
+                    contact: 'যোগাযোগ'
+                }
+            },
+            en: {
+                pageTitle: '🏥 Tangail Doctors List - Table View',
+                subtitle: 'Complete doctor information by hospital',
+                hospitalLabel: '🏥 Select Hospital/Clinic',
+                hospitalAll: 'All Hospitals',
+                resetBtn: 'Reset',
+                totalDoctors: 'Total',
+                doctorsFound: 'doctors found',
+                loading: 'Loading...',
+                loadError: 'Failed to load data. Please refresh the page.',
+                noResults: '😔 No doctors found',
+                noResultsSub: 'Select another hospital',
+                nameNotAvailable: 'Name not available',
+                tableHeaders: {
+                    id: 'ID',
+                    name: 'Doctor Name',
+                    qualification: 'Qualification',
+                    specialty: 'Specialty',
+                    schedule: 'Schedule',
+                    hospital: 'Hospital/Clinic',
+                    contact: 'Contact'
+                }
+            }
+        };
+
+        // Toggle language
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'bn' ? 'en' : 'bn';
+            localStorage.setItem('language', currentLanguage);
+            document.documentElement.lang = currentLanguage;
+            
+            // Update language button text
+            const langBtn = document.getElementById('languageBtn');
+            if (langBtn) {
+                langBtn.innerHTML = currentLanguage === 'bn' ? '🌐 English' : '🌐 বাংলা';
+            }
+            
+            updateUIText();
+            loadDoctors();
+        }
+
+        // Update UI text based on current language
+        function updateUIText() {
+            const texts = uiText[currentLanguage];
+            
+            // Update page title and subtitle
+            const pageTitle = document.querySelector('header h1');
+            const subtitle = document.querySelector('header .subtitle');
+            if (pageTitle) pageTitle.textContent = texts.pageTitle;
+            if (subtitle) subtitle.textContent = texts.subtitle;
+            
+            // Update filter label
+            const hospitalLabel = document.querySelector('label[for="hospitalFilter"]');
+            if (hospitalLabel) hospitalLabel.textContent = texts.hospitalLabel;
+            
+            // Update reset button
+            if (resetBtn) resetBtn.textContent = texts.resetBtn;
+            
+            // Update loading text
+            if (loading) {
+                const loadingText = loading.querySelector('p');
+                if (loadingText) loadingText.textContent = texts.loading;
+            }
+            
+            // Update no results text
+            const noResultsMain = noResults.querySelector('p:first-child');
+            const noResultsSub = noResults.querySelector('p[style]');
+            if (noResultsMain) noResultsMain.textContent = texts.noResults;
+            if (noResultsSub) noResultsSub.textContent = texts.noResultsSub;
+            
+            // Update table headers
+            const headers = document.querySelectorAll('thead th');
+            const headerKeys = ['id', 'name', 'qualification', 'specialty', 'schedule', 'hospital', 'contact'];
+            headers.forEach((header, index) => {
+                if (headerKeys[index]) {
+                    header.textContent = texts.tableHeaders[headerKeys[index]];
+                }
+            });
+            
+            // Update stats text
+            updateStatsText();
+        }
+
+        // Update stats text
+        function updateStatsText() {
+            const texts = uiText[currentLanguage];
+            const count = filteredDoctors.length;
+            const statsP = document.querySelector('.stats p');
+            if (statsP) {
+                statsP.innerHTML = `${texts.totalDoctors} <span id="totalDoctors">${count}</span> ${texts.doctorsFound}`;
+            }
+        }
+
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
+            // Set initial language
+            document.documentElement.lang = currentLanguage;
+            const langBtn = document.getElementById('languageBtn');
+            if (langBtn) {
+                langBtn.innerHTML = currentLanguage === 'bn' ? '🌐 English' : '🌐 বাংলা';
+                langBtn.addEventListener('click', toggleLanguage);
+            }
+            
+            updateUIText();
             loadDoctors();
             hospitalFilter.addEventListener('change', filterDoctors);
             resetBtn.addEventListener('click', resetFilters);
@@ -667,7 +814,9 @@
             loading.style.display = 'block';
             tableContainer.style.display = 'none';
 
-            fetch('data.json')
+            const dataFile = currentLanguage === 'bn' ? 'data.json' : 'english.json';
+            
+            fetch(dataFile)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('Network response was not ok');
@@ -686,7 +835,8 @@
                 })
                 .catch(error => {
                     console.error('Error loading doctors:', error);
-                    loading.innerHTML = '<p>ডেটা লোড করতে সমস্যা হয়েছে। অনুগ্রহ করে পেজ রিফ্রেশ করুন।</p>';
+                    const texts = uiText[currentLanguage];
+                    loading.innerHTML = `<p>${texts.loadError}</p>`;
                 });
         }
 
@@ -703,6 +853,14 @@
                     }
                 }
             });
+
+            // Clear existing options and add "All Hospitals" option
+            hospitalFilter.innerHTML = '';
+            const texts = uiText[currentLanguage];
+            const defaultOption = document.createElement('option');
+            defaultOption.value = '';
+            defaultOption.textContent = texts.hospitalAll;
+            hospitalFilter.appendChild(defaultOption);
 
             // Sort and add unique hospitals to filter
             Array.from(hospitals).sort().forEach(hospital => {
@@ -727,7 +885,9 @@
         // Display doctors in table
         function displayDoctors(doctors) {
             doctorTableBody.innerHTML = '';
-            totalDoctorsSpan.textContent = doctors.length;
+            
+            // Update stats
+            updateStatsText();
 
             if (doctors.length === 0) {
                 noResults.style.display = 'block';
@@ -747,9 +907,10 @@
         // Create table row
         function createTableRow(doctor) {
             const row = document.createElement('tr');
+            const texts = uiText[currentLanguage];
 
             const id = doctor.id || '';
-            const name = cleanText(doctor.name || 'নাম পাওয়া যায়নি');
+            const name = cleanText(doctor.name || texts.nameNotAvailable);
             const qualification = formatText(doctor.qualification || '-');
             const specialty = cleanText(doctor.specialty || '-');
             const schedule = formatText(doctor.schedule || '-');
