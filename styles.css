@@ -120,6 +120,35 @@ body {
     border-radius: 2px;
 }
 
+/* Language Switcher Button */
+.language-btn {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    font-family: 'Hind Siliguri', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.language-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(135deg, #5568d3, #6a3f8f);
+}
+
+.language-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 .menu-toggle {
     display: none;
     flex-direction: column;
@@ -619,6 +648,12 @@ footer p {
 
     .nav-link:last-child {
         border-bottom: none;
+    }
+
+    .language-btn {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
     }
 
     .nav-link.active::after {
