@@ -1,0 +1,3309 @@
+[
+ {
+  "id": 2,
+  "name": "ডাঃ মোঃ সাইফুল ইসলাম (স্বপন)",
+  "qualification": "MBBS (Dhaka)<br><br>Founder চেয়ারম্যান<br>PGT (Surgery, Gynecology)",
+  "specialty": "Surgeon and Gynecology Physician",
+  "schedule": "Daily:<br>Morning 8 - Afternoon 2<br>Evening 5 - Night 8",
+  "hospital": "Shamsul Haque<br>মেমরিয়াল Hospital",
+  "contact": "61573<br>01819132643"
+ },
+ {
+  "id": 3,
+  "name": "ডাঃ মারজিয়া খানম",
+  "qualification": "MBBS, BCS (Health),<br>FCPS (Gynecology and Obs)<br><br>Feto-Maternal Department<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>Dhaka.",
+  "specialty": "Obstetrics & Gynecology Specialist and Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Al Shefa Clinic <br>and Nursing Home",
+  "contact": "01790336296<br>01716206793<br>01816081048"
+ },
+ {
+  "id": 4,
+  "name": "এসোসিয়েট প্রফেসর<br> ডাঃ এম এম জালাল উদ্দিন",
+  "qualification": "MBBS, FCPS<br>National Institute of Neurosciences,<br>Dhaka.<br>",
+  "specialty": "Psychiatry, Psychosexual Diseases,<br>Addiction and Brain Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01718914242"
+ },
+ {
+  "id": 5,
+  "name": "ডাঃ এম হোসেন",
+  "qualification": "MBBS (Dhaka),<br>DMCH and FP (DU)‌‌‌<br><br>Ex-EMO<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine, Mother and Child Health Physician,<br>Sexual and Dermatology Diseases Experienced",
+  "schedule": "Daily: Morning-Evening",
+  "hospital": "<br>Al Shefa Clinic <br>and Nursing Home",
+  "contact": "62701<br>01790336296<br>01716206793"
+ },
+ {
+  "id": 6,
+  "name": "অধ্যাপক ডাঃ মুনীর রশীদ",
+  "qualification": "MBBS, MD (Dermatology)<br>MRCP (Glasgow)<br><br>Professor- Dermatology & Sexual Diseases Department<br>Bangabandhu Sheikh Mujib Medical University,<br>Shahbag, Dhaka.",
+  "specialty": "Dermatology, Allergy, Sex and<br>Sexual Diseases Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01790336296<br>01716206793<br>01816081048"
+ },
+ {
+  "id": 7,
+  "name": "ডা মোঃ মোখলেসুর রহমান",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>ডি- Ortho (DU)<br><br>Assistant Professor<br>Orthopedic Surgery Department<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Bone, Joint, Arthritis Pain and<br>Paralysis Disease Specialist",
+  "schedule": "Daily বিকাল 3 -<br>Night 8 until<br><br>Friday All day",
+  "hospital": "Al Shefa Clinic <br>and Nursing Home",
+  "contact": "01790336296<br>01716206793<br>01816081048"
+ },
+ {
+  "id": 8,
+  "name": "ডাঃ মোঃ সামিউল ইসলাম",
+  "qualification": "MBBS (Health),<br>ডি-কার্ড (BSMMU),<br>FCPS (Cardiology) এফ-পি<br><br>Assistant Professor (Cardiology)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Heart Disease,Rheumatic Fever and<br>Medicine Specialist",
+  "schedule": "Daily:<br>Evening 3 - Night 8",
+  "hospital": "Deshbandhu Hospital<br>and Diagnostic Center",
+  "contact": "01758822190<br>01758835102"
+ },
+ {
+  "id": 9,
+  "name": "ডাঃ আকলিমা খান সুমি",
+  "qualification": "MBBS (Dhaka University),<br>PGT (Gynecology and Obs)",
+  "specialty": "স্ত্রী and Obstetrics Disease Physician and<br>Surgeon",
+  "schedule": "Daily:<br>Morning - Dusk",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01716206793<br>01816081048"
+ },
+ {
+  "id": 10,
+  "name": "ডাঃ সুফিয়া বেগম",
+  "qualification": "MBBS,<br>PGT (Gynecology and Obs)<br>EOC (Obs)<br><br>Deputy Director and SD,<br>Health Directorate,<br>Mohakhali, Dhaka.<br>Attached Maternity Tangail.",
+  "specialty": "স্ত্রী Disease Physician and Surgeon",
+  "schedule": "Daily:<br>Afternoon 2 - Evening 5<br><br>Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01790336296<br>01716206793<br>01816081048"
+ },
+ {
+  "id": 11,
+  "name": "ডাঃ মুহাম্মদ মামুনুর রশীদ",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>First Position FCPS (Surgery),<br>MRCS Edinburgh (UK),<br>MS (Urology) Department<br><br>Assistant Professor (Urology)<br>National Institute of<br>Kidney Diseases and Urology,<br>Sher-e-Bangla Nagar, Dhaka- 1207.",
+  "specialty": "Urologyst,<br>General and Laparoscopic Surgeon",
+  "schedule": "Every Friday:<br>Morning 8 - বিকাল 5",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01790336296<br>01716206793<br>01816081048"
+ },
+ {
+  "id": 12,
+  "name": "ডাঃ গৌরাঙ্গ কুমার বসু",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Surgery)<br><br>Assistant Professor (Surgery)<br>Sheikh Hasina Medical College Hospital,<br>Tangail..",
+  "specialty": "Surgery Specialist and Surgeon",
+  "schedule": "Daily:<br>বিকাল 3 - Night 9",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01716206793<br>01816081048"
+ },
+ {
+  "id": 13,
+  "name": "ডাঃ মোহাম্মদ মোশারফ হোসেন",
+  "qualification": "MBBS (DU),<br>BCS (Health),<br>DTCD (DU)<br><br>Assistant Professor Chest Diseases Medicine<br>Sir Salimullah Medical College<br>(মিটফোর্ট) Hospital, Dhaka.",
+  "specialty": "TB,Chest Diseases and<br>Medicine Specialist",
+  "schedule": "Every Thursday: বিকাল and <br><br>Every Friday:<br>Morning 9 - বিকাল 5",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01716206793<br>01816081048"
+ },
+ {
+  "id": 14,
+  "name": "অধ্যাপক ডাঃ মোঃ রাজিবুল হক (রাজিব)",
+  "qualification": "MBBS,<br>MS FRCS (UK),<br>Fellow- in - Micro andোসকপিক Surgery (জার্Motherন)<br><br>Professor<br>Nose,Ear and Throat Department<br>National ই এন - টি Institute<br>Tejgaon, Dhaka.",
+  "specialty": "Nose-Ear-Throat Disease Specialist and<br>Surgeon",
+  "schedule": "Every Saturday:<br>Afternoon 12 - বিকাল 5",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01790336296<br>01716206793<br>01816081048"
+ },
+ {
+  "id": 15,
+  "name": "ডাঃ এস সি পণ্ডিত",
+  "qualification": "MBBS, BCS,<br>ডি এলand (Dhaka),<br>স্পেশাকাইসজড Training ফর HeadNeck Surgery<br><br>ই.এন. টি স্পেশালিষ্ট<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose-Ear-Throat Disease Specialist and<br>Head - Neck Surgeon",
+  "schedule": "Daily:<br>বিকাল 4 - Dusk 7<br><br>Friday All day",
+  "hospital": "Deshbandhu Hospital and<br>Diagnostic Center",
+  "contact": "01758822190<br>01758835102"
+ },
+ {
+  "id": 16,
+  "name": "ডাঃ সৈয়দ আতিকুল্লাহ",
+  "qualification": "MBBS (ডিএমসি, স্বর্ণ পদকপ্রাপ্ত),<br>FCPS (Medicine),<br>MD (Cardiology)",
+  "specialty": "Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Dusk 6",
+  "hospital": "Al Shefa Clinic<br>and Nursing Home",
+  "contact": "01716206793<br>01816081048"
+ },
+ {
+  "id": 17,
+  "name": "ডাঃ সৈকত কুমার দাস",
+  "qualification": "MBBS (Dhaka)<br>PGT Medicine,<br>সি এম ইউ (আলট্রা),   <br>বি এম ডি সি রেজি: 92067 <br><br>Medical অFissure<br>আল - নূর Hospital,<br>Tangail.",
+  "specialty": "Medicine, Heart Disease,<br>Chest Diseases",
+  "schedule": "Daily:<br>Morning 9 - 2",
+  "hospital": "আল-নূর Hospital",
+  "contact": "01718471992"
+ },
+ {
+  "id": 18,
+  "name": "ডাঃ গৌরাঙ্গ কুমার বসু",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (সার্জারী),<br><br>Consultant (সার্জারী)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "সার্জারী Specialist",
+  "schedule": "Daily:<br>Afternoon 2 - Night 8",
+  "hospital": "আল-নূর Hospital",
+  "contact": "01718471992"
+ },
+ {
+  "id": 19,
+  "name": "ডাঃ মোঃ রেজাউল ইসলাম",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (ফিজিক্যাল Medicine),<br>BSMMU (পিজি Hospital, Dhaka.)",
+  "specialty": "Arthritis, Pain, প্যারালাইসিস and<br>ক্রীড়া জনিত আঘাত Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01755750073"
+ },
+ {
+  "id": 20,
+  "name": "ডাঃ সানজিদা আক্তার",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>FCPS (Gynecology and Obs)<br><br>লেকচারার<br>Medical এসিst্যান্ট (Maternity),<br>Tangail.",
+  "specialty": "Gynecology Specialist and Surgeon",
+  "schedule": "Daily:<br>Afternoon 2 - Night 8",
+  "hospital": "আল-নূর Hospital",
+  "contact": "01718471992"
+ },
+ {
+  "id": 21,
+  "name": "প্রফেসর ডাঃ এম এ হামিদ",
+  "qualification": "MBBS,<br>FCPS<br><br>এক্স-Director and Professor<br>National Motherনসিক Health Institute,<br>Sher-e-Bangla Nagar, Dhaka.",
+  "specialty": "Motherনসিক,Brain and<br>Addiction Disease Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5<br><br>Thursday:<br>Dusk 6 - Night 10",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01718914242"
+ },
+ {
+  "id": 22,
+  "name": "ডাঃ তানজিনা আফরিন খান<br> (সোনিয়া)",
+  "qualification": "MBBS (রাজ:),<br>BCS (Health),<br>সি - আল্ট্রা (Dhaka),<br>PGT (Gynecology and Obs)<br><br>লেকচারার<br>Tangail Medical College,<br>Tangail.",
+  "specialty": "Gynecology, Obstetrics, Gynecology Physician,<br>Surgeon and সনোলজিst",
+  "schedule": "Daily:<br>Afternoon 2 - Night 8<br><br>Friday All day",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01755750073"
+ },
+ {
+  "id": 23,
+  "name": "অধ্যাপক <br>ডাঃ মােঃ গােলাম মােস্তফা মিয়া",
+  "qualification": "এম.বি.বি.এস ( Dhaka ),<br>এফ.সি.পি.এস ( সার্জারী ),<br>বার্ণ and প্লাstিক সার্জারীতে Specialist (রিফ্রেশর) Training প্রাপ্ত<br><br>প্রাক্তন Departmentীয় প্রধান (সাজরিী Department)<br>Sheikh Hasina Medical College and Hospital ,<br>Tangail .",
+  "specialty": "সার্জারী Specialist",
+  "schedule": "Daily:<br>Morning 10  - Night 8 ",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01755750073"
+ },
+ {
+  "id": 24,
+  "name": "সহঃ অধ্যাপক <br>ডাঃ সৈয়দ মােহাম্মদ আলী রােমেল",
+  "qualification": "MBBS ,<br>BCS (Health),<br>MCPS (Medicine),<br>FCPS (Medicine)<br><br>এম ডি (কার্ডিandলজী)<br>National Heartরােগ Institute , Dhaka .",
+  "specialty": "Medicine , Chest Diseases , Heartরােগ and<br>Rheumatic Fever Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "01755750073<br>01718914242"
+ },
+ {
+  "id": 25,
+  "name": "সহযােগী অধ্যাপক<br> ডাঃ মােঃ আবু সাঈদ",
+  "qualification": "MBBS,<br>DLO (ইএনটি),<br>BSMMU,<br>Dhaka in্রNational Medical College Hospital,<br>Dhaka.",
+  "specialty": "Nose, Ear, Throat রােগ Specialist and<br>Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5 ",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01755750073"
+ },
+ {
+  "id": 26,
+  "name": "ডাঃ মােঃ মমিনুল ইসলাম",
+  "qualification": "MBBS (রাজশাহী),<br>উচ্চতর প্রশিক্ষণপ্রাপ্ত Medicine and Dermatology - Sexual,<br>সিএমইউ (সনােলজিst)<br><br>Senior Medical অFissure (আরএমand)<br>ফাতেMother মডার্ণ Hospital<br>বিMDসি রেজি: নং - এ -102089 ",
+  "specialty": "Medicine, Dermatology - Sexual, Nose, Ear,<br>Throat রােগে বিশেষ Experienced and<br>General প্র্যাকটিশনার",
+  "schedule": "সার্বক্ষনিক",
+  "hospital": "ফাতেMother Modern<br>Hospital",
+  "contact": "01917020000<br>01919737576"
+ },
+ {
+  "id": 27,
+  "name": "ডাঃ লিংকু রাণী কর",
+  "qualification": "MBBS,<br>FCPS (Gynecology and Obs),<br>BCS (Health)<br><br>Consultant (Gynecology)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Gynecology, Obstetrics, <br>Gynecology Specialist and Surgeon",
+  "schedule": "Daily:<br>Afternoon 3 - Night 8<br><br>Friday All day",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01755750073"
+ },
+ {
+  "id": 28,
+  "name": "ডাঃ মিজানুর রহমান",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Medicine),<br>এম ডি (Neuro Medicine)<br><br>Associate Professor<br>Medicine and Neuro Department<br>পিজি Hospital,<br>Tangail.",
+  "specialty": "প্যারালাইসিস, Motherথা ব্যাথা, ঘাড় ব্যাথা,<br>কোমড় ব্যাথা, হাঁটু ব্যাথা and<br>সকল জয়েন্টের ব্যাথা",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 4",
+  "hospital": "ফাতেMother Modern<br>Hospital",
+  "contact": "01917020000<br>01919737576"
+ },
+ {
+  "id": 29,
+  "name": "ডাঃ আশিকুর রহমান রাসেল",
+  "qualification": "MBBS,<br>PGT (Dermatology),<br>ডি ডি ভি (কোর্স)<br><br>ময়মনসিংহ Medical College and Hospital.",
+  "specialty": "Medicine and Dermatology, Sexual,<br>Allergy Diseases Experienced",
+  "schedule": "Daily:<br>Morning 10 - 2<br>Afternoon 4 - Night 8",
+  "hospital": "Tangail Clinic<br>and Hospital",
+  "contact": "61020<br>01755750073"
+ },
+ {
+  "id": 30,
+  "name": "ডাঃ সম্পা চৌধুরী",
+  "qualification": "MBBS (ঢা: বি:),<br>PGT: Gynecology and Obs (বিএসএসএমইউ),<br>সিএমইউ (DU) সনোলজিষ্ট<br><br>Former রেজিষ্র, Gynecology and Obs<br>কুমুDayী andমেন্স Medical College Hospital,<br>মির্জাপুর, Tangail.<br><br>Gynecology Department<br>ফাতেMother মডার্ণ Hospital.",
+  "specialty": "Gynecology Physician Surgeon and<br>সনোলজিষ্ট",
+  "schedule": "Daily:<br>Morning 9 - 2<br>Afternoon 4 - Night 8<br><br>Friday All day",
+  "hospital": "ফাতেMother Modern<br>Hospital",
+  "contact": "01917020000<br>01919737576<br>01917679064"
+ },
+ {
+  "id": 31,
+  "name": "ডাঃ মাসুদ রানা (নিহাল)",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>FCPS (Orthoো),<br>এসএস (Orthoো Surgery),<br>PGT (General সার্জারী),<br>সিএমইউ<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয় (পিজি),<br>Dhaka.",
+  "specialty": "হাড় ভাঙ্গা, হাড় জোড়া, Arthritis ব্যাথা and<br>Paralysis Disease Specialist Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "ফাতেMother Modern<br>Hospital",
+  "contact": "01917020000<br>01919737576<br>01917679064"
+ },
+ {
+  "id": 32,
+  "name": "ডাঃ খালিদ মাহমুদ",
+  "qualification": "MBBS (রাজ),<br>জিপি (Family Medicine) Dhaka,<br>ডিএমইউ (DU) সণোলজিষ্ট,<br>Medicine, Chest Diseases, Heart Disease and<br>ডায়াবেটিক প্রশিক্ষণপ্রাপ্ত<br><br>Medical অFissure<br>ফাতেMother মডার্ণ Hospital",
+  "specialty": "Medicine, Chest Diseases, Heart Disease and<br>ডায়াবেটিক Physician",
+  "schedule": "Daily 24 ঘণ্",
+  "hospital": "ফাতেMother Modern<br>Hospital",
+  "contact": "01917020000<br>01919737576<br>01917679064"
+ },
+ {
+  "id": 33,
+  "name": "ডাঃ দেবী ভদ্র",
+  "qualification": "MBBS (Dhaka),<br>PGT (Gynecology),<br><br>প্রাক্তন Surgeon and Gynecology Department<br>কুমুDayী Hospital,<br>মির্জাপুর, Tangail.",
+  "specialty": "Obstetrics & Gynecologyে বিশেষ Experienced",
+  "schedule": "Daily:<br>Morning 8 - 3<br>বিকাল 5 - Night 8",
+  "hospital": "Doctors Clinic",
+  "contact": "51650<br>01711945549"
+ },
+ {
+  "id": 34,
+  "name": "ডাঃ মোঃ আবুল ফারেজ",
+  "qualification": "MBBS,<br>DCH,<br><br>সিনিয়র Consultant<br>250 Bed General Hospital,<br>Tangail.",
+  "specialty": "Pediatrics Specialist",
+  "hospital": "Doctors Clinic",
+  "contact": "51650<br>01711945549"
+ },
+ {
+  "id": 35,
+  "name": "ডাঃ শম্ভু নাথ চক্রবর্তী",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health)<br><br>সহকারী Director<br>ময়মনসিংহ Medical College Hospital.",
+  "specialty": "Medicine, Child, Motherনসিক, Nose,<br>Ear, Throat, Dermatology & Sexual Diseasesে প্রশিক্ষণপ্রাপ্ত",
+  "schedule": "Daily:<br>Morning 9 - Afternoon 3<br>বিকাল 5 - Night 10",
+  "hospital": "Doctors Clinic",
+  "contact": "51650<br>01711945549"
+ },
+ {
+  "id": 36,
+  "name": "ডাঃ সৈয়দ ইবনে সাঈদ",
+  "qualification": "MBBS,<br>MD পার্ট-.. (নিউরলজি)<br><br>তত্ত্বাবধায়ক/ উপDirector (of:)<br>250 Bed General Hospital,<br>Tangail.",
+  "specialty": "Medicine, ডায়াবেটিস and<br>Heart Disease Physician",
+  "schedule": "Daily:<br>Morning 10 - বিকাল 3<br>Dusk 6 - Night 10<br><br>Friday All day<br><br>Every Saturday:<br>বিকআল 5 - Night 10",
+  "hospital": "Doctors Clinic",
+  "contact": "51650<br>01711945549"
+ },
+ {
+  "id": 37,
+  "name": "ডাঃ কামরুল ইসলাম খান ইউসুফজাই",
+  "qualification": "MBBS,<br>MPhil (পিএসএম)",
+  "specialty": "Specialist Physician",
+  "hospital": "Doctors Clinic",
+  "contact": "51650<br>01711945549"
+ },
+ {
+  "id": 38,
+  "name": "ডাঃ নূর মোহাম্মদ",
+  "qualification": "MBBS,<br>BCS (Health)<br><br>ডিডিভি (Dermatology & Sexual Diseases)<br>Director (Obsর প্রাপ্ত)<br>অসংক্রামক Disease নিয়ন্ত্রন,<br>Health Directorate, Dhaka.",
+  "specialty": "Dermatology, Sexual and Allergy Disease Specialist",
+  "schedule": "Daily:<br>Morning 10 - বিকাল 3",
+  "hospital": "Doctors Clinic",
+  "contact": "51650<br>01711945549"
+ },
+ {
+  "id": 39,
+  "name": "ডাঃ মোঃ রাসেদুল হাসান",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Medicine),<br>মেম্বার, এসিপি (আমেরিকা)<br><br>Assistant Professor (Medicine)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine Specialist",
+  "schedule": "Daily বিকাল 3 -<br>Night 8<br><br>Friday All day",
+  "hospital": "সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01784974710"
+ },
+ {
+  "id": 40,
+  "name": "ডাঃ ফরিদ আহমেদ",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Surgery)<br><br>Assistant Professor (Surgery)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "General ল্যাপারসস্কিপ and<br>Piles Surgery Specialist",
+  "schedule": "Daily:<br>Afternoon 3 - Night 9<br><br>Friday All day",
+  "hospital": "সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01747739870"
+ },
+ {
+  "id": 41,
+  "name": "ফিজিও মোঃ হারুন আর রশিদ (হীরা)",
+  "qualification": "ডি এম টি (ফিজিandথেরাপি),<br>আই এইচ টি, Dhaka.<br><br>এ. ফিজিandথেরাপিst<br>Everyবন্ধী Service and  সাহায্য কেদ্র,<br>Tangail.",
+  "specialty": "এ. ফিজিandথেরাপিst",
+  "schedule": "বিকাল 4 - Night 8<br><br>Friday All day",
+  "hospital": "সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01821199737<br>01711576121"
+ },
+ {
+  "id": 42,
+  "name": "ডাঃ ইসরাত জাহান রুনা",
+  "qualification": "MBBS,<br>PGT (Gynecology and Obs),<br>ডি এম ইউ (আলট্রাসনো),<br>FCGP<br><br>প্রাক্তন এইচ এম and<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Gynecology Physician, Surgeon,<br>সনোলজিষ্ট and <br>Family Medicine Specialist",
+  "schedule": "Daily:<br>Morning 10 - 3<br>বিকাল 5 - Night 8",
+  "hospital": "সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01711576121<br>01708561212"
+ },
+ {
+  "id": 43,
+  "name": "ডাঃ অলি হোসেন",
+  "qualification": "MBBS (Dhaka),<br>ডি এল and (BSMMU),<br><br>ENT Department<br>হলি Family রেড ক্রিসেন্ট Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose, Ear, Throat Disease Specialist and<br>হেদ Neck Surgeon",
+  "schedule": "Every Friday:<br>Morning 10 - Evening 5",
+  "hospital": "সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01711576121<br>01708561212"
+ },
+ {
+  "id": 44,
+  "name": "সহঃ অধ্যাপক <br>ডাঃ মোঃ আসাদুজ্জামান<br>",
+  "qualification": "MBBS,BCS (Health),MS(Child Surgery)<br>এফা এম এ এস(ডব্লিউ এ এল এস-দুবাই)<br>এফা এম এ এস (ডব্লিউ এ এল এস-ভারত)<br>এফা এম এ এস (শারজা বিশ্ববিদ্যালয়)<br>Assistant Professor<br>Sheikh Hasina Medical College অ Hospital Tangail .",
+  "specialty": "General, ল্যাপারোস্কপিক, Child Surgery and <br>Child ইউরোলজী Surgery Specialist.",
+  "schedule": "Every Tuesday and Wednesday<br>(2.30  Night 9  until)",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center ",
+  "contact": "01725272728<br>01761322874"
+ },
+ {
+  "id": 45,
+  "name": "ডঃ সুরঞ্জিত কুমার মণ্ডল ",
+  "qualification": "MBBS, এম.ডি(Medicine),<br>এফ.পি.জি.সি.এস(Cardiology),রাশিয়া<br>সি.and(Heart Disease),বিMDসি রেজি: ন: এ42977",
+  "specialty": "Heart Disease and Medicine Specialist",
+  "schedule": "Daily<br> Morning 9- Night  9 until ",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center ",
+  "contact": "01725272728<br>01761322874"
+ },
+ {
+  "id": 46,
+  "name": "ডাঃ সুধাংশু কুমার সিংহ",
+  "qualification": "MBBS,BCS(স্বাস্থ)MS- Orthoো সার্জারী)<br>Assistant Professor, Orthopedic সার্জারী Department.<br>Sheikh Hasina Medical ক্পাতাand Hospital,<br>Tangail.",
+  "specialty": "হাড় জোড়া, Arthritis Pain, <br>Paralysis Disease Specialist and Surgeon ",
+  "schedule": "Daily বিকাল 3ট-Night 8ট until(অনকল)",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center ",
+  "contact": "01725272728<br>01761322874"
+ },
+ {
+  "id": 47,
+  "name": "ডাঃ ফা-নুরী",
+  "qualification": "MBBS, PGT",
+  "specialty": "Medical অFissure",
+  "schedule": "Daily Morning 9 - Night 8 until",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center ",
+  "contact": "01725272728<br>01761322874"
+ },
+ {
+  "id": 48,
+  "name": "ডাঃ সৌমিত্র সরকার",
+  "qualification": "MBBS(Dhaka),পি.জি.টি(ইএনটি)<br>এক্স রেজিstার(ইএনটি Department)<br>কুমুDayী উইমেন্স Medical College and Hospital<br>বিMDসি রেজি: নং এ-56017",
+  "specialty": "Nose, Ear, Throat and হেদ-Neck Surgeon",
+  "schedule": "Daily Morning 10- বিকাল 5 until",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center",
+  "contact": "01725272728<br>01758525453"
+ },
+ {
+  "id": 49,
+  "name": "ডাঃ মোহাম্মদ শাহীন কবীর",
+  "qualification": "MBBS(Dhaka),BCS(স্বাস্থ), এম ডি(কার্ডিandলজী)<br>Assistant Professor (কার্ডিandলজী), <br>জাতীয় Heart Disease Institute and Hospital Dhaka.<br>এক্স-কার্ডিandলজী স্পেশালিষ্ট<br> (আল-গুরাইত General and কার্ডিয়াক Hospital,সৌদি আরব)",
+  "specialty": "Heart Disease, Medicine,Rheumatic Fever, <br>Arthritis-Pain, Chest Disease Specialist",
+  "schedule": "Every Friday All day",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center",
+  "contact": "01725272728"
+ },
+ {
+  "id": 50,
+  "name": "ডাঃ তাহমিনা সুলতানা নিপা",
+  "qualification": "MBBS, পি.জি.টি (Gynecology and Obs),<br>এমপিএইচ(মেরনাল and চাইল্ড হেলথ), <br>ডিএমইউ(আলট্রা)",
+  "specialty": "সনোলজিst and General ফিজিশিয়ান",
+  "schedule": "Daily ্Afternoon 2 - Night 9 until",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center",
+  "contact": "01725272728<br>01761322874"
+ },
+ {
+  "id": 51,
+  "name": "ডাঃ মোঃ আবু সাঈদ খান",
+  "qualification": "MBBS, FCPS-2,CCD(বারডেম)<br>,PGT(সার্জারী),ট্রেinড in <br>ডায়াবেটিক সার্জারী(বারডেম),<br>ট্রেinড in ইMotherর্জেন্সি and ক্যাজুয়ালিটি(ডিএমসি)<br>আবাসিক Medical অFissure(সার্জারী Department)<br>বারডেম General Hospital, Dhaka.",
+  "specialty": "ডায়াবেটিস, ফুট and কেয়ার Specialist and Surgeon",
+  "schedule": "Friday All day",
+  "hospital": "MotherনবService Hospital<br>and ডিজিল <br>ডায়াগনstিক Center",
+  "contact": "01725272728"
+ },
+ {
+  "id": 52,
+  "name": "ডাঃ মিতু দেবনাথ",
+  "qualification": "MBBS, BCS(স্বাস্থ),<br>ডি.জি.and(Gynecology and Obs)<br>Dhaka Medical College, ডি.এম.ইউ(আলট্রা)<br>Sheikh Hasina Medical College and Hospital,Tangail.",
+  "specialty": "স্ত্রিDisease Specialist and Surgeon",
+  "schedule": "Daily:<br>বিকাল 3- Night 9",
+  "hospital": "সরকার Hospital",
+  "contact": "01319601920"
+ },
+ {
+  "id": 53,
+  "name": "ডাঃ মোঃ মনিরুজ্জামান  খান",
+  "qualification": "MBBS, BCS(স্বাস্থ), <br>MS(Orthoো-সার্জারী) ডি-Orthoো<br>(জাতীয় Orthopedic Hospital and পূনর্বাসন Everyষ্ঠান Dhaka)<br>সিনিয়র Consultant (Orthoো সার্জারী)",
+  "specialty": "হাড় জোরা,Arthritis-Pain,প্যারালাইসিস and ট্রMother<br>Specialist and Surgeon",
+  "schedule": "Daily:<br>বিকাল 3- Night 8",
+  "hospital": "সরকার Hospital",
+  "contact": "01319601920"
+ },
+ {
+  "id": 54,
+  "name": "ডাঃ কে এম তারিকুল ইসলাম",
+  "qualification": "MBBS(Dhaka)এম,এস(Neuro সার্জারী)<br>Associate Professor <br>Neuro সার্জারী Department<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়",
+  "specialty": "NeuroMedicine, NeuroSurgeon,Brain,<br> নার্ভ, and স্পাin Specialist",
+  "schedule": "Every Friday All day",
+  "hospital": "সরকার Hospital",
+  "contact": "01319601920"
+ },
+ {
+  "id": 55,
+  "name": "ডাঃ আশিকুর রহমান রাসেল",
+  "qualification": "MBBS,পজিটি(Dermatology),ডি.ডি.ভি(কোর্স)<br>ময়মনসিংহ Medical College and Hospital",
+  "specialty": "Medicine and Dermatology, Sexual, Allergy Diseases Experienced",
+  "schedule": "Daily Morning 8- Night 8 until",
+  "hospital": "সরকার Hospital",
+  "contact": "01319601920"
+ },
+ {
+  "id": 56,
+  "name": "ডাঃ কে. কে সেন",
+  "qualification": "MBBS(Dhaka),BCS(স্বাস্থ),<br>এম.ডি (Cardiology), এন.আই.সি.ভি.ডি<br>এফ.সি.পি.এস(Medicine পারত-02)<br>Assistant Professor (Cardiology)<br>Sheikh Hasina Medical College and Hospital,Tangail.",
+  "specialty": "Heart Disease, Medicine,Rheumatic Fever Specialist",
+  "schedule": "Daily:<br>Sunday Afternoon 2- Night 9",
+  "hospital": "সরকার Hospital",
+  "contact": "01319601920"
+ },
+ {
+  "id": 57,
+  "name": "ডাঃ মোঃ মাসুদ পারভেজ",
+  "qualification": "এম.ডি(General Medicine)<br>সি.এম.ইউ(এম.ইউ. টি.সি) ময়মনসিংহ <br>General ফিজিসিয়ান অফ ইউক্রেন <br>উজহরদ National ইউনিভার্সিটি, উজহরদ, ইউক্রেন",
+  "specialty": "Medicine,Arthritis-Pain,Chest Diseases, ষ্টোক,প্যারালাইসিস,<br>Liver,কিডনী, Heart Disease,and ডায়াবেটিস<br> Diseasesর Physician and আলট্রাসনোলজিষ্ট",
+  "schedule": "Daily Morning 9- Afternoon 1<br> Afternoon 2  হতে Night 9 until",
+  "hospital": "সরকার Hospital",
+  "contact": "01319601920"
+ },
+ {
+  "id": 58,
+  "name": "ডাঃ মোঃ আবিবুর রহমান",
+  "qualification": "MBBS(Dhaka),BCS(স্বাস্থ),<br>FCPS(Medicine)পার্ট-1,<br>PGT<br>(Medicine, Neuro Medicine, Cardiology, গ্যাst্রোএন্রোলজী)<br><br>এম.and, National Heart Foundation, Dhaka.",
+  "specialty": "Medicine, ডায়াবেটিকস, Arthritis-Pain,Heart Disease,<br>পরিপাকতন্ত্র and Chest Diseases Physician",
+  "schedule": "Daily বিকাল 3- Night 8 until",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01684917970"
+ },
+ {
+  "id": 59,
+  "name": "ডাঃ মোঃ আসাদুজ্জামান লিটন",
+  "qualification": "MBBS(ডি. এম. সি),,BCS(স্বাস্থ)<br>FCPS(ইএনটি)<br>Nose, Ear, Throat, and Head Neck Surgeon<br>Dhaka Medical College Hospital, Dhaka",
+  "specialty": "Nose, Ear, Throat Disease, and Head Neck Surgeon",
+  "schedule": "Every Friday Morning 9- বিকাল 5 until",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01615220596"
+ },
+ {
+  "id": 60,
+  "name": "ডাঃ মোঃ ফরহাদ আলী",
+  "qualification": "MBBS, BCS(স্বাস্থ),<br>FCPS(Medicine)-শেষ পর্ব<br>এম ডি(গ্যাst্রোএন্রোলজী)কোর্স<br>PGT(Medicine, Cardiology and Neurology)<br><br>ব্যাথা Treatmentয় উচ্চতর প্রশিক্ষণপ্রাপ্ত<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়.",
+  "specialty": "Medicine, ডায়াবেটিকস, Arthritis-Pain,<br>Heart Disease,,পরিপাকতন্ত্র and<br>Chest Diseases Physician",
+  "schedule": "Daily বিকাল:<br>3- Night 8 ",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01684917970"
+ },
+ {
+  "id": 61,
+  "name": "ডাঃ রাজিব আহমেদ",
+  "qualification": "MBBS (Health),<br>ডি-কার্ড (Dhaka Medical College),<br>স্পেশাল ত্রেinিং in ট্রMother<br>(Motherলেয়শিয়া and থাইল্যান্ড)<br><br>Orthopedic and ট্রMother Surgeon<br>Paralysis Hospital, Dhaka.",
+  "specialty": "Arthritis- ব্যাথা, হাড়-জোড়া and<br>Paralysis Disease Specialist and Surgeon",
+  "schedule": "Every Friday",
+  "hospital": "<br>সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01711576121<br>01761898527"
+ },
+ {
+  "id": 62,
+  "name": "ডাঃ অমিত সোম",
+  "qualification": "MBBS,<br>BCS (Health),<br>MD (Child)<br><br>Child Department<br>Dhaka Medical College Hospital.<br>বিMDসি রেজি: নং: এ- 49509 ",
+  "specialty": "নবজাতক, Child and<br>কিশোর Disease Specialist",
+  "schedule": "Thursday:<br>বিকাল 5- Night 8<br><br>Friday:<br>Morning 9- Dusk 6 <br>",
+  "hospital": "<br>সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01711576121"
+ },
+ {
+  "id": 63,
+  "name": "ডাঃ রুখসানা রহমান রুকু",
+  "qualification": "বিডিএস (কুমুDayী উইমেন Medical College)<br>PGT (andরাল and মেক্সিলোফেশিয়াল সার্জারী)<br>(Shaheed Suhrawardy Medical College)",
+  "specialty": "andরাল and Dental Surgeon",
+  "schedule": "Daily:<br>Morning 10- বিকাল 3<br>Friday All day<br><br>(Tuesday বন্ধ)",
+  "hospital": "<br>সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01304180304<br>01866249792"
+ },
+ {
+  "id": 64,
+  "name": "ডাঃ আশিকুর রহমান রাসেল",
+  "qualification": "MBBS,<br>PGT (Dermatology),<br>ডিভিডি (কোর্স)<br>ময়মনসিংহ  Medical College and হাসাপাতাল.",
+  "specialty": "Medicine and Dermatology,<br>Sexual, Allergy Diseases Specialist",
+  "schedule": "Daily:<br>Morning 10- Afternoon 2<br>বীকাল 4- 8",
+  "hospital": "<br>সেন্ট্রাল মুক্তা Hospital",
+  "contact": "01711576121<br>01708561212"
+ },
+ {
+  "id": 65,
+  "name": "প্রফেসর ডাঃ নুরুল গণি",
+  "qualification": "MBBS(ডিএমসি), BCS(স্বাস্থ),এম.ডি(Medicine)<br>CCD (বারডেম),সিডিডি(আইসিডিডিআরবি)<br>PhD(জাপান), ডিপ্লোMother in এজMother(UK)<br>সি-কার্ড(National Heart Foundation)<br>Shaheed Suhrawardy Medical College and Hospital, Dhaka.",
+  "specialty": "Medicine, ডায়াবেটিস, <br>and Chest Diseases Disease Specialist",
+  "schedule": "Every Friday Morning 9- বিকাল 5 until",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01615220596"
+ },
+ {
+  "id": 67,
+  "name": "ডাঃ শাহীন সুলতানা জামান",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>FCPS (Gynecology and Obs)এফ-পি<br>আবাসিক Surgeon(Gynecology)<br>Sheikh Hasina Medical College and Hospital, Tangail.<br><br><br><br><br>\n",
+  "specialty": "Obstetrics, Gynecology, and Gynecology Physician <br>and Surgeon",
+  "schedule": "Daily বিকাল 3 -<br>Night 9 until<br>\n",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01615220596"
+ },
+ {
+  "id": 68,
+  "name": "ডাঃ এটিএম. রাশেদুন নবী",
+  "qualification": "MBBS, ডিএ (BSMMU) MCPS<br>Associate Professor and Departmentীয় প্রধান<br>এনাসথেসিয়া,পেin and আইসিইউ,<br>টিএমএমসিএইচ,গাজীপুর<br>in্রভেনশনাল পেin Consultant <br>রেজি ন:- এ-25495<br>",
+  "specialty": "এনাসথেসিয়া,পেin and আইসিইউ",
+  "schedule": "Monthের 1ম and 3য় Saturday<br> Morning 10:30 হতে <br>Dusk 7:30 until ",
+  "hospital": "ধলেশ্বরী Hospital ",
+  "contact": "01312088608<br>01793008732"
+ },
+ {
+  "id": 69,
+  "name": "ডাঃ সিনথিয়া আলী",
+  "qualification": "MBBS, সিএমইউ, PGT(Gynecology and Obs)<br>প্রভাষক <br>কুমDayী মহিলা Medical College Hospital, <br>মির্জাপুর-Tangail.",
+  "specialty": "Obstetrics Gynecology Physician and Surgeon",
+  "schedule": "Friday Morning 10 - <br>বিকাল 8 until ",
+  "hospital": "ধলেশ্বরী Hospital",
+  "contact": "01680775233"
+ },
+ {
+  "id": 70,
+  "name": "ডাঃ কে.জে. মুরাদ ",
+  "qualification": "MBBS PGT (সার্জারী)<br>পজিটি(Nose, Ear,and Throat)<br>সহকারী রেজিstার <br><br>কুমDayী মহিলা Medical College Hospital,<br>মির্জাপুর-Tangail.",
+  "specialty": "Nose, Ear,and Throat Disease Physician <br> and Surgeon",
+  "schedule": "Friday <br>Morning 10- বিকাল 8 until",
+  "hospital": "ধলেশ্বরী Hospital",
+  "contact": "01745352501"
+ },
+ {
+  "id": 71,
+  "name": "ডাঃ মোঃ রুহুল বারী ",
+  "qualification": "MBBS(Dhaka) PGT(Child)<br>নিকো বিএলএস, এন.আর.পি(সৌদিআরব) Training প্রাপ্ত<br>প্রাক্তন অনারারী Medical অFissure- <br>Dhaka Child Hospital and আবাসিক<br>Child Physician সৌদিআরব",
+  "specialty": "Child Diseases উচ্চতর প্রশিক্ষণ প্রাপ্ত ",
+  "schedule": "Daily Morning 9- Afternoon 1<br>Afternoon 2 হতে Night 9 until",
+  "hospital": "ধলেশ্বরী Hospital",
+  "contact": "01710002653<br>01771526288"
+ },
+ {
+  "id": 72,
+  "name": "ডাঃ শ্যামল কান্তি সুতার ",
+  "qualification": "MBBS (Dhaka),  ডি Orthoো(ডি.ইউ)<br>সিনিয়র Consultant and Departmentীয় প্রধান<br>(Orthoো-সার্জারী)(প্রাক্তন)<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "হাড় জোড়া, ভাঙ্গা and Paralysis Disease<br> Specialist and Surgeon",
+  "schedule": "Daily:<br>Morning 9.30 হতে Night 8 until ",
+  "hospital": "Service Clinic <br>and Hospital ",
+  "contact": "01711339813"
+ },
+ {
+  "id": 73,
+  "name": "ডাঃ সুরঞ্জিত কুমার মন্ডল",
+  "qualification": "MD(রাশিয়া)<br>এফপিজিসিএস(Cardiology,রাশিয়া)",
+  "specialty": "Heart Disease and Medicine Specialist",
+  "schedule": "Daily:<br>Morning 9 - Night 9",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "01714819256<br>01711225211"
+ },
+ {
+  "id": 74,
+  "name": "অধ্যাপক ডাঃ মোঃ জাহিদুল ইসলাম ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>এমপিএইচ, FCPS<br>ফিজিক্যাল Medicine and রিহ্যাবিলিটেশন Department<br>Dhaka Medical College and Hospital",
+  "specialty": "Arthritis, Pain, প্যারালাইসিস,<br>আর্থাইটিস, ক্রিড়া আঘাত,<br>স্পাinাল, রিউমেটিক and রিহ্যাব,<br> Medicine Specialist ",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 4",
+  "hospital": "Service Clinic and Hospital",
+  "contact": "01711225211"
+ },
+ {
+  "id": 75,
+  "name": "ডাঃ এস এম শাহাদৎ হোসেন",
+  "qualification": " MBBS, BCS(স্বাস্থ), এম.ডি (হেপাটোলজি)<br>এমরসিপি(Medicine),(UK-2),<br>এপিএসএল,এএএসএলডি(চায়না)জয়েন্ট award,<br><br>আন্ডোস্কপিষ্ট and in্রভেনশনাল হেপাটোলজিষ্ট<br>Assistant Professor(Liver Department)<br>কুর্মিটোলা General Hospital, Dhaka",
+  "specialty": "Liver পরিপাকতন্ত্র and <br>Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "01711225211"
+ },
+ {
+  "id": 76,
+  "name": "ডাঃ মুহাম্মদ জাহাঙ্গীর আলম",
+  "qualification": "MBBS,<br>BCS (Health),<br>DCH (BSMMU),<br>Child স্নায়ুDiseases প্রশিক্ষণ প্রাপ্ত<br><br>Assistant Professor (Child Department)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "নবজাতক and ChildDisease Specialist",
+  "schedule": "Daily:<br>বিকাল 3- Night 8",
+  "hospital": "আয়শা খানম মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 77,
+  "name": "ডাঃ কাওসার আহমাদ",
+  "qualification": "MBBS (Dhaka),<br>বিএইচএস (আপার)<br><br>ডেপুটি চিফ Medical অFissure<br>Motherandলানা ভাষানী বিজ্ঞান and প্রজুক্তি বিশ্ববিদ্যালয়,<br>সন্তোষ, Tangail.",
+  "specialty": "Medicine, Dermatology, Sexual and<br>Child Diseases বিশেষ Experienced",
+  "schedule": "Daily",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 78,
+  "name": "ডাঃ মোঃ মোরশেদ আলম",
+  "qualification": "MBBS,<br>PGT (NeuroMedicine)<br><br>Medical অFissure<br>আয়শা খানম মেমোরিয়াল Hospital",
+  "specialty": "NeuroMedicine Physician",
+  "schedule": "Daily:<br>Morning 8- বিকাল 3<br><br>শুরবার (ব্যতীত)",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 79,
+  "name": "ডাঃ সৈয়দ কামরুল ইসলাম ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>MD(Chest Diseases)<br>Consultant (Chest Diseases Department)<br><br>Chest Diseases Hospital, মহাখালি Dhaka.",
+  "specialty": "Medicine, Chest Diseases, এজMother, ব্রংকাইটিস,<br>হাপানী and Breathing Difficulty Diseasesর Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "01711225211"
+ },
+ {
+  "id": 80,
+  "name": "অধ্যাপক ডাঃ শেখ আনিছুল হক  ",
+  "qualification": "MBBS, ডিসিএম(ডি.ইউ)<br>MD(ChildDisease)<br>Child পুষ্টিতে উচ্চতর প্রশিখনপ্রাপ্ত(Motherলয়েশিয়া)<br>Fellow- বিশ্ব Health সংস্থা <br><br>Professor and Departmentীয় প্রধান(Child Department)<br>ময়মনসিংহ Medical College and Hospital. ",
+  "specialty": "নবজাতক and Pediatrics Specialist",
+  "schedule": "Daily:<br>Morning 8 - Afternoon 12.30<br>Evening 5 - Night 8",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "01711225211"
+ },
+ {
+  "id": 81,
+  "name": "ডাঃ উম্মে সালমা",
+  "qualification": "MBBS,<br>ডিজিand,<br>FCPS (Gynecology and Obs)<br><br>Assistant অধাপক (Gynecology Department)<br>কুমুDayী মহিলা Medical College Hospital,<br>মির্জাপুর, Tangail.",
+  "specialty": "Obstetrics & Gynecology Specialist and <br>Surgeon",
+  "schedule": "Daily:<br>বিকাল 4- Night 9<br><br>Sunday, Monday and Tuesday:<br>All day<br><br>Friday (ব্যতীত)",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 82,
+  "name": "ডাঃ রফিক আহমেদ",
+  "qualification": "MBBS (Dhaka),<br>PGT- Medicine,<br>ডিপ্লোMother in Dermatologyটোলজী<br>and ভেনারোলজী (ডিডিভি)<br><br>Consultant (Dermatology & Sexual Diseases)",
+  "specialty": "Dermatology, Allergy, Sexual (Sex) Disease and<br>কসমেটিক Specialist",
+  "schedule": "Saturday- Tuesday:<br>বিকাল 4- Night 8",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "01713572913<br>01731230997"
+ },
+ {
+  "id": 83,
+  "name": "ডাঃ লাভলী আক্তার",
+  "qualification": "বিডিএস (ঢাবি)<br>বিMDসি রেজি: নং- 6867",
+  "specialty": "Dental Surgeon",
+  "schedule": "Sunday, সোMotherবার, Tuesday",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "01713572913<br>01713586674"
+ },
+ {
+  "id": 84,
+  "name": "ডাঃ মুহাম্মদ মুণীরুজ্জামান চৌধুরী",
+  "qualification": "MBBS,<br>BCS (Health),<br>ডি- কার্ড (BSMMU),<br>এম ডি (Cardiology) (এনআইসিভিডি),<br><br>সহকারী অধাপক (Cardiology)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Heart Disease, Medicine and<br>Rheumatic Fever Specialist",
+  "schedule": "Daily:<br>বিকাল 4- Night 8",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 85,
+  "name": "ডাঃ সুহেল রেজা",
+  "qualification": "MBBS,<br>FCPS (সার্জারী),<br>MS (ইউরলজী)<br><br>General Surgeon, লেপারোস্কপিক and andসকপিক Surgeon<br><br>Assistant Professor and Departmentীয় প্রধান (ইউরোলজী),<br>Sheikh Hasina Medical College Hospital,<br>Tangail",
+  "specialty": "Kidney, মুত্রনালী, মুত্রথলি,<br>Sexualাঙ্গ Diseasesর Specialist and Surgeon",
+  "schedule": "Daily:<br>বিকাল 4- Night 9",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 86,
+  "name": "ডাঃ শাহীদা বেগম",
+  "qualification": "MBBS,<br>ডিএমইউ,<br>PGT (Gynecology),<br>(টি ভি এস and কালার ডপলারে প্রশিক্ষণ প্রাপ্ত)<br><br>Gynecology and Obstetrics Diseasesর Physician and Surgeon",
+  "specialty": "Consultant সনোলজিষ্ট",
+  "schedule": "Daily:<br>Morning 10- 2<br>বিকাল 5- Night 8",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713586674"
+ },
+ {
+  "id": 87,
+  "name": "ডাঃ রাজিউল হক",
+  "qualification": "বিডিএস (Dhaka),<br>MSসি (London)<br><br>Associate Professor<br>Departmentীয় প্রধান (Dental ইউনিট)<br>কুমুDayী মহিলা Medical College and Hospital,<br>মির্জাপুর, Tangail.",
+  "specialty": "Dental Surgeon and রুট ক্যানেল Specialist",
+  "schedule": "Wednesday and Thursday:<br>বিকাল 3- Night 8",
+  "hospital": "আয়শা খানম<br>মেমোরিয়াল Hospital",
+  "contact": "64797<br>01713572913"
+ },
+ {
+  "id": 88,
+  "name": "ডাঃ এস এম এনামুল হক",
+  "qualification": "MBBS (Dhaka),<br>MS (চক্ষু),<br>BCS (Health),<br>সার্টিফিকেশান ট্রেinিং অন ল্যাসিক<br>(জাপান- ভিয়েতনাম)<br><br>Assistant Professor<br>জাতীয় চক্ষু বিজ্ঞান in্সটিটিউট and Hospital,<br>Sher-e-Bangla Nagar, Dhaka.",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Everyবার Friday:<br>Morning 9- বিকাল 5",
+  "hospital": "Service চক্ষু Hospital",
+  "contact": "62470<br>01921454648"
+ },
+ {
+  "id": 89,
+  "name": "ডাঃ মোহাম্মাদ আব্দুস সামাদ",
+  "qualification": "ডি and এল ভি (আই),<br>ইউনিভারসিটি অফ সাউথ এশিয়া, Dhaka.<br>এমএলandপি (আই), বিএনসিবি (বেস)<br>আই Hospital, সিরাজগঞ্জ.<br>(এক্স: বিএনসিবি আই Hospital, সিরাজগঞ্জ)<br><br>ডিউটি অFissure (অপ্টমেট্রিst)",
+  "specialty": "ডিউটি অFissure (অপ্টমেট্রিst)",
+  "hospital": "Service চক্ষু Hospital",
+  "contact": "01717626648"
+ },
+ {
+  "id": 90,
+  "name": "ডাঃ এম জি আজম",
+  "qualification": "ডিandএলভি (আই),<br>ইউ অফ এসএ Dhaka.<br>andপিটিসি (আই)<br>বিএনসিবি সিরাজগঞ্জ<br>এক্স সিরাজগঞ্জ আই Hospital, সিরাজগঞ্জ.",
+  "specialty": "অপ্টমেট্রিst",
+  "schedule": "Daily",
+  "hospital": "Service চক্ষু Hospital",
+  "contact": "62470<br>01717626648"
+ },
+ {
+  "id": 91,
+  "name": "ডাঃ মোঃ আরিফুল ইসলাম",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (সার্জারী) শেষ পর্ব,<br>PGT: সার্জারী, Urology, Orthopedic<br><br>কিউরেটর<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "General প্র্যাকটিশনার and Surgeon",
+  "schedule": "Daily:<br>বিকাল 3- বিকাল 5",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 92,
+  "name": "ডাঃ সুমাইয়া শারমীন",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>FCPS (Gynecology and Obs),<br>সিএমইউ (Dhaka)",
+  "specialty": "Gynecology and স্ত্রিDisease Specialist",
+  "schedule": "Friday:<br>Morning 10- Dusk 6",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "01793121241<br>01722153802"
+ },
+ {
+  "id": 93,
+  "name": "ডাঃ সৈয়দ রিফাত আব্দুল্লাহ",
+  "qualification": "MBBS,<br>PGT (অনকোলজি),<br>এসআরসিএস(UK)<br>রেজি: নং- 69215",
+  "specialty": "অনকোলজি",
+  "schedule": "Daily:<br>বিকাল 3- Dusk 7",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "01793121241<br>01793121261"
+ },
+ {
+  "id": 94,
+  "name": "ডাঃ সুশান্ত কুমার সাহা",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>MD (রিউMotherটোলজী),<br>ই সি আর ডি (ইংল্যান্ড)<br><br>Consultant- রিউMotherটোলজী<br>Shaheed Suhrawardy Medical College and Hospital,<br>Dhaka.",
+  "specialty": "Arthritis- Pain and<br>Medicine Specialist",
+  "schedule": "Friday:<br>All day",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 95,
+  "name": "ডাঃ মোঃ তামিম আজিজ",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>MCPS (Medicine),<br>MSিপি (Medicine) আমেরিকা,<br>CCD (ডায়াবেটোলজী),<br>Arthritis-Pain (রিমেটোলজী) and<br>কিডনী Diseases উচ্চতর প্রশিক্ষণপ্রাপ্ত<br><br>MD (নেফ্রেলোজী) ফ্রেজবি<br>Dhaka Medical College and Hospital",
+  "specialty": "Medicine, ডায়াবেটিস and<br>Hypertension Specialist",
+  "schedule": "Every Monday and Tuesday:<br>Afternoon 2:30- Dusk 7:30",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "01305436020<br>01315819471<br>01728063953"
+ },
+ {
+  "id": 96,
+  "name": "ডাঃ মোসাঃ রোকসানা বেগম",
+  "qualification": "MBBS,<br>BCS (Health),<br>MD (হেপাটোলজি),<br><br>সিস, বারডেম<br><br>andোসকপিst and in্রভেনশনাল হেপাটলজি<br>Assistant Professor (Liver পরিপাকতন্ত্র and Medicine Specialist)<br>Shaheed Suhrawardy Medical College and Hospital,<br>Sher-e-Bangla Nagar, Dhaka.<br>রেজি: এ-35609",
+  "specialty": "গ্যাstোLiver পরিপাকতন্ত্র and<br>Medicine Specialist",
+  "schedule": "Friday All day",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>01722153802"
+ },
+ {
+  "id": 97,
+  "name": "অধ্যাপক ডাঃ মোঃ শাহ আলম",
+  "qualification": "MBBS, MS (Orthoো),<br>FCPS (সার্জারী), এফআরসিএস (Orthoো),<br>Fellowশিপ ট্রেinিং in স্পাin সার্জারী (আমেরিকা),<br>স্পাin সার্জারীতে উচ্চতর প্রশিক্ষণ (ইংল্যান্ড),<br>অ্যাকটিভ Fellow (স্কোলিandসিস রিসার্চ সোসাইটি, আমেরিকা)<br><br>Professor and Departmentীয় প্রধান<br>স্পাin and Orthopedic সার্জারী Department<br>Dhaka Medical College, Dhaka.",
+  "specialty": "স্পাin and Orthopedic Surgeon",
+  "schedule": "Every Friday:<br>Morning 10- বিকাল 4",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "01776379725"
+ },
+ {
+  "id": 98,
+  "name": "ডাঃ আব্দুল্লাহ আল রতন",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health),<br>FCPS (Medicine - এফপি),<br>in্রNational ডিপ্লোMother এ্যাজMother (ইংল্যান্ড)<br><br>PGT (Neurology, Heart Disease and Chest Diseases)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "schedule": "Daily:<br>Afternoon 2:30- Night 8",
+  "hospital": "<br>মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 99,
+  "name": "ডাঃ মোঃ মোস্তাফিজুর রহমান",
+  "qualification": "MBBS (Dhaka),<br>BCS (Health)<br><br>MD (নেফ্রোলজী)<br>Bangabandhu Sheikh Mujib Medical College and Hospital<br>(Former পিজি Hospital)<br><br>Assistant Professor<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine and Kidney Disease Specialist",
+  "schedule": "Daily:<br>বিকাল 2- Night 8",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 100,
+  "name": "ডাঃ প্রনব কর্মকার",
+  "qualification": "MBBS,BCS (Health),<br>সি.সি.ডি (বারডেম), MD (Cardiology)<br>Clinic্যাল and in্রNational Cardiologyst<br>উচ্চতর ইকোকার্ডিandগ্রাফী (ভারত)<br>সিনিয়র Consultant <br>( Cardiology)<br>Sheikh Hasina Medical College Hospital, ংগাইল.",
+  "specialty": "Heart Disease, উচ্চ Bloodছচাপ, Rheumatic Fever,<br>ডায়াবেটিস and Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 4",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 101,
+  "name": "ডাঃ মোঃ জাহিদুল ইসলাম খান",
+  "qualification": "MBBS (Dhaka),<br>DTCD (Dhaka),<br>MD (in্রনাল Medicine),<br>সিএমইউ (আমেরিকা),<br>এফআরএসপিএইচ (London)",
+  "specialty": "Medicine and Chest Disease Specialist",
+  "schedule": "Friday:<br>All day",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 102,
+  "name": "ডাঃ সজল কুমার শীল",
+  "qualification": "MBBS,<br>MD (NeuroMedicine),<br>Brain, স্নায়ুDisease, Stroke, পারকিনসন্স ডিজিজ,<br>খিছুনি, প্যারালাইসিস, Motherথা Pain, ঘাড় and কোমড় Pain,<br>মেরুদন্ডের Diseasesর Physician<br><br>Assistant Professor<br>কুমুDayী Medical College Hospital.",
+  "specialty": "NeuroMedicine and Medicine Specialist",
+  "schedule": "Sunday, Monday, Tuesday, Thursday:<br>Evening 3- Night 7<br><br>Friday:<br>All day",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>62542<br>62543"
+ },
+ {
+  "id": 103,
+  "name": "ডাঃ মোঃ শাহীন রেজা",
+  "qualification": "MD (রাশিয়া),<br>ডি Urology,<br>এমপিএইচ,<br>BCS (Health)<br><br>Assistant Professor (Urology)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Urology, কিডনী, মূত্রনালী, মূত্রথলী,<br>Sexual দুর্বলতা, জৌণো অক্ষমতা and<br>পুংজননতন্ত্র Disease Specialist and Surgeon",
+  "schedule": "Every Friday:<br>Morning 10- বিকাল 5",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 104,
+  "name": "ডাঃ অর্পন কুমার বসাক",
+  "qualification": "MBBS (Dhaka),<br>ডিডিভি<br>Dermatology & Sexual Diseases বিসেশজ্ঞ<br><br>Associate Professor<br>Dermatology & Sexual Diseases Department<br>খাজা ইউনুস আলি Medical College<br><br>প্রাক্তন Assistant Professor<br>কুমুDayী উইমেন্স Medical College",
+  "specialty": "Dermatology & Sexual Diseases Specialist",
+  "schedule": "Every Friday:<br>বিকাল 4- Dusk 7",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 105,
+  "name": "ডাঃ মোঃ মাসুম",
+  "qualification": "MBBS,<br>FCPS (Medicine).<br>Medicine, Arthritis- Pain, ডায়াবেটিস, Hormone, কিডনী and<br>Neurologyতে উচ্চতর প্রশিক্ষণপ্রাপ্ত<br><br>CCD (ডায়াবেটিস), বারডেম<br>Bangabandhu Sheikh Mujibুর রহMotherন বিশ্ববিদ্যালয়<br> (পিজি) Hospital<br><br>এক্স- Assistant Professor and Departmentীয় প্রধান,<br>বিএমসি",
+  "specialty": "Medicine স্পেশালিst",
+  "schedule": "Thursday and Saturday:<br>বিকাল 4- Night 8<br><br>Friday:<br>All day",
+  "hospital": "মেডিনোভা Medical<br> Services লি:",
+  "contact": "62541<br>01793121241<br>01722153802"
+ },
+ {
+  "id": 106,
+  "name": "অধ্যাপক ডাঃ ফজলে রাব্বী সিরাজ উদ্দিন ",
+  "qualification": "MBBS, MS(ইউরোলজী)<br>ইউরোলজীষ্ট and ল্যাপারোস্কোপিক Surgeon<br>মেম্বার, আই কার্ড ফ্রান্স, ইতালী and ভারত to<br>ইউরোলজীতে প্রশিক্ষনপ্রাপ্ত<br><br>শাহাবুদ্দীন Medical College and Hospital, <br>গুলশান-2, Dhaka",
+  "specialty": "কিডনী, মূত্রতন্ত্র and SexualDisease <br>Specialist and Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "64696<br>01711225211"
+ },
+ {
+  "id": 107,
+  "name": "ডাঃ মোঃ আনোয়ারুল হক ",
+  "qualification": "MBBS, PGT, DLO(আই/সি) <br><br>প্রাক্তন Surgeon কুমDayী মহিলা Medical College Hospital,<br>মির্জাপুর-Tangail.",
+  "specialty": "Nose, Ear, Throat Disease,<br> and Head Neck Surgeon",
+  "schedule": "Daily:<br>Morning 9.30 - Afternoon 2.30<br>Evening 5 - Night 8<br>Friday বন্ধ",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "64696<br>01816596260<br>01711225211<br>"
+ },
+ {
+  "id": 108,
+  "name": "ডাঃ মোঃ আলমগীর কবির(সুমন)",
+  "qualification": "MBBS,(ডিএমসি), BCS(স্বাস্থ)<br>FCPS(Medicine )<br>Consultant(Medicine )<br>বিMDসি রেজি নং - 43323",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Every Friday<br> Morning 9- বিকাল 5 until",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "৬৪৬৯৬<br>০১৭১১২২৫২১১"
+ },
+ {
+  "id": 109,
+  "name": "ডাঃ এস এম এনামুল হক ",
+  "qualification": "Assistant Professor(চক্ষু)<br><br>Dhaka চেম্বার: <br>গ্রীন আই Hospital ",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "চক্ষু Hospital ",
+  "contact": "01945467318"
+ },
+ {
+  "id": 110,
+  "name": "ডাঃ বনানী ভৌমিক<br>",
+  "qualification": "MBBS,<br>BCS (Health),<br>MCPS((Gynecology and Obs)<br>FCPS((Gynecology and Obs)<br>Consultant(Gynecology )<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Gynecology and Obstetrics  Specialist and Surgeon",
+  "schedule": "Daily:<br>Afternoon 3 - Night 8<br>সরকারী ছুটির Day and Friday<br>Morning 9 -Night  8",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "৬৪৬৯৬<br>০১৭১১২২৫২১১"
+ },
+ {
+  "id": 111,
+  "name": "ডাঃ মোঃ ফজলুল হক ",
+  "qualification": "MBBS, MS(ইএনটি) জার্Motherন<br>এফ আর এস আইচ(London), Bangladesh",
+  "specialty": "Nose, Ear, and Throat Disease Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "64696<br>01711225211"
+ },
+ {
+  "id": 112,
+  "name": "ডাঃ মোঃ নাফিউর রহমান ",
+  "qualification": "MBBS,(ডিএমসি),<br>PGT (Medicine)<br>বিMDসি, রেজি: নং- 93146<br><br>প্রাক্তন Medical অFissure <br>জুহুরুandল ইসলাম Medical College, কিশোরগুঞ্জ ",
+  "specialty": "General ফিজিশিয়ান",
+  "schedule": "Daily:<br>Morning 9 - Afternoon 2 until <br>Friday ব্যতিত ",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "64696<br>01718202844<br>01711225211"
+ },
+ {
+  "id": 113,
+  "name": "ডাঃ মোঃ মোস্তাফিজুর রহমান ",
+  "qualification": "MBBS, BCS (Health)<br>MD(নেফ্রোলজী)বিএসএমএমেইউ<br><br>Assistant Professor(কিডণী বীভাগ<br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>",
+  "specialty": "Medicine, কিডনী,and <br>হাইপারটেনশন Specialist",
+  "schedule": "Daily:<br>Evening 3 - Night 8",
+  "hospital": "Service Clinic<br>and Hospital",
+  "contact": "64696<br>01712193820"
+ },
+ {
+  "id": 114,
+  "name": "ডাঃ মোহাম্মদ নাজমুল আলম",
+  "qualification": "MBBS (Dhaka),<br>ডি- কার্ড (BSMMU)<br><br>Assistant Professor<br>কুমুDayী উইমেন্স Medical Hospital,<br>মির্জাপুর, Tangail.",
+  "specialty": "Medicine and Cardiologist",
+  "schedule": "Daily:<br>বিকাল 4- Night 8",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>01793121241<br>01722153802"
+ },
+ {
+  "id": 115,
+  "name": "সহঃ অধ্যাপক ডাঃ পল্লব কান্তি সাহা",
+  "qualification": "MBBS (এসএসএমসি),<br>BCS (Health),<br>MD (Neuroলজী)<br><br>মেম্বার of আমেরিEar একাডেমি of Neuroলজী<br><br>NeuroMedicine, Brain, স্নায়ুDisease, Stroke, খিঁচুনি,<br>প্যারালাইসিস, Motherথা ব্যাথা and স্পাin Diseasesর Physician<br><br>Assistant Professor (Neuroলজী Department)<br>Sir Salimullah Medical College and Hospital,<br>Dhaka.",
+  "specialty": "NeuroMedicine <br>and Medicine Specialist",
+  "schedule": "Every Fridayা:<br>All day",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 116,
+  "name": "ডাঃ খন্দকার সাঈদ হোসেন",
+  "qualification": "MBBS,<br>BCS (Health),<br>DCH,<br>FCPS (এফপি),<br>MD (Child),<br><br>Consultant (Child)<br>Dhaka Child Hospital.",
+  "specialty": "নবজাতক, Child and<br>কিশোর Disease Specialist",
+  "schedule": "Daily:<br>বিকাল 4- Night 8<br><br>Friday:<br>Morning 10- Afternoon 1<br>Evening 4- Dusk 7",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01728063953"
+ },
+ {
+  "id": 117,
+  "name": "ডাঃ মোঃ আরিফুর রহমান সিয়াম",
+  "qualification": "MBBS (Dhaka),<br>MD (পেডিয়াট্রিক্স),<br>PhD (Gastroenterology) (পেডি.),<br>MRCP (সি সি London) (Medicine) (কোর্স),<br><br>Assistant Professor (Gastroenterology) (এক্স)<br>মুগদা Medical College and Hospital, Dhaka.<br><br>Assistant Professor (Gastroenterology)<br>এম এ জি andসMotherনী Medical College and Hospital,<br>সিলেট.<br><br>বিMDসি রেজি: নং- এ 47179",
+  "specialty": "পরিপাকতন্ত্র, Liver Diseases and<br>Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9- বিকাল 5",
+  "hospital": "মেডিনোভা Medical <br>Services লি:",
+  "contact": "01765000920"
+ },
+ {
+  "id": 118,
+  "name": "ডাঃ মোঃ এনামুল হক (হক)",
+  "qualification": "MBBS (এমএমসি),<br>CCD (বারডেম),<br>এফMD (ইউএসটিসি),<br>ডিপ্লোMother in এ্যাজMother (UK)<br><br>ডেপুটি চিফ Medical অFissure<br>ডায়াবেটিক এ্যাসোসিয়েশন, Tangail.",
+  "specialty": "ডায়াবেটিস Disease Specialist",
+  "schedule": "Daily:<br>Evening 3- Night 8:30<br><br>Friday:<br>All day",
+  "hospital": "মেডিনোভা Medical<br> Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01728063953"
+ },
+ {
+  "id": 120,
+  "name": "ডাঃ সাজিয়া আফরিন ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS-এফপি PGT(Gynecology and Obs)<br>আই এম and (Gynecology and Obs)<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>রেজি: নং- বিMDসি এ-57140<br>",
+  "specialty": "Obstetrics & Gynecology<br>Physician and Surgeon",
+  "schedule": "Daily:<br>Evening 4 - Night 7 until",
+  "hospital": "Deshbandhu Hospital<br> and ডায়াগনstিক Center",
+  "contact": " 01758822190<br>01758835102"
+ },
+ {
+  "id": 121,
+  "name": "ডাঃ সৈয়দ রানা কবির ",
+  "qualification": "MBBS(Dhaka),BCS(Health)<br>MD(নেফ্রোলজী) থিসিস<br>আরপি (Medicine)<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine, গ্যাst্রোLiver<br> and কিডনী Disease Specialist",
+  "schedule": "Daily:<br>Evening 4 - Night 7 until",
+  "hospital": "Deshbandhu Hospital <br>and ডায়াগনstিক Center",
+  "contact": "01758822190<br>01758835102"
+ },
+ {
+  "id": 122,
+  "name": "অধ্যাপক ডাঃ রতন চন্দ্র সাহা",
+  "qualification": "MBBS (Dhaka), BCS (Health), DTCD (DU),<br>এফসিসিপি (আমেরিকা), ডিএফএম (UK),  PhD (বক্ষDisease),<br>Fellow বিশ্বHealth সংস্থা (in্দোনেশিয়া),<br>উচ্চতর প্রশিক্ষণ (জাপান, অst্রেলিয়া, চীন and আমেরিকা),<br>ট্রেin্ড in Cardiology and ইকো (অ্যাপোলো Hospital, Motherদ্রাজ and দিল্লী),<br>এসিএলএস (আমেরিEar Heart অ্যাসোসিয়েশন),<br>সদস্য, আমেরিEar কলেজ of চেষ্ট ফিজিশিয়ানস,<br>সদস্য, আমেরিEar সোসাইটি of Allergy, এ্যাজMother and ইমুনোলজী<br><br>Professor and Departmentীয় প্রধান রেসপিরেটরী Medicine<br>ময়মনসিংহ Medical College Hospital",
+  "schedule": "Friday- Tuesday and Thursday:<br>বিকাল 4- Dusk 7",
+  "hospital": "<br>মেডিনোভা Medical<br> Services লি:",
+  "contact": "62541<br>62542<br>62543"
+ },
+ {
+  "id": 123,
+  "name": "ডাঃ মোঃ আবু তাহের",
+  "qualification": "MBBS (Dhaka), BCS (Health),<br>MD (Child), FCPS (Child)- এফপি<br><br>লেকচারার<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "নবজতক, Child and<br>কিশোর Disease Specialist",
+  "schedule": "Daily:<br>বিকাল 3- Night 8<br><br>Friday:<br>All day",
+  "hospital": "<br>মেডিনোভা Medical <br>Services লি:",
+  "contact": "62541<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 124,
+  "name": "ডাঃ এম নজরুল ইসলাম ",
+  "qualification": "MBBS, BCS (Health),<br>MS(ইএনটি and Head -Neck সার্জারী)<br>BSMMU<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose,Ear,Throat Disease Specialist and হেদ-Neck Surgeon",
+  "schedule": "Daily:<br>Morning 9 - Night 8 until ",
+  "hospital": "লাইফ কেয়ার <br>General Hospital ",
+  "contact": " 01992606794"
+ },
+ {
+  "id": 125,
+  "name": "ডাঃ মোঃ মোস্তাফিজুর রহমান(লিপন)",
+  "qualification": "MBBS(Dhaka), PGT and FCGP(Medicine)<br>এমপিএইচ(Mother and Child),PGT (Dermatology, Sexual, Sex)<br><br>Medical অFissure, লাইফ কেয়ার General Hospital<br>",
+  "specialty": "General ফিজিশিয়ান",
+  "schedule": "Daily:<br>Morning 9 - Night 8 until",
+  "hospital": "লাইফ কেয়ার <br>General Hospital ",
+  "contact": "01992606794"
+ },
+ {
+  "id": 126,
+  "name": "ডাঃ মোঃ আমিনুল ইসলাম ",
+  "qualification": "MBBS, এমপিএইচ(Dhaka), PGT(Dermatology and Sexual)<br>ডিপ্লোMother in মেডি: আলট্রা(Dhaka), স্পেশাল ট্রেin্ড in সাইকিয়াট্টি<br><br>প্রাক্তন-সিনিয়র এপেক্স হোল্ডিংস লি: <br>and লাইফবয় ফ্রেন্ডশীফ Hospital(ফ্রান্স)",
+  "specialty": "Medicine, Dermatology-Sexual, এলার্জী, <br>Motherনসিক Disease and General ফিজিশিয়ান",
+  "schedule": "Daily:<br>Evening 4 -Dusk 7 until ",
+  "hospital": "লাইফ কেয়ার<br>General Hospital",
+  "contact": "01992606794"
+ },
+ {
+  "id": 127,
+  "name": "ডাঃ তাহমিনা সুলতানা (নিপা)",
+  "qualification": "MBBS,এমপিএইচ(Mother and Child Health)<br>PGT(Gynecology and পেডিয়েট্রিক্স)<br><br>Medical অFissure (ইউনিসেফ), <br>Tangail Medical College Hospital <br>Medical অFissure, লাইফ কেয়ার General Hospital ",
+  "specialty": "Mother and Child Disease Experienced ",
+  "schedule": "Daily All day ",
+  "hospital": "লাইফ কেয়ার<br>General Hospital",
+  "contact": "01992606794"
+ },
+ {
+  "id": 129,
+  "name": "ডাঃ মোঃ আনিছুর রহমান ",
+  "qualification": "MBBS (সিইউ), BCS (Health)<br>MD(নেফ্রোলজি)<br><br>Assistant Professor<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "কিডনী and Medicine Disease Specialist",
+  "schedule": "Daily বিকাল 3 -<br>Night 8 until",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 130,
+  "name": "ডাঃ এস.এম. আবু তাহের ",
+  "qualification": "MBBS, BCS (Health),<br><br>Medicine,Child, Motherনসিক and কর্ন <br>ব্যাধিতে বিশেষ Training প্রাপ্ত and Experienced <br>Fellow বিশ্বHealth সংস্থা(থাইল্যান্ড)<br>Former Civil Surgeon,Tangail <br>",
+  "specialty": "General ফিজিশিয়ান",
+  "schedule": "Daily:<br>Morning 10 - Afternoon 2 until<br>(Friday বাদ)",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 131,
+  "name": "ডাঃ মোঃ আসলাম হোসেন",
+  "qualification": "MBBS, BCS (Health)<br>MCPS(সার্জারী)<br><br>Assistant Professor<br>Tangail Medical College and Hospital ",
+  "specialty": "General সার্জারী, ল্যাপারোস্কপিক,<br>হেপাটোবিলিয়ারী and কলোরেকল Surgeon",
+  "schedule": "Every রবি to Thursday <br>বিকাল 3 - Night 8 until ",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 132,
+  "name": "ডাঃ মোঃ মাহমুদুল হাসান",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(Child)<br>Consultant(Child)<br><br>পেষনে Child পরিপাকতন্ত্র and পুষ্টি Department <br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>Dhaka.",
+  "specialty": "Child, কিশুর, and নবজাতক Specialist ",
+  "schedule": " Thursday<br>বিকাল 4 - Night 8 until",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 133,
+  "name": "ডাঃ দেবেশ চন্দ্র তালুকদার ",
+  "qualification": "MBBS ডিএলোand <br>FCPS(ইএনটি and Head Neck সার্জরী)<br>Associate Professor, ইএনটি Department<br><br>Dhaka Medical College Hospital, Dhaka",
+  "specialty": "Nose, Ear, Throat Disease Specialist",
+  "schedule": "Every Friday Morning 9- বিকাল 5 until",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 134,
+  "name": "ডাঃ রেহেনা পারভীন ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS (Gynecology and Obs)<br>গাinকোলজিক্যাল  ল্যাপারোস্কপি, হিstারোস্কপিতে<br>বিশেষ প্রশিক্ষণ প্রাপ্ত <br><br>Assistant Professor (Gynecology)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Gynecology Specialist and Surgeon ",
+  "schedule": "Daily বিকাল 4 -<br>Night 8 and <br>Friday Morning 9-বিকাল 5 until ",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 135,
+  "name": "ডাঃ সঞ্জীব চৌধুরী ",
+  "qualification": "MBBS, BCS (Health)<br>MD(কার্ডিandলজী)<br>Associate Professor(কার্ডিandলজী Department)<br><br>জাতীয় Heart Disease Institute and Hospital <br>Dhaka ",
+  "specialty": "Heart Disease, Medicine, <br>and Rheumatic Fever Specialist ",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5 until ",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 136,
+  "name": "ডাঃ সৈয়দা মোহাম্মদ আলী রোমেল ",
+  "qualification": "MBBS, BCS (Health)<br>MCPS(Medicine),FCPS(Medicine)<br>MD(কার্ডিandলজী)<br>জাতীয় Heart Disease Institute and Hospital<br>Dhaka",
+  "specialty": "Medicine, Chest Diseases and Cardiologist",
+  "schedule": "Every Thursday: বিকাল and<br> বিকাল 3 - Night 8 until ",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 137,
+  "name": "ডাঃ রিপন কুমার সাহা ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(ফিজিক্যাল Medicine)<br>ফিজিক্যাল Medicine and রিহ্যাবিলিটেশন Department<br><br>Dhaka Medical College Hospital <br>",
+  "specialty": "Arthritis, ব্যাথা, প্যারালাইসিস <br>and রিহ্যাব Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5 until",
+  "hospital": "\tমেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 138,
+  "name": "অধ্যাপক ডাঃ মোঃ শাহ আলম তালুকদার ",
+  "qualification": "MBBS, MS(Child সার্জারী)<br>Fellow ডব্লিঊ এইচ and <br>পেডিয়াট্রিক রি-কst্রাকটিভ সার্জারী<br><br>স্পেশাল কেয়ার Training in পেডিয়াট্রিক্স, Motherলয়েশিয়া<br>ল্যাপারসকপি সার্জারীতে বিশেষ প্রশিক্ষণ প্রাপ্ত, বাঙ্গালোর, ভারত<br><br>Director and Professor  and Departmentীয় প্রধান(পেডিয়াট্রিক সার্জারী)<br>in্রNational Medical College, গাজীপুর<br>Former Professor and Departmentীয় প্রধান, Child সার্জারী<br>ময়মনসিংহ Medical College  Hospital",
+  "specialty": "ChildDisease, সার্জারী and ইউরোলজী Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5 until",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01713031685"
+ },
+ {
+  "id": 139,
+  "name": "ডাঃ অরুন জ্যোতি তরফদার",
+  "qualification": "MBBS, BCS (Health)<br>MD(হেপাটোলজি)<br> ভিডিand andোস্কপিতে উচ্চতর প্রশিক্ষণ প্রাপ্ত<br><br>Associate Professor <br>ময়মনসিংহ Medical College and Hospital",
+  "specialty": "Liver, Medicine, গ্যাstিক, <br>and পরিপাকতন্ত্র Specialist",
+  "schedule": "Every মঙ্গল and বুধ <br>Evening 3 to Night 8 until ",
+  "hospital": "মেডিকো Hospital",
+  "contact": "01715885135"
+ },
+ {
+  "id": 141,
+  "name": "ডাঃ মোঃ খুরশীদ আলম(চন্দন)",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(এফপি Medicine), CCD(বারডেম)<br>MD(কোর্স), কার্ডিandলজী<br>গ্যাst্রোLiver and কিডনী Diseases প্রশিক্ষণ প্রাপ্ত<br><br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়, Dhaka.",
+  "specialty": "Medicine, Heart Disease,Chest Diseases,Rheumatic Fever, <br>Arthritisব্যাথা Physician and ডায়াবেটিস Specialist ",
+  "schedule": "Friday All day",
+  "hospital": "সোনার বাংলা Clinic <br>and Hospital ",
+  "contact": "01705244490"
+ },
+ {
+  "id": 143,
+  "name": "ডাঃ মোঃ সালেহ খান ",
+  "qualification": "MBBS(সিandমিক) PGT(Child)<br>প্রাক্তন Medical অFissure<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>বিMDসি রেজি: ন: - এ-73677",
+  "specialty": "নবজাতক and Child Medicine বিষয়ে Experienced ",
+  "schedule": "Daily 2ট to Night 9<br>Friday All day",
+  "hospital": "সোনার বাংলা Clinic <br>and Hospital",
+  "contact": "01705244490"
+ },
+ {
+  "id": 144,
+  "name": "ডাঃ মোঃ শফিকুল ইসলাম <br>",
+  "qualification": "MBBS(সিandমিক) PGT (Medicine)<br>প্রাক্তন আবাসিক Medical অFissure<br>(ফিনলে সেন্ট্রাল Hospital, সিলেট)<br> আবাসিক Medical অFissure<br>(সোনার বাংলা Clinic and Hospital)",
+  "specialty": "গ্যাst্রোLiver,Chest Diseases, <br>Arthritisব্যাথা and Medicine Physician",
+  "schedule": " Friday ব্যাতিত<br>Daily<br>Morning 9 - Night  until<br>",
+  "hospital": "সোনার বাংলা Clinic <br>and Hospital",
+  "contact": "\t01705244490"
+ },
+ {
+  "id": 145,
+  "name": "সহকারী অধ্যাপক<br>ডাঃ মোঃ লতিফুর রহমান মিয়া ",
+  "qualification": "MBBS, BCS (Health<br>MS(ইউরোলজী),FCPS(ইউরোল-এফ)<br>in্রNational Fellow অফ ইউরোলজ, ইউএএ-Fellow হংকং<br>Urologyst and ল্যাপারোস্কপিক Surgeon<br><br>Assistant Professor and আরএস General<br>জাতীয় কিডনী Disease and ইউরোলজী Hospital, Dhaka",
+  "specialty": "কিডনী, মুত্রনালী, মুত্রথলি, প্রstেট,পুংজননাজ্ঞ,Sex,Child and<br>ফিলেম ইউরোলজী Specialist and ল্যাপারোস্কপিক Surgeon and<br>কিডনী ত্রান্সপ্লান্টেশন Specialist",
+  "schedule": "Every শক্রবার All day",
+  "hospital": "দি সিটি Hospital ",
+  "contact": "01754524793"
+ },
+ {
+  "id": 146,
+  "name": "ডাঃ সুধাকর সরকার ",
+  "qualification": "MBBS<br>(ময়মনসিংহ Medical College and Hospital)<br>MD-কার্ডিandলজী(Dhaka Medical College)<br>FCPS(Medicine) এফপি<br>Consultant(Heart Disease Department)<br>Bangladesh Specialized Hospital লি: Dhaka <br>রেজি: ন: এ-54330",
+  "specialty": "Medicine, Heart Disease, Hypertension, Chest Diseases, Breathing Difficulty,<br>বুক ধরফর, Heartব্লক,Heart ফেইলর, Rheumatic Fever, Specialist ",
+  "schedule": "Every Friday All day",
+  "hospital": "দি সিটি Hospital",
+  "contact": "01754524793"
+ },
+ {
+  "id": 147,
+  "name": "সহকারী অধ্যাপক  <br>ডাঃ হাফিজুর রহমান ",
+  "qualification": "MBBS(গোল্ড মেডেলিষ্ট),BCS (Health)<br>FCPS(Medicine), MD(Neuro Medicine)<br>Medicine and স্নায়ু Disease Specialist <br><br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয় <br>(পিজি Hospital) Dhaka.",
+  "specialty": "Motherনসিক Disease, Medicine, Motherথা ব্যাথা, <br>Motherইগ্রেন ব্যাথা, Brain stোক,<br>Brain Medicine, গ্যাst্রোLiver, প্যারালাইসিস,<br>খিচুনী, মৃগীDisease, ডায়াবেটিস and স্নায়ুDisease Specialist <br>",
+  "schedule": "Every Friday <br>Morning 9 - বিকাল 5 until ",
+  "hospital": "দি সিটি Hospital",
+  "contact": "01754524793"
+ },
+ {
+  "id": 148,
+  "name": "ডাঃ বিপ্লব চন্দ্র দাস",
+  "qualification": "MD(রাশিয়া), <br>PGT(Gynecology and Obs)<br>DU(সনোলজিষ্ট)<br>প্রাক্তন Gynecology Surgeon(কুমুDayী Hospital)",
+  "specialty": "Medicine, Gynecology, Surgeon and সনোলজিষ্ট",
+  "schedule": "Daily Morning 9 - Afternoon 2,<br>বিকাল 5 - Night 8 until<br><br>",
+  "hospital": "জনতা Clinic and Nursing Home ",
+  "contact": "01712029160"
+ },
+ {
+  "id": 149,
+  "name": "ডাঃ মোঃ  হাসান আলমগীর ",
+  "qualification": "MBBS, BCS (Health),<br>MD(কার্ডিandলজী)<br>Associate Professor(কার্ডিandলজী Department)<br><br>জাতীয় Heart Disease Institute and Hospital<br>Dhaka",
+  "specialty": "Medicine, Heart Disease,and Rheumatic Fever Specialist ",
+  "schedule": "Every শক্রবার <br>Morning 10- বিকাল 5",
+  "hospital": "জনতা Clinic and Nursing Home",
+  "contact": "01712029160"
+ },
+ {
+  "id": 150,
+  "name": "ডাঃ রফিক আহমেদ ",
+  "qualification": "MBBS (Dhaka), PGT(Medicine)<br>ডিপ্লোMother in Dermatologyটোলজী and ভেনারোলজী(ডিডিভি)<br>Consultant ",
+  "specialty": "Dermatology, আলার্জী, Sexual(Sex)<br> Disease and কসমেটিক Specialist ",
+  "schedule": "বিকাল 4 to Night 9",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "092162586<br>0179300771<br>01870691600<br>01703017066"
+ },
+ {
+  "id": 151,
+  "name": "ডাঃ ফারজানা রুমা ",
+  "qualification": "MBBS<br>(ময়মনসিংহ Medical College and Hospital)<br>FCPS(Gynecology and Obs)এফপি<br>সিএমইউ (আল্ট্রা)<br>প্রাক্তন আরএস<br>মুন্না Medical College Hospital ",
+  "specialty": "Gynecology ,Gynecology, Obstetricsবিদ্যা, <br>and বন্ধ্যাত্ব Diseasesর Physician and Surgeon",
+  "schedule": "Daily Morning 10 to Afternoon 2,<br>বিকাল 4 to Night 8 until ",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "092162586<br>0179300771"
+ },
+ {
+  "id": 152,
+  "name": "ডাঃ মোঃ রফিকুল ইসলাম ",
+  "qualification": "MBBS, MD(NeuroMedicine)<br>PhD-Medicine(জাপান),MPhil <br>Associate Professor<br>National in্সটিটিউট <br>of Neuro সাin্স Hospital ",
+  "specialty": "Neuro Medicine and Medicine Specialist ",
+  "schedule": "Every Thursday <br>বিকাল 3 to Night 8 until",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "092162586<br>0179300771<br>01870691600"
+ },
+ {
+  "id": 153,
+  "name": "ডাঃ খঃ মোহাম্মদ আলী ",
+  "qualification": "MBBS, BCS (Health)<br>ইডিসি(বারডেম)<br>FCPS(শেষ পর্ব)<br>ফিজিক্যাল Medicine and রিহ্যাবিলিটেশন<br>Dhaka Medical College Hospital, Dhaka ",
+  "specialty": "Arthritisব্যাথা, প্যারালাসিস, Orthoাইটিস, স্পাinাল, রিউমেটিক,<br>and রিহ্যাব, Medicine and ডায়াবেটিস Physician ",
+  "schedule": "Every Friday<br> Morning 9 - বিকাল 5 until",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "092162586<br>0179300771<br>01870691600"
+ },
+ {
+  "id": 154,
+  "name": "ডাঃ রাজিব কুমার সাহা",
+  "qualification": "MBBS,<br>BCS (Health),<br>এম আএ সি পি (London) (Medicine),<br>MCPS (Medicine),<br>MD (Chest Diseases)<br>Sir Salimullah Medical College and Mitford Hospital,<br>Dhaka.",
+  "specialty": "Medicine and Chest Disease Specialist",
+  "schedule": "Friday:<br>All day",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 155,
+  "name": "ডাঃ মোঃ জাকারীয়া আল আজিজ",
+  "qualification": "MBBS,<br>MD (in্রNational Hospital),<br>Dhaka Medical College Hospital.<br>BCS (Health),<br>MCPS (আমেরিকা)<br><br>Assistant Professor (Medicine Department)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine and in্রNational Medicine বিশেসজ্ঞ",
+  "schedule": "Every Friday:<br>Morning 10- Dusk 7<br><br>Every Saturday:<br>বিকাল 3- Dusk 7",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "01793121241<br>01722153802"
+ },
+ {
+  "id": 156,
+  "name": "ডাঃ নুজহাত তাবাসসুম শান্তা ",
+  "qualification": "MBBS (Dhaka), সি-আল্ট্রা <br>PGT(Gynecology and Obs)<br>কুমুDayী উইমেন্স Medical College and Hospital <br>বিMDসি রেজি: নং - এ-75665 ",
+  "specialty": "Gynecology Physician and Gynecology Surgeon ",
+  "schedule": "বিকাল 5 - Dusk 7 until ",
+  "hospital": "ক্যাপিল Hospital ",
+  "contact": "01765000920"
+ },
+ {
+  "id": 157,
+  "name": "ডাঃ মোঃ আরিফুর রহমান ",
+  "qualification": "MBBS (Dhaka), MD(পেডিয়াট্রিক্স)<br>PhD(Gastroenterology)(পেডি.)<br>MRCP(সিসি London)(Medicine)(কোর্স)<br><br>Assistant Professor(Gastroenterology)(এক্স)<br>মুগদা Medical College and Hospital, Dhaka <br>Assistant Professor(Gastroenterology)<br>এমএজি andসMotherনী Medical College <br>and Hospital, সিলেট <br>বিMDসি রেজি: নং - এ-47179",
+  "specialty": "পরিপাকতন্ত্র, Liver, Disease and <br>Medicine Specialist",
+  "schedule": "Every Friday:<br>Morning 9- বিকাল 5 ",
+  "hospital": "ক্যাপিল Hospital",
+  "contact": "01765000920"
+ },
+ {
+  "id": 158,
+  "name": "ডাঃ রুমা আক্তার ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MCPS, FCPS(Gynecology and Obs)<br>Consultant(Gynecology) ",
+  "specialty": "Gynecology Specialist and Surgeon ",
+  "schedule": "Every Friday:<br>Morning 9- Dusk 5",
+  "hospital": "পাইলট Hospital<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01752192110"
+ },
+ {
+  "id": 159,
+  "name": "ডাঃ কামরুন নাহার ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MS(সার্জারী)<br>FCPS(সার্জারী-এফপি)<br>BSMMU(পিজি Hospital) Dhaka ",
+  "specialty": "General সার্জারী, কলোরেকল<br> and Child Surgery Specialist ",
+  "schedule": "Friday <br>Morning 9 -বিকাল 5 until ",
+  "hospital": "পাইলট Hospital <br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01752192110 "
+ },
+ {
+  "id": 160,
+  "name": "ডাঃ মাজেদুর রহমান ",
+  "qualification": "MBBS (Dhaka),MCPS(সার্জারী এফপি)<br>MS(ইউরোলজী Resident)<br>Urologyষ্ট and আন্ড্রোলজিষ্ট(ইউরোলজী Department)<br>BSMMU(পিজি Hospital) Dhaka",
+  "specialty": "কিডনী, প্রst্রেট, মুত্রথলী, মুত্রনালী,<br> অন্ডকোষ, and পুরুষ Sexualাঙ্গ <br>Disease Specialist ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "পাইলট Hospital<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01781673088"
+ },
+ {
+  "id": 161,
+  "name": "ডাঃ এম. নজরুল ইসলাম ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MS(ইএনটি)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>(পিজি Hospital) Dhaka.",
+  "specialty": "Nose-Ear-Throat Disease Specialist and<br>Head - Neck Surgeon",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "পাইলট Hospital<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01752192110 "
+ },
+ {
+  "id": 162,
+  "name": "ডাঃ মোঃ ওমর ফারুক মিয়া ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>জাতীয় কিডনী Disease in্সটিটিউট and ইউরোলজী Center <br>শেরেবাংলা নগর,(Dhaka)<br>Assistant Professor(কিডনী Disease Department)<br>ময়মনসিংহ Medical College and Hospital.<br>ময়মনসিংহ .",
+  "specialty": " Medicine and কিডনী রগ Specialist ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "Mother Nursing Home and <br>ডায়াগনোstিক Center.<br>জেলা Sadar রোড, আকুর কুর,<br>Tangail. ",
+  "contact": "01857454548"
+ },
+ {
+  "id": 163,
+  "name": "ডাঃ সাইফুর রহমান খান ",
+  "qualification": " MBBS (Dhaka), BCS (Health)<br>FCGP, CCD(বারডেম), Dhaka.<br><br>পোst গ্রাজুয়েট Program in ডায়াবেটোলজি(ইউএসএ)<br>সার্টিফিকেট কোর্স in কার্ডিandলজী(National Heart <br>Foundation, Dhaka)<br>উপজেলা Health and প: প: কর্মকর্তা, ঘাইল,<br>Tangail.",
+  "specialty": "ডায়াবেটিস and ফ্যামেলি Medicine Specialist ",
+  "schedule": "Daily বিকাল 4 - Night 8 until ",
+  "hospital": "Mother Nursing Home and<br>ডায়াগনোstিক Center.<br>জেলা Sadar রোড, আকুর কুর,<br>Tangail",
+  "contact": "01857454548"
+ },
+ {
+  "id": 164,
+  "name": "ডাঃ সাইফুল ইসলাম ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>FCPS(Medicine)<br>Consultant(Medicine)<br>Shaheed Suhrawardy Medical College <br>and Hospital, Dhaka.<br><br><br>",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "Mother Nursing Home and<br>ডায়াগনোstিক Center.<br>জেলা Sadar রোড, আকুর কুর,<br>Tangail",
+  "contact": "01857454548"
+ },
+ {
+  "id": 165,
+  "name": "ডাঃ আফরিন আক্তার ",
+  "qualification": "MBBS,<br>MCPS(শেষ পর্ব-Gynecology and Obs)<br><br>PGT(Gynecology and Obs<br>- শহীদ সোহরাandয়ার্দী হসপি)<br>General Hospital Tangail.",
+  "specialty": "Obstetrics and Gynecology Disease Physician<br>and Surgeon",
+  "schedule": "Daily বিকাল 3 - Night 8 until <br>Friday All day ",
+  "hospital": "Mother Nursing Home and<br>ডায়াগনোstিক Center.<br>জেলা Sadar রোড, আকুর কুর,<br>Tangail",
+  "contact": "01857454548"
+ },
+ {
+  "id": 166,
+  "name": "ডাঃ মোঃ বেলায়েত হোসেন ",
+  "qualification": "উপ Director <br>স্যার Salimullah Mitford Hospital, Dhaka ",
+  "specialty": "Experienced Orthopedic Physician ",
+  "schedule": "Thursday<br>বিকাল 3 - Night 10 until<br>and Friday  <br>All day",
+  "hospital": "রাজধানী Nursing Home <br>Sheikh Hasina Medical College <br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01715115383<br>01711780348"
+ },
+ {
+  "id": 167,
+  "name": "ডাঃ সৈয়দ মনিরুল ইসলাম(বিপ্লব )",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>FCPS(সার্জারী)<br>MS(Heart Disease, Bloodনালী and Chest Diseases সার্জারী)<br>Assistant Professor (কার্ডিয়াক সার্জারী)<br>Sir Salimullah Medical College Dhaka.<br><br>Sir Salimullah Medical College,  Dhaka.",
+  "specialty": "সার্জারী Specialist and কার্ডিয়াক Surgeon ",
+  "schedule": "বিকাল 5 - Night 8 until ",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01711069256<br>01711780348"
+ },
+ {
+  "id": 168,
+  "name": "ডাঃ তরফদার রুনা লায়লা ",
+  "qualification": "MBBS, <br>FCPS(Gynecology and Obs)<br>MS(Gynecology and Obs), স্বর্ণপদক প্রাপ্ত<br>বন্ধ্যা Diseases উচ্চতর প্রশিক্ষণ প্রাপ্ত(ভারত)<br>Associate Professor (Gynecology and Obs)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয় (পি.জি. Hospital ), Dhaka.<br><br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>(পিজি Hospital) Dhaka.",
+  "specialty": "Obstetrics বিদ্যা and Gynecology Specialist ",
+  "schedule": "Every Friday<br>All day",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "63150<br>01711780348"
+ },
+ {
+  "id": 169,
+  "name": "ডাঃ মোঃ সালেহ উদ্দিন ",
+  "qualification": "MBBS, ডি-কার্ড <br><br>Associate Professor, Cardiology<br>জাতীয় Rheumatic Fever and Heart Disease নিয়ন্ত্রন  <br>Center, Sher-e-Bangla Nagar Dhaka(of)<br>Director inচার্জ (এক্স)<br>জাতীয় Rheumatic Fever and Heart Disease নিয়ন্ত্রন  Center, <br>Sher-e-Bangla Nagar Dhaka.",
+  "specialty": "Heart Disease, Medicine and Rheumatic Fever Specialist",
+  "schedule": "Every Sunday<br>Morning 10  - বিকাল 5 until<br>\n",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01819132662<br>092163150<br>01711780348"
+ },
+ {
+  "id": 170,
+  "name": "ডাঃ হাসান মাহমুদ <br>",
+  "qualification": "MBBS, MD(Cardiology)<br><br>Clinic্যাল and in্রভেনশনাল Cardiologyst<br>জাতীয় Heart Disease Institute and Hospital Dhaka.",
+  "specialty": "Medicine and Cardiologist ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "63150<br>01711780348"
+ },
+ {
+  "id": 171,
+  "name": "ডাঃ আশরাফ আলী ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>প্রাক্তন সহকারী রেজিstার(Medicine)<br>জুনিয়র লেকচারাল<br>Maternity, Tangail ",
+  "specialty": "Medicine",
+  "schedule": "Daily বিকাল 4 - Night 9 until<br>Friday All day",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01711233730 <br>63150<br>01711780348 "
+ },
+ {
+  "id": 172,
+  "name": "ডাঃ মোঃ মোজাম্মেল হোসেন ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MS(কোর্স)- Nose, Ear,Throat and <br>Head Neck সার্জরী Department <br>Dhaka Medical College Hospital ",
+  "specialty": "Nose Ear Throat Disease Physician and Surgeon ",
+  "schedule": "Saturday <br>Morning 9 -বিকাল 5 until",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "63150<br>01711780348"
+ },
+ {
+  "id": 173,
+  "name": "ডাঃ মোঃ ইমরুল হাসান খান(ইমন)",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>FCPS(সার্জারী)<br>MS(হেপাটোবিলিয়ারী and প্যানক্রিয়াটিক সার্জারী)<br>Assistant Professor(হেপাটোবিলিয়ারী সার্জারী)<br>Dhaka Medical College অ Hospital, Dhaka<br>",
+  "specialty": "অ্যাডভান্স ল্যাপারোস্কপিক <br>and  হেপাটোবিলিয়ারী Surgeon ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "রাজধানী Nursing Home<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01709767775<br>01613242529<br>63150<br>01711780348"
+ },
+ {
+  "id": 174,
+  "name": "ডাঃ মোঃ আব্দুর রউফ<br>",
+  "qualification": "MBBS (Dhaka), PGT<br>সি_ আল্ট্রা(সনোলজিষ্ট)<br>প্রাক্তন Medical অFissure <br>টিজি Hospital, সৌদি আরব",
+  "specialty": "General প্রাক্টিশনার ",
+  "schedule": "Daily <br>Morning 8 - Night 10  until ",
+  "hospital": "জয় Clinic and Hospital <br>জাহাঙ্গীর সৃতি Serviceশ্রম, শান্তিকুঞ্জের মোড়,<br>Tangail ",
+  "contact": "01712982715"
+ },
+ {
+  "id": 175,
+  "name": "ডাঃ শাহ মোঃ <br>নাহিদ আক্তারুল ইসলাম ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>FCPS(Medicine), এফপি, <br>MD(কার্ডিandলজী)- সি<br>MRCP(Medicine),CCD(বারডেম)<br>Resident-জাতীয় Heart Disease Institute, Dhaka<br>এক্স সহকারী রেজিstার, কার্ডিandলজী Department<br>Dhaka Medical College Hospital, Dhaka",
+  "specialty": "Medicine, Heart Disease, Rheumatic Fever, <br>এজMother and ডায়াবেটিস Specialist ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "জনService Hospital and <br>ডায়াগনstিক Center.<br>ভুঁইয়া Medicine Motherর্কেট,<br>Sheikh Hasina Medical College<br> Hospital সংলগ্ন,<br>সবালিয়া, Tangail. ",
+  "contact": "01785787805<br>01729930272<br>01623010237"
+ },
+ {
+  "id": 176,
+  "name": "ডাঃ জাকিয়া জান্নাত (জ্যোতি) ",
+  "qualification": "MBBS(রাজশাহী),<br>PGT(রেডিandলজী and ইমেজিং), <br>ডিএমইউ(আল্ট্রা)<br><br>Medical অFissure, <br>জনService Hospital and ডায়াগনstিক Center<br>বিMDসি রেজি: নং - এ-89078",
+  "specialty": "Medicine, Gynecology and Gynecology Physician ",
+  "schedule": "Daily Morning 9 - বিকাল  until<br>Friday বাদ ",
+  "hospital": "জনService Hospital and<br>ডায়াগনstিক Center.<br>ভুঁইয়া Medicine Motherর্কেট,<br>Sheikh Hasina Medical College<br>Hospital সংলগ্ন,<br>সবালিয়া, Tangail.",
+  "contact": "01765206084<br>01785787805<br>01729930272"
+ },
+ {
+  "id": 177,
+  "name": "ডাঃ মোহাম্মদ মনিরুজ্জমান ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MD(Medicine), MSিপি(আমেরিকা)<br>FCPS(গ্যাst্রোএন্রোলজী) থিসিস<br>লাইফ মেম্বার, Bangladesh সোসাইটি of Bangladesh<br>ময়মনসিংহ Medical College and Hospital,<br>ময়মনসিংহ .",
+  "specialty": "Medicine, and <br>গ্যাst্রোএন্রোলজী Specialist ",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "নুরুল আমিন খান Motherল্টিপারপাস<br>Medical Center<br>Sheikh Hasina Medical College<br> Hospitalের Skilledিণ পাশে,<br> সাবালিয়া, Tangail ",
+  "contact": "01742922289<br>01875164373<br>01676494933"
+ },
+ {
+  "id": 178,
+  "name": "ডঃ মাহমুদুল হাসান রনি",
+  "qualification": "এম.বি.বি.এস,BCS (Health)<br>ডি.এল.and (ইএনটি)",
+  "specialty": "Nose,Ear-Throat Disease Specialist <br>and Head-Neck Surgeon<br> Dhaka Medical College Hospital.",
+  "schedule": "Every Friday <br>Morning 9  হতে বিকাল 5  ",
+  "hospital": "নুরুল আমিন খান Motherল্টিপারপাস<br>Medical Center<br>Sheikh Hasina Medical College<br> Hospitalের Skilledিণ পাশে,<br> সাবালিয়া, Tangail ",
+  "contact": "০১৭৬৭-৪৯৪৯৩৩,<br>০১৮৭৫-১৬৪৩৭৩,<br>০৯২১-৬২৮৮৭"
+ },
+ {
+  "id": 179,
+  "name": "ডঃ ইসমত জেরিন",
+  "qualification": "MBBS, BCS (Health)<br>              ডিজিand (ডিএমসি)",
+  "specialty": "প্রসুতি and স্ত্রী Disease Specialist and Surgeon<br>Obs and Gynecology Department<br><br>Sheikh Hasina Medical College <br>and Hospital , Tangail .",
+  "schedule": "Daily:<br>বিকাল 3 - Night 7 until<br>Friday All day.",
+  "hospital": "নুরুল আমিন খান Motherল্টিপারপাস<br>Medical Center<br>Sheikh Hasina Medical College<br> Hospitalের Skilledিণ পাশে,<br> সাবালিয়া, Tangail <br>",
+  "contact": "০১৭৬৭-৪৯৪৯৩৩,<br>০১৮৭৫-১৬৪৩৭৩,<br>০৯২১-৬২৮৮৭"
+ },
+ {
+  "id": 180,
+  "name": "ডঃ মোহাম্মদ খালিদ হোসেন",
+  "qualification": "MBBS, BCS (Health)<br>MS (চক্ষু)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>Dhaka.<br>Fellow-ক্যার‍্যাক্ট (Cataract)<br>জাতীয় চক্ষু বিজ্ঞান inষ্টিটিঊট <br>and হাসপাল, Dhaka.<br>স্পেশালিটি-ফ্যাকো, <br>ট্রেin্ড in আর and পি (ROP)<br>Consultant (চক্ষু) <br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "schedule": "Daily বিকাল 3 -<br>Night 8 until",
+  "hospital": "নুরুল আমিন খান Motherল্টিপারপাস<br>Medical Center<br>Sheikh Hasina Medical College<br> Hospitalের Skilledিণ পাশে,<br> সাবালিয়া, Tangail ",
+  "contact": "০১৭৬৭-৪৯৪৯৩৩,<br>০১৭৪২-৯২২২৮৯,<br>০৯২১-৬২৮৮৭"
+ },
+ {
+  "id": 181,
+  "name": "ডঃ আজিজুল হক (সোহেল)",
+  "qualification": "MBBS, BCS <br>ডি-কার্ড (Cardiology)<br>রেজিstার(Cardiology)<br>Dhaka Medical College Hospital.",
+  "specialty": "Heart Disease, ঊচ্চ Blood Pressure <br>and Rheumatic Fever Specialist<br>",
+  "schedule": "Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "নুরুল আমিন খান Motherল্টিপারপাস<br>Medical Center<br>Sheikh Hasina Medical College Hospitalের<br>Skilledিণ পাশে, সাবালিয়া, Tangail.",
+  "contact": "০১৭৬৭-৪৯৪৯৩৩<br>০১৮৭৫-১৬৪৩৭৩<br>০৯২১-৬২৮৮৭"
+ },
+ {
+  "id": 182,
+  "name": "ডাঃ সুধাংশু কুমার সাহা",
+  "qualification": "MBBS<br>BCS (Health)<br>MS (Orthoো) নিটোর, Dhaka.<br><br>Assistant Professor<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "হাড়- জোড়া, Arthritis Pain Specialist and<br>ট্রMother Surgeon",
+  "schedule": "Daily:<br>বিকাল 3- Night 8<br><br>Friday:<br>All day",
+  "hospital": "এশিয়া Hospital",
+  "contact": "01740614450"
+ },
+ {
+  "id": 183,
+  "name": "ডাঃ তানজিনা লতিফ (যুথি)",
+  "qualification": "MBBS, FCPS(Gynecology)<br>Associate Professor Gynecology<br>ময়মনসিংহ Medical College and Hospital<br>",
+  "specialty": "Gynecology Specialist ",
+  "schedule": "Every Thursday <br>বিকাল 5- Night 9 ",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail ",
+  "contact": "64767<br>62250<br>01716836683 "
+ },
+ {
+  "id": 184,
+  "name": "ডাঃ এম.এইচ এম আলমগীর ",
+  "qualification": "MS(Orthoো সার্জারী)<br>Associate Professor (Orthoো সার্জারী)<br>Shaheed Suhrawardy Medical College<br>Hospital, Dhaka ",
+  "specialty": "হাড়জোড়া, ArthritisPain, বিকলাঙ্গ, ট্রMother Specialist<br>and Orthopedic Surgeon ",
+  "schedule": "Every Thursday<br>বিকাল 4- Night 8",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01716836683"
+ },
+ {
+  "id": 185,
+  "name": "ডাঃ দিলিপ পোদ্দার ",
+  "qualification": "MBBS, PhD,<br>প্রাক্তন Consultant Surgeon<br>কুমুDayী Hospital,মির্জাপুর",
+  "specialty": "সার্জারী Specialist ",
+  "schedule": "Morning 10 - 2<br>বিকাল 5 - Night 8",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01715626362<br>01716836683 "
+ },
+ {
+  "id": 186,
+  "name": "ডাঃ সুশান্ত কুমার সাহা ",
+  "qualification": "MBBS, BCS (Health)<br>MD(রিউMotherটোলজি), <br>ইসিআরডি(ইংল্যান্ড)<br>Dhaka Medical College and Hospital ",
+  "specialty": "ArthritisPain (রিউMotherটোলজি Specialist)",
+  "schedule": " Every Thursday<br>বিকাল 3- Night 8",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01716836683"
+ },
+ {
+  "id": 187,
+  "name": "অধ্যাপক ডাঃ এহমেদ হোসেন ",
+  "qualification": "MBBS, <br>FCPS(Medicine)<br>Professor Medicine Department<br>Sir Salimullah Medical College<br>(মিটফোর্ট) Hospital, Dhaka. ",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Thursday<br>বিকাল 4 - Night 10 until<br>and Friday<br>Morning 7.30 - বিকাল 5 until",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01716836683"
+ },
+ {
+  "id": 188,
+  "name": "ডাঃ মোঃ তুহিন তালুকদার ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>FCPS(সার্জারী)<br><br>General ল্যাপারোস্কোপিক and Liver Surgeon<br>Dhaka Medical College Hospital, Dhaka",
+  "specialty": "General, ল্যাপারোস্কোপিক <br> and Liver সার্জরী Specialist<br>(Stomach, পাকস্থলী, হার্নিয়া, অ্যাপেন্ডিক্স,<br> পিত্তথলি পাথর, Tumor, Piles,<br>Fistula,  and Liver সার্জারী <br>Specialist Surgeon)",
+  "schedule": "Thursday<br>Afternoon 2 - Night 8 until<br>and Friday All day",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01716836683"
+ },
+ {
+  "id": 189,
+  "name": "ডাঃ মোঃ হায়দার আলী ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(Medicine)<br>ডি-কার্ড,<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Every রবি - Thursday<br>(বিকাল 3  - Night 8 until )<br>Friday All day,<br>সাপ্তাহিক বন্ধ Saturday ",
+  "hospital": "সোনিয়া Nursing Home(ভবন-2)<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01911154437<br>01315525906<br>01315525907<br><br>"
+ },
+ {
+  "id": 190,
+  "name": "ডাঃ আহসান হাবীব (হেলাল) ",
+  "qualification": "MBBS, MD(Neurology)<br>Associate Professor, Neurology Department<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়<br>(পিজি Hospital), Dhaka. ",
+  "specialty": "Neuro Medicine Specialist<br>(Motherথা Pain, Motherথা ঘোড়া, স্নায়ুDisease, Brain ষ্টোক,<br>স্মৃতি শক্তি কমে যাandয়া, হাত পা কাঁপুনি and Obs<br>হandয়া, Mouth বেঁকে যাandয়া and মৃগী Diseasesর উন্নত<br>Treatment করা হয়.)",
+  "schedule": " Every Friday:<br>Morning 9 - Evening 5",
+  "hospital": "সোনিয়া Nursing Home(ভবন-2)<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01315525906<br>01315525907<br>"
+ },
+ {
+  "id": 191,
+  "name": "ডাঃ প্রনব কর্মকার",
+  "qualification": "MBBS,BCS (Health),<br>সি.সি.ডি (বারডেম), MD (Cardiology)<br>Clinic্যাল and in্রNational Cardiologyst<br>উচ্চতর ইকোকার্ডিandগ্রাফী (ভারত)<br>সিনিয়র Consultant <br>(Cardiology)<br>Sheikh Hasina Medical College Hospital, ংগাইল.",
+  "specialty": "Heart Disease, Hypertension, Rheumatic Fever,<br>ডায়াবেটিস and Medicine Specialist<br><br><br><br>\n",
+  "schedule": "Saturday to Thursday <br>বিকাল 3 - Night 7",
+  "hospital": "সোনিয়া Nursing Home(ভবন-2)<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01315525906<br>01315525907<br><br><br><br>\n"
+ },
+ {
+  "id": 192,
+  "name": "অধ্যাপক ডাঃ মোঃ নুরুল আমিন মিঞা ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br> MD(Medicine)মেম্বার এসিপি(আমেরিকা)<br>Professor and Departmentীয় প্রধান, Medicine Department<br>অধ্যক্ষ, Sheikh Hasina Medical College,<br>Tangail.<br>",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Daily<br>বিকাল 3 - Night 10 until <br>Friday All day ",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01716836683"
+ },
+ {
+  "id": 193,
+  "name": "ডাঃ রাশেদুল ইসলাম (রাশেদ)",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(ইএনটি), MS(ইএনটি)<br>ইএনটি and Head Neck সার্জরী Specialist and Surgeon<br>National Institute of ইএনটি, Tejgaon, Dhaka<br>বিMDসি রেজি: ন: এ-46099",
+  "specialty": "ইএনটি and Head Neck <br>সার্জরী Specialist and Surgeon",
+  "schedule": "Thursday<br>বিকাল 5 - Night 10 until<br>and Friday<br>Morning 8 - Dusk 6 until",
+  "hospital": "সোনিয়া Nursing Home(ভবন-2)<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01828161793<br>01315525906<br>01315525907"
+ },
+ {
+  "id": 194,
+  "name": "ডাঃ মোঃ আসাদুজ্জামান <br> <br><br>",
+  "qualification": "MCPS(সার্জারী), <br>MS(ইউরোলজী)<br>এফআইসিএস(আমেরিকা)<br>Assistant Professor and Departmentীয় প্রধান<br>ইউরোলজী Department<br>Dayাজপুর Medical College and Hospital",
+  "specialty": "কিডনী, প্রst্রেট, মুত্রথলী, মুত্রনালী,<br>পুরুষ Sexualাঙ্গ অন্ডকোষ Specialist<br> and লেপারোস্কপিক Surgeon",
+  "schedule": "Friday<br>Morning 9 -বিকাল 5 until",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01918511581<br>64767<br>62250<br>01716836683<br>01315525908"
+ },
+ {
+  "id": 195,
+  "name": "ডাঃ এম নজরুল ইসলাম ",
+  "qualification": "MBBS, BCS (Health)<br>MS(ইএনটি and Head Neck Surgeon)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose,Ear-Throat Disease Specialist<br>and Head-Neck Surgeon",
+  "schedule": "Daily বিকাল 3 -<br>Night 7 until<br>Friday বাদ ",
+  "hospital": "সোনিয়া Nursing Home(ভবন-2)<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01315525906<br>01315525907"
+ },
+ {
+  "id": 196,
+  "name": "ডাঃ মোঃ মমতাজুল হক ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MS (Child সার্জারী)<br>Assistant Professor,Child সার্জারী Department<br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>Consultant <br>in্ধিরা গান্ধী মেমোরিয়াল Hospital, Motherলে,<br>Motherলদ্বীপ ",
+  "specialty": "Child সার্জারী Specialist ",
+  "schedule": "Daily <br>বিকাল 3 to Night 8 until  ",
+  "hospital": "সোনিয়া Nursing Home<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "64767<br>62250<br>01716836683"
+ },
+ {
+  "id": 198,
+  "name": "সহযোগী অধ্যাপক <br>ডাঃ নুর আলম",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>MD(Cardiology)<br>National Heartরােগ Institute and <br>Hospital , Dhaka .",
+  "specialty": "Heart Disease, Cardiology",
+  "schedule": "Friday:<br>Morning 9 - Evening 5 until",
+  "hospital": "সোনিয়া Nursing Home(ভবন-2)<br>নতুন বাস র্মিনাল, Tangail",
+  "contact": "01315525906<br>01315525907"
+ },
+ {
+  "id": 199,
+  "name": "ডাঃ সুজন ঘোষ ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(Medicine) শেষ পর্ব<br>MD(Cardiology, Resident)<br>জাতীয় Heart Disease Institute<br> and Hospital(এনআইসিভিডি) Dhaka.",
+  "specialty": "Medicine, ডায়াবেটিস and <br>Heart Disease Physician ",
+  "schedule": "Friday <br>Morning 9 - Night 4 until",
+  "hospital": "সানরাইজ Hospital <br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.<br>",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 200,
+  "name": "ডাঃ মোঃ শহীদুল্লাহ কায়সার ",
+  "qualification": "MBBS(Dhaka),BCS(স্বাস্থ)<br>MS(Orthoো-সার্জারী)<br>Associate Professor and Departmentীয় প্রধান<br>(Orthoো and ট্রMotherটোলজী)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br><br>Fellowশীপ in Orthoোপ্লাষ্ট(ভারত)",
+  "specialty": "হাড়জোড়া,Arthritis Pain,<br>প্যারালাইসিস, বিকলাঙ্গ, <br>ট্রMother Specialist",
+  "schedule": "Daily:<br>বিকাল 4- Night 8",
+  "hospital": "সানরাইজ Hospital<br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 201,
+  "name": "ডাঃ মোঃ আজিজুল হক ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>ডিএ (BSMMU),<br>এমপিএইস(এপিদেমিandলজী)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>",
+  "specialty": "এনাসথেসিয়া and <br>পেin Medicine Specialist ",
+  "hospital": "সানরাইজ Hospital<br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 202,
+  "name": "সহঃ অধ্যাপক <br>ডাঃ গৌরাঙ্গ কুমার বসু ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(সার্জারী)<br>Assistant Professor(সার্জারী Department)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>",
+  "specialty": "সার্জারী Specialist and Surgeon ",
+  "schedule": "Daily:<br>বিকাল 3- Night 8 until <br>Friday All day ",
+  "hospital": "সানরাইজ Hospital<br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 203,
+  "name": "ডাঃ এম নজরুল ইসলাম ",
+  "qualification": "MBBS, BCS (Health)<br>MS(ইএনটি and Head Neck Surgeon)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়<br><br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose,Ear-Throat Disease Specialist<br>and Head-Neck Surgeon",
+  "schedule": "Daily বিকাল 3 -<br>Night 8 until<br>Friday All day",
+  "hospital": "সানরাইজ Hospital<br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 204,
+  "name": "ডাঃ অপু সাহা ",
+  "qualification": "MBBS, BCS (Health)<br>সহকারী রেজিষ্র (Gynecology and Obs)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Gynecology, Gynecology Physician<br>and Surgeon",
+  "schedule": "Daily:<br>বিকাল 3- Night 8 until",
+  "hospital": "সানরাইজ Hospital<br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 205,
+  "name": "ডাঃ মোঃ রফিকুল ইসলাম মিয়া ",
+  "qualification": "MBBS, PGT(সি আল্ট্রা)<br>Former Deputy Director(নিটোর-Dhaka)<br>and 250 Bed General Hospital Tangail  ",
+  "specialty": "Medicine,Child and Nose Ear and Throat Physician ",
+  "schedule": "Daily <br>Morning 9 - Night 8 until  <br>",
+  "hospital": "সানরাইজ Hospital<br>ডিসট্রিক গেটের পূর্ব পাশে,<br>ডায়াবেটিস Hospital সংলগ্ন,<br>সাবালিয়া, Tangail.",
+  "contact": "01749207797<br>01876069150"
+ },
+ {
+  "id": 206,
+  "name": "ডাঃ মোঃ রিফাত হাসান ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>CCD (বারডেম)<br>MD(Medicine অন কোর্স)<br>ইMotherর্জেন্সি Medical অFissure<br>Sheikh Hasina Medical College Hospital,<br>Tangail.  ",
+  "specialty": "Medicine and ডায়াবেটিস Specialist ",
+  "schedule": "Daily:<br>বিকাল 3- Night 8 until",
+  "hospital": "মনোয়ারা Clinic <br>আকুর কুর পাড়া<br>Tangail",
+  "contact": "01711137588"
+ },
+ {
+  "id": 207,
+  "name": "ডাঃ আফসিয়া নীহার মৌনীতা ",
+  "qualification": "MBBS (Dhaka), সিএমিউ<br>Medical অFissure <br>বিMDসি রেজি: নং - এ-99402 ",
+  "specialty": "Medical অFissure ",
+  "schedule": "Daily ",
+  "hospital": "মনোয়ারা Clinic<br>আকুর কুর পাড়া<br>Tangail",
+  "contact": "01711137588"
+ },
+ {
+  "id": 208,
+  "name": "ডাঃ আবুল হায়াত মানিক ",
+  "qualification": "MBBS, BCS (Health)<br>MD(হেপাটোলজি), BSMMU<br>Medicine and Liver Specialist <br>in্রভেনশনাল andোসকপিst <br>ট্রেin্ড in in্রভেনশনাল andোসকপি(ভারত)<br>হেপাটোলজি Department,<br>Dhaka Medical College and Hospital, Dhaka .",
+  "specialty": "Liver, জন্ডিস, Gastric, আলসার,<br>Stomach Pain, বদ হজম অগ্ন্যাশয়,<br> ডায়াবেটিস and Medicine Specialist  <br>",
+  "schedule": "Every Friday ",
+  "hospital": "মনোয়ারা Clinic<br>আকুর কুর পাড়া<br>Tangail",
+  "contact": "01711137588 "
+ },
+ {
+  "id": 209,
+  "name": "ডাঃ সাব্বির আহমেদ ঢালী ",
+  "qualification": "MBBS, BCS (Health)<br>MD(Neurology), BSMMU<br>Neurology and Medicine Specialist <br>Neurology Department, <br>Dhaka Medical College and Hospital, Dhaka ",
+  "specialty": "Brain, Stroke, প্যারালাইসিস,খিচুনী,মৃগী,<br>Motherইগ্রেন(Motherথাব্যাথা), কোমড়Pain,<br>হাত পা জালাপোড়া, স্নায়ু দুর্বলতা<br>Neurology and Medicine Specialist<br>",
+  "schedule": "Every শক্রবার ",
+  "hospital": "মনোয়ারা Clinic<br>আকুর কুর পাড়া<br>Tangail",
+  "contact": "01711137588"
+ },
+ {
+  "id": 210,
+  "name": "ডাঃ খন্দকার সাঈদ হোসেন<br>",
+  "qualification": "MBBS, BCS (Health)<br>DCH,FCPS(এফ-পি)<br>MD(Child),<br>Consultant Child<br>",
+  "specialty": "নবজাতক and Child-কিশোর <br>Medicine Specialist  ",
+  "schedule": "Daily Afternoon 2.30 - 7.30 until ",
+  "hospital": "মনোয়ারা Clinic<br>আকুর কুর পাড়া<br>Tangail",
+  "contact": "01711137588"
+ },
+ {
+  "id": 211,
+  "name": "ডাঃ ফারজানা রুমা",
+  "qualification": "MBBS (ময়মনসিংহ Medical College),<br>FCPS (এফপি),<br>(Gynecology and Obs)",
+  "specialty": "Gynecology, Gynecology and প্রশুতিবিদ্যা and<br>বন্ধ্যাত্ব Diseasesর Physician and Surgeon",
+  "hospital": "দি সিটি Hospital",
+  "contact": "01754524793"
+ },
+ {
+  "id": 212,
+  "name": "ডঃ মোহাম্মদ আবু সাঈদ মিয়া",
+  "qualification": "MBBS, BCS (Health)<br>MD-(Child Kidney Diseases), আর এম and<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Child and কিশোর Disease Specialist",
+  "schedule": "Daily: <br>Evening 4 - Night 8 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 213,
+  "name": "ডঃ শাহীন সুলতানা জামান",
+  "qualification": "MBBS, BCS (Health)<br>FCPS (Gynecology and Obs‌্‌) এফ-পি<br>আবাসিক Surgeon (Gynecology)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Obstetrics, Gynecology,স্ত্রী Disease Physician and Surgeon",
+  "schedule": "Daily:<br>Afternoon 3 - Night 8 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 214,
+  "name": "ডঃ মোঃ আবিবুর রহমান ",
+  "qualification": "MBBS, BCS (Health),<br>FCPS (Medicine)  পার্ট-1 <br>PGT (Medicine, নিঊরো Medicine, Cardiology, Gastroenterology)<br>এম.and, National Heart ফাঊন্ডেশন, Dhaka.",
+  "specialty": "Medicine, ডায়াবেটিস, Arthritis-ব্যাথা, Heart Disease, পরিপাকতন্ত্র and Chest Diseases Physician",
+  "schedule": "Daily:<br>Evening 3 - Night 9 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 215,
+  "name": "ডঃ মোঃ আব্দুল লতিফ তালুকদার",
+  "qualification": "MBBS, BCS (Dhaka), ই and এফ (নেপাল),<br>বিশ্ব সাস্থ্য সংস্থার Fellow<br>প্রাক্তন, আর এম and<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Obstetrics, and স্ত্রী Disease Physician and Surgeon",
+  "schedule": "Daily:<br>Morning 9 - Night 8 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 216,
+  "name": "ডঃ ফরিদ আহমেদ‌",
+  "qualification": "MBBS, BCS (Health), FCPS (সার্জারী)<br>Consultant (সার্জারী)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "General সার্জারী, ল্যাপারস্কপিক সার্জারী, Child and Cancer সার্জারী,",
+  "schedule": "Daily.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 217,
+  "name": "ডঃ সুধাংশু কুমার সিংহ",
+  "qualification": "MBBS, BCS (Health), MS (Orthoো)<br>এক্স কন্সালটেন্ট (সার্জারী)<br>জাতীয় Orthopedic Hospital and পুনর্বাসন Everyষ্ঠান (নিটোর)<br>Paralysis Hospital, Sher-e-Bangla Nagar, Dhaka.",
+  "specialty": "হাড়জোড়া Specialist and ট্রMother Surgeon",
+  "schedule": "Daily:<br>Evening 4 - Night 8 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 218,
+  "name": "ডঃ চৌধুরী মহিওর্ষি সিদ্দিকী",
+  "qualification": "MBBS (Dhaka), BCS (সাস্থ্য), সি.সি.ডি (বারডেম)<br>পি.জি.টি (Medicine)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine, ডায়াবেটিস, Arthritis-ব্যাথা,<br>Heart Disease, পরিপাকতন্ত্র and Chest Diseases Physician",
+  "schedule": "Daily:<br>Afternoon 3 - Night 8 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 219,
+  "name": "ডঃ কাজী এনামুল হক",
+  "qualification": "MBBS (স্যার Salimullah), BCS (Health)<br>MD (নেফ্রোলজী), রেসিডেন্সি এক্স (BSMMU)<br>ময়মনসিংহ Medical College Hospital, ময়মনসিংহ.",
+  "specialty": "Medicine and কিডনী Disease Specialist",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 220,
+  "name": "ডঃ কাজী মবিনা আক্তার",
+  "qualification": "MBBS, BCS (Health), এফ.সি.পি.এস, (of্‌স and Gynecology)<br>এম,আর,সি,andজি (London)<br>Obstetrics, Gynecology and বন্ধা Disease Specialist and Surgeon<br>জাতীয় Cancer Hospital, Mohakhali, Dhaka.",
+  "specialty": "Obstetrics, Gynecology and বন্ধা Disease Specialist and Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - Night 5 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 221,
+  "name": "ডঃ মোঃ খুরশিদ আলম",
+  "qualification": "MBBS, BCS (Health), MD (Cardiology)<br>Medicine and Cardiologist<br>জাতীয় Heart Disease Hospital, শের-ই-বাংলা নগর, Dhaka.",
+  "specialty": "Medicine, Arthritisজর and Cardiologist",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 222,
+  "name": "ডঃ মোঃ আসাদুজ্জামান লিটন",
+  "qualification": "MBBS, (ডিএমসি), BCS (Health), FCPS (ইএনটি)<br>Nose,Ear,Throat, and Head Neck সার্জারী Department<br>Dhaka Medical College Hospital, Dhaka.",
+  "specialty": "Nose,Ear,Throat Disease and Head Neck Specialist Surgeon",
+  "schedule": "Every Friday:<br>Morning 9 - বিকাল 5 until.",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>",
+  "contact": "01715-220596<br>01615-220596"
+ },
+ {
+  "id": 223,
+  "name": "ডাঃ নম্রতা বিশ্বাস",
+  "qualification": "MBBS (Dhaka),<br>ডিএ (BSMMU),<br>PGT (Heart Disease, Medicine and Child) ডিএমসি<br><br>Former সিনিয়র Medical অFissure<br>সিকদার Medical College Hospital, Dhaka.<br><br>Consultant (এ্যানেসথেশিয়া Department)<br>ফাতেMother Modern Hospital.<br>রেজি: নং- 47886.",
+  "specialty": "এ্যানেসথেশিয়া, Heart Disease, Medicine and<br>Child Diseases বিশেষ Experienced",
+  "schedule": "Daily",
+  "hospital": "ফাতেMother Modern<br>Hospital",
+  "contact": "01917020000<br>01919737576<br>01917679064"
+ },
+ {
+  "id": 224,
+  "name": "ডাঃ এস এস আলম (রতন)",
+  "qualification": "MBBS (আরএম.সি.এইচ),<br>PGT (Medicine and নিউরলজি),<br>প্রাক্তন ঈ. এম. and and আর. and. ডি (Neuro- সার্জারী)<br>350 Bedবিশিষ্ট আল ঈMotherন General Hospital,<br>সৌদি আরব.<br><br>Medical অFissure<br>ক্যাপিল Hospital",
+  "specialty": "Medicine, Heart Disease, Chest Diseases and<br>নিউরলজি Specialist",
+  "schedule": "Daily:<br>Morning 9- Afternoon 2<br>বিকাল 3- Night 9",
+  "hospital": "ক্যাপিল Hospital",
+  "contact": "01765000920"
+ },
+ {
+  "id": 225,
+  "name": "ডাঃ মাহমুদুল হাসান",
+  "qualification": "MBBS, MS<br>(Child সার্জারী)<br><br>Assistant Professor<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "সার্জারী and Child সার্জারী Specialist",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 226,
+  "name": "ডাঃ ফারজানা রুমা",
+  "qualification": "MBBS (ময়মনসিংহ),<br>FCPS (Gynecology and Obs) এফ.পি<br>সি এম ইউ (আল্ট্রা)<br>প্রাক্তন (আর এস)<br>মুনু Medical College Hospital.",
+  "specialty": "বন্ধ্যাত্ব, Obstetrics, Gynecology Specialist and Surgeon",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 227,
+  "name": "ডাঃ নাছরিন সুলতানা (রত্না)",
+  "qualification": "MBBS (Dhaka), BCS (Health),<br>FCPS (Obstetrics and Gynecology),<br>Consultant (Obstetrics and Gynecology),<br>তিভিএস, ল্যাপারেস্কপি and<br>হিstেরস্কপিতে বিশেষ প্রশিক্ষণপ্রাপ্ত<br>বিMDসি রেজি: নং- 41346",
+  "specialty": "বন্ধ্যাত্ব Obstetrics, Gynecology Specialist and Surgeon",
+  "schedule": "Every <br>Saturday, Sunday, Monday and বুধাবার:<br>বিকাল 4- 8 Night",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 228,
+  "name": "মেজর (অবঃ) ডাঃ মোঃ মোস্তাফিজুর রহমান",
+  "qualification": "MBBS (Dhaka),<br>MPhil (রেডিandলজি and ইমেজিং)<br><br>সচিব<br>জেলা সশস্ত্র বাহিনী বোর্ড, Tangail.",
+  "specialty": "রেডিandলজি and ইমেজিং Specialist",
+  "schedule": "Daily:<br>বিকাল 4- Night 9",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 229,
+  "name": "সহঃ অধ্যাপক ডাঃ রফিক আহমেদ",
+  "qualification": "MBBS (Dhaka), PGT (Medicine),<br>ডিপ্লোMother in Dermatologyটোলজী (ডি. ডি. ভি)<br><br>Assistant Professor<br>Dermatology & Sexual Diseases Department<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Dermatology & Sexual Diseases Specialist",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 230,
+  "name": "ডাঃ শর্মিষ্টা রায়",
+  "qualification": "MBBS, বিবিএস (হেলথ),<br>DCP (BSMMU),<br>andএসডি ডিজিএইচ<br><br>লেকচারার<br>প্যাথলজি Department<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "প্যাথলজি Specialist",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 231,
+  "name": "ডাঃ খঃ মোহাম্মদ আলী",
+  "qualification": "MBBS, BCS (Health),<br>ই. ডি. এস (বারডেম),<br>এফ. সি. পি. এস (শেষ পর্ব),<br>ফিজিক্যাল Medicine and রিহ্যাবিলিটেশন,<br>বি. এম. ডি. সি<br>রেজি: নং- এ-68210<br><br>inডোর Medical অFissure,<br>ফিজিক্যাল Medicine and রিহ্যাবিলিটেশন<br>Dhaka Medical College and Hospital.",
+  "specialty": "Arthritis- ব্যাথা, প্যারালাইসিস and<br>ডায়াবেটিস Physician",
+  "schedule": "Every Friday:<br>Morning 9- বিকাল 5",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 232,
+  "name": "ডাঃ সৈয়দ রানা কবির",
+  "qualification": "MBBS (Dhaka), BCS (Health),<br>MD (নেফ্রলজী) থিসিস<br><br>আরপি (Medicine)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine, গ্যাst্রেLiver and<br>কিডনী Disease Specialist",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 233,
+  "name": "সহযোগী অধ্যাপক<br>ডাঃ মোঃ রফিকুল ইসলাম",
+  "qualification": "MBBS, MD (NeuroMedicine),<br>PhD- Medicine (জাপান),<br><br>MPhil (নিউট্রিশন)<br>National Institute of Neuro সাin্স Hospital",
+  "specialty": "Neuro Medicine and<br>Medicine Specialist",
+  "schedule": "Every ব্রিহস্পতিবার:<br>Afternoon 2- Night 8",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 234,
+  "name": "সহঃ অধ্যাপক<br>ডাঃ মোঃ শাহীমুর পারভেস",
+  "qualification": "MBBS (Dhaka), FCPS (Medicine),<br>ডি- কার্ড (কার্ডিandলজী), পিজি Hospital Dhaka,<br>সিডিসি (বারডেম) হ্যান্ডস ট্রেinিং অন ইককার্ডিandগ্রাফী (in্ডিয়া),<br><br>পোষ্ট গ্র্যাst্রোLiver, Neuroলজী, নিউMotherটলজী, Hormone and Specialist<br>এনাম Medical College Hospital,<br>Dhaka.",
+  "specialty": "Medicine, Heart Disease, Rheumatic Fever and<br>ডায়াবেটিস Specialist",
+  "schedule": "Every Friday:<br>Morning 9- বিকাল 5<br><br>Tuesday:<br>Afternoon 2- Night 8",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 235,
+  "name": "ডাঃ মুনিরা আফরোজ",
+  "qualification": "MBBS (Dhaka), BCS (Health),<br>FCPS (ফাinাল পার্ট)<br><br>সহকারী Registrar Medicine Department<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine Specialist",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 236,
+  "name": "ডাঃ শুভদীপ চন্দ",
+  "qualification": "MBBS, BCS (Health),<br>ডি- কার্ড (BSMMU),<br>কালিহাতি উপজেলা হেলথ কমপ্লেক্স",
+  "specialty": "Medicine and Cardiologist",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 237,
+  "name": "ডাঃ এম. নজরুল ইসলাম",
+  "qualification": "MBBS (Dhaka), BCS (Health),<br>MS (inটি and Head- Neck Surgeon),<br>BCSএমএমইউ<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose, কনা, Throat Disease Specialist and<br>Head- Neck Surgeon",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 238,
+  "name": "ডাঃ হাসান মাহমুদ",
+  "qualification": "MBBS,<br>ট্রেin্ড in General সার্জারী<br><br>General ফিজিশিয়ান, এইচএমand<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "General ফিজিশিয়ান",
+  "schedule": "Daily",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "01870691600<br>01703017066"
+ },
+ {
+  "id": 239,
+  "name": "ডাঃ মোঃ ফরহাদ আলী ",
+  "qualification": "MBBS, BCS (Health)<br>MD(গ্যাst্রোএন্রোলজী) থিসিস<br>FCPS(Medicine)-এফ-পি<br>PGT(মেদিসিন,Cardiology and Neurology)<br>ব্যাথা Treatmentয় উচ্চতর প্রশিক্ষণ প্রাপ্ত <br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়, <br>Dhaka.<br>\n",
+  "specialty": "Medicine, ডায়াবেটিস, ArthritisPain,Heart Disease,<br>Liver and পরিপাকতন্ত্র Specialist ",
+  "schedule": "Every Friday:<br>Morning 9- বিকাল 5",
+  "hospital": "শাপলা Nursing Home <br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01615220596"
+ },
+ {
+  "id": 240,
+  "name": "ডাঃ মাহমুদুল হাসান",
+  "qualification": "MBBS, MS<br>(Child সার্জারী)<br><br>Assistant Professor<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "সার্জারী and<br>Child সার্জারী Specialist",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01684917970"
+ },
+ {
+  "id": 241,
+  "name": "ডাঃ আবু সামা ",
+  "qualification": "MBBS, BCS (Health)<br>PGT(Dermatology and Sexual)<br>টিএইচand, ভূঞাপুর উপজেলা Health <br>কমপ্লেক্স, ভূঞাপুর, Tangail. ",
+  "specialty": "Dermatology and Sexual, Disease Physician ",
+  "hospital": "শাপলা Nursing Home<br>নতুন বাসর্মিনাল, নার্সারি রোড, Tangail.<br>\n",
+  "contact": "01715220596<br>01684917970"
+ },
+ {
+  "id": 242,
+  "name": "ডাঃ মোঃ মনজুরুল হক ",
+  "qualification": "MBBS, MCPS,<br>FCPS(Medicine)<br><br>Associate Professor(Medicine Department)<br>মুগদা Medical College and <br>Hospital, Dhaka<br>প্রাক্তন Associate Professor<br>Dayাজপুর Medical College and Hospital ",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Every Thursday<br>বিকাল 5 - Night 10<br>Every Friday:<br>Morning 9- Dusk 7",
+  "hospital": "Dhaka Clinic<br> ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2 <br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": " ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 243,
+  "name": "ডাঃ মোঃ মনিরুজ্জামান খান ",
+  "qualification": "MBBS, BCS(স্বাস্থ),<br>MS(Orthoো-সার্জারী) ডি-Orthoো<br>(জাতীয় Orthopedic Hospital and পূনর্বাসন Everyষ্ঠান Dhaka)<br>সিনিয়র Consultant (Orthoো সার্জারী)",
+  "specialty": "হাড়-জোড়া,Arthritis-Pain,প্যারালাইসিস and ট্রMother<br>Specialist and Surgeon ",
+  "schedule": "Daily<br>বিকাল 4 - Night 8 <br>Every Friday:<br>Morning 9- Dusk 7",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 244,
+  "name": "ডাঃ মাহমুদুল ইসলাম ",
+  "qualification": "MBBS (Dhaka), BCS (Health),<br>MD(NeuroMedicine) <br>Assistant Professor(NeuroMedicine)<br>National Institute of Neurosciences<br>and Hospital, Dhaka.<br>",
+  "specialty": "Motherথা ব্যাথা, Motherথা ঘুড়া, স্নায়ুDisease,Brain ষ্ট্রোক, <br>স্মৃতিশক্তি কমে যাandয়া, হাত, পা কাপুনী and <br>Obs হandয়া, Mouth বেঁকে যাandয়া, and মৃগী<br>Diseasesর Treatment করা হয়.<br>",
+  "schedule": "Friday <br>Morning 10 - Dusk 6 ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 245,
+  "name": "ডাঃ মোঃ আকমল হোসেন ",
+  "qualification": "MBBS, FCPS <br>MD(ডক্টর of Medicine)<br>Former Child Medicine Specialist<br>Dhaka Child Hospital, Dhaka.<br>",
+  "specialty": "Child Medicine Specialist ",
+  "schedule": "Daily <br>Morning 6 - 2 <br>বিকাল 3 - Night 11<br>Friday <br>Morning 7  - Night 11<br>",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 246,
+  "name": "ডাঃ এ.কে. এম. কামরুজ্জামান ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>FCPS(Medicine)<br>MD(রিউMotherটোলজি)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>Dhaka.<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine and <br>Arthritis-Pain Specialist",
+  "schedule": "Daily<br>বিকাল 5 - Night 8 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 247,
+  "name": "ডাঃ খন্দকার সাজ্জাদ হোসেন ",
+  "qualification": "MBBS (Dhaka),<br> ডিডিভি,  BCS (Health),<br>Consultant (Dermatology and Sexual)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Dermatology & Sexual Diseases Specialist ",
+  "schedule": "Daily <br>বিকাল 5 - Night 8 <br>Friday All day ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 248,
+  "name": "অধ্যাপক ডাঃ <br>নাজির আহমেদ চৌধুরী ",
+  "qualification": "MBBS, ডি-কার্ড<br>এফসিসিপি(আমেরিকা)<br>Professor(Cardiology)<br>National Heartরােগ Institute , Dhaka .",
+  "specialty": "Heart Disease<br>and Rheumatic Fever Specialist ",
+  "schedule": "Friday <br>Morning 10 - Dusk 7 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 249,
+  "name": "অধ্যাপক <br>ডাঃ মোঃ আনওয়ারুল কবির <br>",
+  "qualification": "MBBS, MD(গ্যাst্রোএন্রোলজী)<br>পরিপাকতন্ত্র and Liver Specialist<br>Professor গ্যাst্রোএন্রোলজী Department <br>Bangabandhu Sheikh Mujib Medical<br> বিশ্ববিদ্যালয়, Dhaka.<br>",
+  "specialty": "গ্যাষ্ট্রিক, জন্ডিস, Stomachের পীড়া<br>and Liver Disease Specialist",
+  "schedule": "Friday<br>Morning 10 - Dusk 7 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 250,
+  "name": "অধ্যাপক ডাঃ <br>মোহাম্মদ আলী খান ",
+  "qualification": "MBBS <br>MPhil(বায়ো), Fellow(WHO)<br>স্পেশাল ট্রেin্ড in <br>বায়োMedical সাin্স(থাইল্যান্ড)<br>অধ্যক্ষ<br>Sheikh Hasina Medical College Hospital,<br>Tangail.<br>Consultant,প্যাথলজিষ্ট inচার্জ<br>Dhaka Clinic and Nursing Home<br>",
+  "specialty": "ল্যাবরেটরী <br>Medicine Specialist ",
+  "schedule": "Friday<br>Morning 10 - বিকাল 5",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": " ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 251,
+  "name": "ডাঃ এ.বি.এম<br>মশিয়ুর রহমান ",
+  "qualification": "MBBS<br>DLO <br>Former Associate Professor<br>Dayাজপুর Medical College and Hospital<br>Shaheed Suhrawardy Medical College <br>and Hospital, Dhaka.",
+  "specialty": "Nose Ear Throat Disease<br>Specialist and Surgeon",
+  "schedule": "Thursday: <br>Morning 10 - Afternoon 2<br>বিকাল 5 - Night 8 <br>Friday: <br>Morning 10 - Dusk 7 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 252,
+  "name": "<br>ডাঃ মোহাম্মদ জিল্লুর রহমান ",
+  "qualification": "MBBS, <br>FCPS(সার্জারী)<br>পোষ্ট Fellowশিপ Training in <br>ল্যাপারস্কপিক সার্জারী and <br>andোস্কপি General <br>ল্যাপারস্কপিক and Cancer Surgeon<br>Assistant Professor<br>(সার্জিক্যাল অনকোলজি Department)<br>জাতীয় Cancer গবেষণা in্সটিটিউট<br> and Hospital, Dhaka. ",
+  "specialty": "সার্জারী Specialist ",
+  "schedule": "Friday<br>Morning 10 - Dusk 7 until",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 253,
+  "name": "ডাঃ তাহমিনা আক্তার <br>(ডেইজি) ",
+  "qualification": "MBBS, MCPS,<br>FCPS(Dermatology and Sexual)<br>Assistant Professor(Dermatology and Sexual Department)<br>বারডেম General Hospital and ইব্রাহিম <br>Medical কোলেজ, Dhaka  Friday ",
+  "schedule": " Every Friday <br>Morning 10 - বিকাল 4 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 254,
+  "name": "ডাঃ শাহরিয়ার ওয়াহিদ ",
+  "qualification": "MBBS,MCPS(Medicine)<br>MD(নেফ্রোলজী, BSMMU)<br>Assistant Professor(নেফ্রোলজী)<br>Sir Salimullah Medical College and Hospital,<br>Dhaka.",
+  "specialty": "কিডনী and Medicine Specialist ",
+  "schedule": "Every Monday<br>বিকাল 3 - Night 8 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 255,
+  "name": "ডাঃ সুধাংশু কুমার সাহা",
+  "qualification": "MBBS, MD(নেফ্রোলজী)<br>CCD(বারডেম)<br>বারডেম General Hospital, Dhaka.",
+  "specialty": "কিডনী Disease, Medicine <br>and ডায়াবেটিস Specialist ",
+  "schedule": "Every Friday<br>Morning 9 - বিকাল 5 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 256,
+  "name": "ডাঃ নিলু শারমীন চৌধুরী ",
+  "qualification": "MBBS, <br>FCPS(Obs and Gynecology)<br>BCS(Health) <br>Obstetrics & Gynecology Specialist and Surgeon<br>Consultant(স্ত্রী Disease Department)",
+  "specialty": "Obstetrics & Gynecology<br>Specialist and Surgeon",
+  "schedule": "Daily <br>বিকাল 3 - Dusk 7 until <br>Friday All day ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 257,
+  "name": "ডাঃ মোঃ মিজানুর রহমান ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>MCPS(Medicine)<br>FCPS(Medicine)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Daily <br>Evening 4 - 8 until <br>Friday All day ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 258,
+  "name": "ডাঃ মোঃ সুকুমার সাহা ",
+  "qualification": "MBBS, FCGP<br>Fellow ডব্লিand, এইচand(Motherদ্রাজ and দিল্লী)<br>of: অধ্যক্ষ, Maternity  ",
+  "specialty": "ফ্যমিলি Medicine Specialist ",
+  "schedule": "Daily <br>Morning 9 - Evening 3 <br>বিকাল 5 - Night 8 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 259,
+  "name": "ডাঃ সন্তোষ কুমার সাহা ",
+  "qualification": "MBBS (Dhaka), BCS (Health)<br>PGT(Medicine), PGT(প্যাথলজি)<br>সার্জারীতে বিশেষ Training প্রাপ্ত <br>Medical অFissure ",
+  "specialty": "Medicine, বখব্যাধি <br>and সার্জারীতে বিশেষ Experienced",
+  "schedule": "Daily <br>Morning 10 - 2<br>বিকাল 5 - Night 8 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 260,
+  "name": "ডাঃ মুহা. <br>হারুন অর রশিদ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>ডি-কার্ড(Cardiology)<br>সিনিয়র Consultant and <br>Departmentীয় প্রধান(of:)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Heart Disease and Rheumatic Fever Specialist ",
+  "schedule": "Every <br>Sunday to Wednesday <br>All day ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 261,
+  "name": "ডাঃ এস সি পণ্ডিত",
+  "qualification": "MBBS, BCS,<br>ডি এলand (Dhaka),<br>স্পেশাকাইসজড Training ফর HeadNeck Surgery<br><br>ই.এন. টি স্পেশালিষ্ট<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Nose-Ear-Throat Disease Specialist and<br>Head - Neck Surgeon",
+  "schedule": "Daily <br>Afternoon 2 - বিকাল 4 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 262,
+  "name": "ডাঃ আবদুল্লাহ আল রতন ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>FCPS(Medicine শেষপর্ব)<br>in্রNational ডিপ্লোMother <br>অন এজMother(ইংল্যান্ড)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine, Neurology, Chest Diseases<br>Physician and এজMother(Asthma)<br>Disease Specialist ",
+  "schedule": "Daily <br>বিকাল 3 - Night 8 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 263,
+  "name": "ডাঃ সুজাউদ্দিন তালুকদার ",
+  "qualification": "MBBS(Dhaka),<br>FCPS(Medicine)<br>Consultant(Medicine)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "কিডনী, ডায়াবেটিস, আর্থাইটিস <br>and গ্যাst্রোLiver Specialist  <br>",
+  "schedule": "Daily All day ",
+  "hospital": "আমেনা Clinic <br>and Hospital <br>নতুন বাস র্মিনাল,<br>Tangail ",
+  "contact": "01711935290"
+ },
+ {
+  "id": 264,
+  "name": "ডাঃ তাহুরা তাজ লাইজু ",
+  "qualification": "এমববিএস,<br> MCPS(Gynecology and Obs)<br>FCPS(Gynecology and Obs)<br>Consultant Surgeon(Gynecology and Obs)",
+  "specialty": "Gynecology Specialist and Surgeon ",
+  "schedule": "Daily All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "\t01711935290"
+ },
+ {
+  "id": 265,
+  "name": "ডাঃ মোঃ ফখরুল <br>আমিন বাদল ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>MD(নবজাতক Child)<br>আরপি(Child Department)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Child and নবজাতক <br>Disease Specialist ",
+  "schedule": "Daily All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 266,
+  "name": "ডাঃ গৌরাঙ্গ কুমার বসু",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Surgery)<br><br>Assistant Professor (Surgery)<br>Sheikh Hasina Medical College Hospital,<br>Tangail..",
+  "specialty": "Surgery Specialist and Surgeon",
+  "schedule": "Daily ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 267,
+  "name": "ডাঃ শামীমা নাসরিন ",
+  "qualification": "MBBS, PGT(Gynecology and Obs)<br>FCPS(Gynecology and Obs)<br>সিএমইউ(Dhaka)<br>Sheikh Hasina Medical College Hospital,<br>Tangail..",
+  "specialty": "Gynecology Physician and Surgeon",
+  "schedule": "Daily ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 268,
+  "name": "ডাঃ মাধব চন্দ্র সেন ",
+  "qualification": "MBBS, BCS (Health)<br>PGT(Medicine and Child)<br>প্রাক্তন Medical অFissure,<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine Specialist ",
+  "schedule": "Daily ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 269,
+  "name": "অধ্যাপক ডাঃ এম এ রহিম মিয়া ",
+  "qualification": "MBBS, MD(গ্যাst্রোএন্রোলজী)<br>Professor and চেয়ারম্যান(গ্যাst্রোএন্রোলজী Department)<br>BSMMU(পিজি Hospital)<br>Dhaka. ",
+  "specialty": "পরিপাকতন্ত্র (Gastric),Liver<br>and Medicine Specialist ",
+  "schedule": "Friday All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 270,
+  "name": "অধ্যাপক <br>ডাঃ গোলাম মুক্তাদির",
+  "qualification": "MBBS,DLO<br>MS(ইএনটি)<br>Fellow in Microসার্জারী(থাইল্যান্ড)<br>অধ্যক্ষ <br>আদ- দ্বীন সখিনা Medical College, যশোর ",
+  "specialty": "Nose, Ear, Throat Disease Specialist ",
+  "schedule": "Friday All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 271,
+  "name": "অধ্যাপক ডাঃ রহমাতুল বারী ",
+  "qualification": "MBBS, ডিসিএম,DTCD<br>Professor Medicine Department<br>আশিয়ান Medical College Hospital, Dhaka ",
+  "specialty": "Chest Diseases and Medicine Specialist ",
+  "schedule": "Friday All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 272,
+  "name": "ডাঃ মোঃ ইমদাদুল হক ",
+  "qualification": "MBBS, ডিডি(থাইল্যান্ড)<br>ডিডি(জাপান)<br>Dhaka Medical College  Hospital<br>Dhaka  ",
+  "specialty": "Dermatology,Sexual(Sex),এলার্জী<br>and কুষ্টDisease Specialist ",
+  "schedule": "Friday All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 273,
+  "name": "ডাঃ সোলাইমান হোসেন ",
+  "qualification": "MBBS,MD(Cardiology)<br>এফএপিএসআইসি<br>Associate Professor(Cardiology)<br>এনাম Medical College and Hospital<br>সাভার, Dhaka ",
+  "specialty": "Heart Disease, Medicine <br>and Rheumatic Fever Specialist ",
+  "schedule": "Friday All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 274,
+  "name": "ডাঃ এস, এম, রোকনুজ্জামান ",
+  "qualification": "MBBS(Dhaka)<br>MS(Orthoো: সার্জারী)<br>Assistant Professor(Orthopedic and ট্রMother সার্জারী)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "হাড়, জোড়া, আঘাতজনিত and<br>Paralysis Specialist Surgeon ",
+  "schedule": "Thursday '<br>বিকাল 3 - 7 until <br>Friday All day ",
+  "hospital": "আমেনা Clinic<br>and Hospital<br>নতুন বাস র্মিনাল,<br>Tangail",
+  "contact": "01711935290"
+ },
+ {
+  "id": 275,
+  "name": "ডাঃ একে এম জায়েদুল হক ",
+  "qualification": "MBBS, MD(Dermatology & Sexual Diseases)<br>BSMMU(পিজি Hospital)<br>সিডিডি(ডায়াবেটোলজী) বারডেম <br>Assistant Professor <br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Dermatology,Sexual, Allergy<br>and Sex Specialist ",
+  "schedule": "শনি and Wednesday <br>বিকাল 3 - Night 8 until ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 276,
+  "name": "ডাঃ নিছফুন নাহার ",
+  "qualification": "MBBS,MCPS, ডিজিand<br>FCPS(Gynecology and Obs)<br>Consultant(Gynecology and Obs)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Gynecology Specialist and Surgeon ",
+  "schedule": "Daily<br>বিকাল 4 - Night 8 until ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 277,
+  "name": " ডাঃ খন্দকার হারুন-অর-রশিদ",
+  "qualification": "MBBS(Dhaka), BCS (Health)<br>MD(Cardiology)<br>Consultant(Cardiology)<br>",
+  "specialty": "Rheumatic Fever and Cardiologist",
+  "schedule": "Daily<br>বিকাল 4 - Night 8 until",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": " 01740614450"
+ },
+ {
+  "id": 278,
+  "name": "ডাঃ আব্দুল্লাহ আল-মুতী ",
+  "qualification": "MBBS, BCS (Health)<br>FCPS(Medicine)<br>Consultant(Medicine)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Chest Diseases, গ্যাst্রোLiver,<br>স্নায়ুDisease, ডায়াবেটিস,কিডনী<br>আর্থাইটিসের Specialist<br>Physician ",
+  "schedule": "Daily <br>বিকাল 3 - Night 8 until ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 279,
+  "name": "ডাঃ মোঃ মাসুদ পারভেজ",
+  "qualification": "এম.ডি(General Medicine)<br>সি.এম.ইউ(এম.ইউ. টি.সি) ময়মনসিংহ<br>General ফিজিসিয়ান অফ ইউক্রেন<br>উজহরদ National ইউনিভার্সিটি, উজহরদ, ইউক্রেন",
+  "specialty": "Medicine,Arthritis-Pain,Chest Diseases, ষ্টোক,প্যারালাইসিস,<br>Liver,কিডনী, Heart Disease,and ডায়াবেটিস<br>Diseasesর Physician and আলট্রাসনোলজিষ্ট",
+  "schedule": "Daily <br>Morning 9 - Night 8 until ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 280,
+  "name": "ডাঃ মোঃ আয়ুব আলী ",
+  "qualification": "MBBS(Dhaka), DCH(Dhaka)<br>FCPS(Child Medicine)<br>MD(নবজাতক Child)<br>Former সিনিয়র Consultant <br>General Hospital Tangail<br>Professor and Departmentীয় প্রধান<br>(নবজাতক Child Department)<br>ময়মনসিংহ Medical College and Hospital.",
+  "specialty": "নবজাতক, Child and কিশোর<br>Disease Specialist ",
+  "schedule": "Every Friday<br>Morning 9 - Night 8 until ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 281,
+  "name": "ডাঃ কে. এম. মামুন <br>মোর্শেদ ",
+  "qualification": "MBBS,<br>PGT(ইএনটি)<br>DLO(ইএনটি)<br>Associate Professor (ইএনটি)<br>Deputy Director<br>Shaheed Suhrawardy Medical College <br>and Hospital, Dhaka. ",
+  "specialty": "Nose-Ear-Throat Disease Specialist and<br>Head - Neck Surgeon",
+  "schedule": "Every Friday<br>Morning 10 - বিকাল 5 until",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": " 01740614450"
+ },
+ {
+  "id": 282,
+  "name": "ডাঃ মোঃ আহসান হাবিব ",
+  "qualification": "MBBS(Dhaka), BCS (Health)<br>FCPS(সার্জারী)<br>MRCS(Edinburgh, ইংল্যান্ড)<br>MS(কলোরেক্ল সার্জারী)<br>BSMMU<br>Assistant Professor, সার্জারী <br>কলোরেক্ল Surgeon ",
+  "specialty": "সার্জারী Specialist ",
+  "schedule": "Every Thursday <br>বিকাল 4 - Night 8 until<br>Friday All day ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 283,
+  "name": "ডাঃ আহমেদ লুথফুল মুবীন ",
+  "qualification": "MBBS(Dhaka), BCS (Health)<br>MD(হেপাটোলজি)<br>বিএসএমঅএমইউ<br>(Former পিজি Hospital)<br>",
+  "specialty": "Liver Specialist and andোসকপিষ্ট ",
+  "schedule": "Friday All day ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 284,
+  "name": "ডাঃ আনোয়ার হোসেন ",
+  "qualification": "MBBS(Dhaka)<br>MD(Medical অনকোলজি)<br>রেজিষ্র - Medical অনকলোজি Department<br>জাতীয় Cancer Hospital, Mohakhali, Dhaka.",
+  "specialty": "Cancer Specialist and Medical <br>অনকোলজিষ্ট ",
+  "schedule": "Every Thursday<br>বিকাল 5 - Night 8 until<br>Friday All day",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": " 01740614450"
+ },
+ {
+  "id": 285,
+  "name": "ডাঃ মোঃ মাহ্মুদ-উর-রহমান<br>(মাসুদ)",
+  "qualification": "MBBS, BCS (Health)<br>MS(Urology)<br>রেজিষ্র-Urology Department <br>Sir Salimullah Medical College<br>Mitford Hospital, Dhaka ",
+  "specialty": "কিডনী, মুত্রনালী, মুত্রথলি, প্রstেট <br>and পুরুষ বন্ধাত্ব Diseasesর Specialist <br>and Surgeon ",
+  "schedule": "Friday All day ",
+  "hospital": "এশিয়া Hospital<br>ময়মনসিংহ রোড<br>(নতুন পানির ট্যাংকির Skilledিণে)<br>হক মঞ্জিল,সাবালিয়া, Tangail.",
+  "contact": "01740614450"
+ },
+ {
+  "id": 286,
+  "name": "ডাঃ শাহ্‌ আলম মিয়া ",
+  "qualification": "MBBS, BCS (Health)<br>MD(গ্যাst্রোএন্রোলজী)<br>গ্যাst্রোএন্রোলজী Department <br>শেখ রাসেল গ্যাষ্ট্রোLiver in্সটিটিউট <br>and Hospital, Mohakhali,Dhaka. <br>\n",
+  "specialty": "গ্যাষ্ট্রিক, জন্ডিস, Stomachের পীড়া <br>Liver Diseasesের Specialist ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 287,
+  "name": "ডাঃ হাসিনাতুল জান্নাত (সুমি)",
+  "qualification": "MBBS,<br>FCPS(Medicine)<br>MD(নেফ্রোলজি)<br>National in্সটিটিউট of কিডনী<br>and Urology, Dhaka ",
+  "specialty": "কিডনী and Medicine Disease<br>Specialist ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 288,
+  "name": "ডাঃ মোঃ আব্দুল্লাহ আল মামুন ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>MD(সাইকিয়াট্রি)<br>জাতীয় Motherনসিক Health in্সটিটিউট <br>শেরে বাংলা ঙ্গর,Dhaka ",
+  "specialty": "Motherনসিক, Addictionি and <br>Sex Disease Specialist ",
+  "schedule": "Every Friday <br>Morning 9 - বিকাল 5 until ",
+  "hospital": "Dhaka Clinic<br>ইউনিট-1<br>জেলা Sadar রোড,<br>আকুর কুর পাড়া, Tangail<br>ইউনিট-2<br>Sheikh Hasina Medical College<br>and Hospital রোড, সাবালিয়া<br>Tangail",
+  "contact": "ইউনিট-১<br>092163202<br>01614326287<br>01711476095<br>ইউনিট-২<br>01799639363<br>01711476095"
+ },
+ {
+  "id": 289,
+  "name": "ডাঃ  এ কে এম ইমতিয়াজ আকন্দ ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>MRCP(London)<br>MCPS(Medicine)<br>MD(Cardiology)<br>in্রনাল Medicine and Cardiologist <br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>Dhaka.<br>রেজি: ন:- এ - 56455",
+  "specialty": "Medicine, Heart Disease, Chest Diseases <br>Rheumatic Fever and ডায়াবেটিস <br>Disease Specialist ",
+  "schedule": "Every Friday <br>Morning 9 - বিকাল 5 until ",
+  "hospital": "আধুনিক Clinic and Hospital <br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail ",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 290,
+  "name": "ডাঃ মোঃ মোস্তাফিজুর <br>রহমান",
+  "qualification": "MBBS(Dhaka), BCS(স্বাস্থ)<br>MD(ফিজিক্যাল Medicine)<br>ফিজিক্যাল Medicine Department<br>Dhaka Medical College <br>and Hospital, Dhaka <br>রেজি: ন:- এ - 58345 ",
+  "specialty": "Arthritis, Pain, প্যারালাইসিস<br>হাড়ের জয়েন্টে Pain and<br>স্পাin রিহ্যাব Medicine<br>Specialist ",
+  "schedule": "Every Friday<br>Morning 9 - বিকাল 5 until",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 291,
+  "name": "ডাঃ মাহবুব আলম সোহাগ ",
+  "qualification": "MBBS(Dhaka)<br>ডিএলইউ(BSMMU)<br>কনসাল্টেন্ট (ইএনটি Department)<br>ইএনটি  and Head Neck <br>Cancer Hospital, Dhaka <br>রেজি: ন:- এ - 62587",
+  "specialty": " Nose, Ear, Throat Specialist and <br>Head-Neck  Surgeon ",
+  "schedule": "Every Friday<br>Morning 9 - বিকাল 5 until",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 292,
+  "name": "ডাঃ শরীফ রায়হান সিদ্দিকী ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>MD(নেফ্রোলজি)<br>BSMMU <br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়,<br>Dhaka.<br>রেজি: ন:- এ - 42524 ",
+  "specialty": "Medicine and কিডনী Disease <br>Specialist ",
+  "schedule": "Every Friday<br>Morning 9 - বিকাল 5 until",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 293,
+  "name": "ডাঃ হোসনে আরা নিশাত ",
+  "qualification": "MBBS(Dhaka) <br>ডিএমইউডি(আল্ট্রা) Dhaka<br>CCD(বারডেম)<br>PGT(Gynecology and Obs)<br>Sheikh Hasina Medical College and Hospital <br>Tangail ",
+  "specialty": "Gynecology and স্ত্রী Disease<br>Physician and Surgeon ",
+  "schedule": "Daily Afternoon 3 - Dusk 6 <br>Friday All day ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 294,
+  "name": "ডাঃ কামরুন্নাহার ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>FCPS(সার্জারী)<br>এফপি, MS(সার্জারী)<br>Specialist Surgeon<br>Dhaka Medical College and Hospital <br>Dhaka ",
+  "specialty": "মহিলা General Surgeon ",
+  "schedule": "Every Friday<br>Morning 9 - বিকাল 5 until",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 295,
+  "name": "ডাঃ মোঃ কামরুল ইসলাম<br>(উজ্জ্বল)",
+  "qualification": "MBBS(Dhaka), BCS(স্বাস্থ)<br>MS(Urology- BSMMU)<br>andোল্যাপারস্কপিক  and লেজার Urologyst <br>and Surgeon,স্পেশাল in্রেst in stোন<br>সার্জারী, ইউরো অনকোলজি <br>কনসাল্টেন্ট Urologyst and Surgeon<br>National in্সটিটিউট of কিডনী <br>Diseases and Urology(নিকডু)<br>Sher-e-Bangla Nagar, Dhaka <br>বিMDসি রেজি: এ-46288",
+  "specialty": "কিডনী and মুত্রতন্ত্রের পাথর and Cancer<br>মুত্রনালী, মুত্রথলী, প্রোstেট<br>অণ্ডকোষ, পুরুষাঙ্গ and Sex <br>Specialist Surgeon ",
+  "schedule": "Every Friday<br>Morning 9 - সন্ধ্য6 until",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 296,
+  "name": "ডাঃ মোঃ মাঈনুল ইসলাম ",
+  "qualification": "MBBS(Dhaka)<br>MD(NeuroMedicine)CCD<br>ইডিসি(বারডেম)<br>ময়মনসিংহ  Medical College Hospital ",
+  "specialty": "ব্রেন Medicine, Psychiatry,<br>প্যারালাইসিস,Motherথা ব্যাথা<br>ব্রেনStroke and স্পাin Specialist <br>\n",
+  "schedule": "Every Friday<br>Morning 9 - বিকাল 5 until",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 297,
+  "name": "সহকারী অধ্যাপক <br>ডাঃ গৌরাঙ্গ কুমার বসু",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Surgery)<br><br>Assistant Professor (Surgery)<br>Sheikh Hasina Medical College Hospital,<br>Tangail..",
+  "specialty": "Surgery Specialist and Surgeon",
+  "schedule": "Daily <br>Afternoon 3 - Night 8 until <br>Friday All day ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 298,
+  "name": "ডাঃ মোঃ আসাদুজ্জামান ",
+  "qualification": "MBBS(Dhaka), BCS(স্বাস্থ)<br>MS(Urology and Child সার্জারী)<br>Assistant Professor(ইউরলোজী Department)<br>Dhaka Medical College and Hospital ",
+  "specialty": "General ল্যাপারোস্কপিক, কিডনী <br>and মুত্রতন্ত্রের পাথর প্রোstেট<br>অণ্ডকোষ, পুরুষাঙ্গ and Child ইউরোলজী সার্জারী <br>Specialist ",
+  "schedule": "Every Tuesday<br>Afternoon 3 - Dusk 7 until ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 299,
+  "name": "ডাঃ মোঃ মোফাখ খাইরুল <br>ইসলাম (আশেক)",
+  "qualification": "MBBS(Dhaka)<br>ডিএমইউ(Dhaka)<br>এক্স Medical অFissure<br>এনাম Medical College and <br>Hospital, সাভার, Dhaka <br>রেজি: ন:- এ - 99848",
+  "specialty": "Medicine, Chest Diseases, গ্যাst্রোLiver,<br>Arthritis Pain and Urology Diseasesর <br>Specialist ",
+  "schedule": "Daily Morning 9 - Night 8<br>until ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 300,
+  "name": "ডাঃ মোঃ মনিরুজ্জামান খান ",
+  "qualification": "MBBS(Dhaka), BCS(স্বাস্থ)<br>(ডি-Orthoো), MS(Orthoো-সার্জারী)<br>সিনিয়র কনসাল্টেন্ট(Orthoো-সার্জারী)",
+  "specialty": "হাড় জোরা,Arthritis-Pain,প্যারালাইসিস and ট্রMother<br>Specialist and Surgeon",
+  "schedule": "Daily অনকল ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 301,
+  "name": "ডাঃ রামপদ রায় ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>FCPS(Child Medicine)শেষ পর্ব<br>উপজেলা Health and পরিবার পরিকল্পনা <br>কর্মকর্তা, Tangail Sadar <br>বিMDসি রেজি: ন:- এ - 37890",
+  "specialty": "নবজাতক and Child বিষয়ে Experienced <br>and General ফিজিশিয়ান <br>\n",
+  "schedule": "Daily Afternoon 3 - Night 8<br>Friday ব্যতিত ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 302,
+  "name": "ডাঃ সনিয়া ইয়াসমিন ",
+  "qualification": "MBBS,<br>PGT(Gynecology and Obs)<br>ডিএমইউ(আল্ট্রা)<br>টিভিএস(Dhaka)<br>প্রাক্তন এইচএমand(HMO)<br>Sheikh Hasina Medical College Hospital,<br>Tangail. ",
+  "specialty": "Gynecology and স্ত্রী Diseasesর Physician <br>and Surgeon",
+  "schedule": "Daily <br>Morning 9 - Night 8 until ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 303,
+  "name": "ডাঃ মেহেদী হাসান ",
+  "qualification": "MBBS(Dhaka)PGT(Medicine)<br>ডিএমইউ(মেডিকেয়ার জাপান)<br>Nose Ear and Throat Diseasesর বিশেষ প্রশিক্ষণ প্রাপ্ত<br>Sheikh Hasina Medical College and Hospital,<br>Tangail.<br>বিMDসি রেজি: ন:- এ - 96952",
+  "specialty": "Medicine, Chest Diseases, গ্যাst্রোLiver,<br>Arthritis Pain and Urology Diseasesর<br>Specialist ",
+  "schedule": "Daily All day ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 304,
+  "name": "ডাঃ মোঃ সাজেদুর রহমান ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>MPhil(বায়ো কেমিষ্ট্রি)<br>Sheikh Hasina Medical College and Hospital<br>Tangail ",
+  "specialty": "প্যাথলজি Specialist ",
+  "schedule": "Daily All day ",
+  "hospital": "আধুনিক Clinic and Hospital<br>শাহীন ভিলা, ময়মনসিংহ রোড<br>(পাandয়ার হাউজের Skilledিণে,<br>কুমুDayি কলেজ মোড়)<br>Tangail",
+  "contact": "01308027750<br>01308027752"
+ },
+ {
+  "id": 305,
+  "name": "ডাঃ রাজীব পাল চৌধুরী <br>\n",
+  "qualification": "ডি-কার্ড(Cardiology)<br>CCD(বারডেম)<br>FCPS(Medicine), এফপি<br>রেজি: ন:- এ - 48193",
+  "specialty": "Medicine, Heart Disease, Rheumatic Fever <br>and ডায়াবেটিস Specialist  ",
+  "schedule": "Daily All day ",
+  "hospital": "গ্রীন ল্যাব Hospital <br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail<br> ",
+  "contact": "01788680396 "
+ },
+ {
+  "id": 306,
+  "name": "ডঃ সুধাংশু কুমার সিংহ",
+  "qualification": "MBBS, BCS (Health), MS (Orthoো)<br>এক্স কন্সালটেন্ট (সার্জারী)<br>জাতীয় Orthopedic Hospital and পুনর্বাসন Everyষ্ঠান (নিটোর)<br>Paralysis Hospital, Sher-e-Bangla Nagar, Dhaka.",
+  "specialty": "হাড়জোড়া Specialist and ট্রMother Surgeon",
+  "schedule": "অনকল ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 307,
+  "name": "ডাঃ গৌরাঙ্গ কুমার বসু ",
+  "qualification": "MBBS,<br>BCS (Health),<br>FCPS (Surgery)<br><br>Assistant Professor (Surgery)<br>Sheikh Hasina Medical College Hospital,<br>Tangail..",
+  "specialty": "Surgery Specialist and Surgeon",
+  "schedule": "অনকল ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 308,
+  "name": "ডাঃ মোঃ তৌহিদুজ্জামান ",
+  "qualification": "MBBS<br>PGT(Child)<br>সিএমইউ(Dhaka),Medical অFissure <br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "Child Disease বিষয়ে Experienced ",
+  "schedule": "Daily All day ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "\t01788680396"
+ },
+ {
+  "id": 309,
+  "name": "ডাঃ বিপ্লব কুমার পোদ্দার ",
+  "qualification": "MBBS, <br>MPhil(রেডিandলজি and ইমেজিং)<br>BCS(Health)<br>রেডিandলজিst <br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "সনোলজিst ",
+  "schedule": "Daily ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 310,
+  "name": "ডাঃ সানজিদা আক্তার ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>FCPS, এফপি <br>জুনিয়র লেকচারার, Medical <br>এসিstেন্ট Training স্কুল,<br>Tangail <br>\n",
+  "specialty": "Gynecology Specialist and Surgeon ",
+  "schedule": "Daily ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 311,
+  "name": "অধ্যাপক ডাঃ মোঃ <br>আবদুর রহিম ",
+  "qualification": "MBBS, FCPS(Medicine)<br>MD(in্রNational Medicine)<br>Professor and চেয়ারম্যান(in্রNational <br>Medicine Department )<br>BSMMU(পিজি Hospital), Dhaka. ",
+  "specialty": "Medicine, কিডনী, ডায়াবেটিস<br>and Hormone Specialist ",
+  "schedule": "Friday ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "\t01788680396"
+ },
+ {
+  "id": 312,
+  "name": "ডাঃ সন্দীপন মালাকার ",
+  "qualification": "MBBS(Dhaka), BCS(স্বাস্থ)<br>FCPS(Medicine),শেষ পর্ব<br>সিসি- ডায়াবেটোলজি(বারডেম)<br>MD নেফ্রোলজি(কোর্স)<br>Dhaka Medical College Hospital ",
+  "specialty": "Medicine, Heart Disease,  ডায়াবেটিস  <br>ArthritisPain and কিডনী Disease  <br>Physician ",
+  "schedule": "Friday ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 313,
+  "name": "ডাঃ এস এম ইমরান আলী ",
+  "qualification": "MBBS(Dhaka),BCS(Health)<br>PGT(স্কিন,Sexual and Sex)<br>এমপিএইচ(Dhaka)<br>আইএমসিআই(Child)<br>এফ আরএসএইচ(London)<br>CCD(বিআইআরডিএম)<br>ডায়াবেটিandলজি, আইসিডব্লিউ(ভারত)<br>জিআরএফটিসিএইচ(জাপান)<br>Assistant Professor,<br>Dhaka Medical College ",
+  "specialty": "Dermatology,Sexual, Sex, জনHealth and <br>ডায়াবেটিস Specialist ",
+  "schedule": "Friday ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 314,
+  "name": "ডাঃ পি কে রায় ",
+  "qualification": "MBBS, BCS(স্বাস্থ)<br>MS(Urology)<br>BSMMU বিশেষ প্রশিক্ষণ <br>(ইউরো সনোগ্রাফী, andোস্কোপি, ল্যাপারোস্কপি)<br>Consultant Urologyst,<br>রিসার্চ এসিstান্ট(ট্রান্সপ্লান্ট)<br>National Institute of<br>Kidney Diseases and Urology,",
+  "specialty": "কিডনী, মুত্রনালী, মুত্রথলি, প্রstেট,Sexualতন্ত্র and <br>পরুষ বন্ধ্যাত্ব Specialist Surgeon ",
+  "schedule": "Friday ",
+  "hospital": "গ্রীন ল্যাব Hospital<br>নুতুন বাস র্মিনাল, নার্সারী<br>রোড, কোদালিয়া, Tangail",
+  "contact": "01788680396"
+ },
+ {
+  "id": 315,
+  "name": "ডাঃ মোঃ শফিকুর রহমান ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>MS(চক্ষু) <br>ট্রেin্ড ঈন অরবিস(আমেরিকা)<br>ট্রেin্ড in ফ্যাকো সার্জারী(এনআইand)<br>ট্রেin্ড in আকুলো প্লাষ্টিক সার্জারী(এনআইand)<br>চক্ষু Specialist and ফ্যাকো Surgeon ",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon ",
+  "schedule": "Daily All day ",
+  "hospital": "রোকেয়া আই কেয়ার <br>and ফ্যাকো Center ",
+  "contact": "01791256517<br>01710976511<br>01709175600"
+ },
+ {
+  "id": 316,
+  "name": "মোঃ মনিরুজ্জামান ",
+  "qualification": "ডিandএলভি(Uni SA)<br>কন্ট্রাক্ট লেন্স Specialist <br>অপটোমেসটিst and অট inচার্জ <br>এক্স সিনিয়র অপটোমেসটিst <br>লাin পারভিন ফিরোজ আই Hospital,<br>এলেঙ্গা",
+  "specialty": "আই পিজিশিয়ান ",
+  "schedule": "Daily All day ",
+  "hospital": "রোকেয়া আই কেয়ার <br>and ফ্যাকো Center ",
+  "contact": "01751667398<br>01842667398"
+ },
+ {
+  "id": 317,
+  "name": "ডাঃ কে এম মিজানুর রহমান ",
+  "qualification": "MBBS(রামেক), BCS(Health)<br>FCPS(চক্ষু)<br>জাতীয় চক্ষু বিজ্ঞান <br>in্সটিটিউট and Hospital<br>Sher-e-Bangla Nagar, Dhaka  ",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Every Friday <br>Morning 9 - Dusk 7 until",
+  "hospital": "বটতলা চক্ষু Hospital ",
+  "contact": "0173155852<br>01609825781"
+ },
+ {
+  "id": 318,
+  "name": "ডাঃ আব্দুল হাই ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>ডিand(BSMMU)<br>এক্স পিজি Hospital <br>চক্ষু Specialist and ফ্যাকো Surgeon<br>Consultant (অরথালমোলজি)<br>শেখ ফজিলাতুন্নেসা মুজিব আই Hospital <br>and ট্রিনিং in্সটিটিউট, গোপাল্গঞ্জ.",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Daily ",
+  "hospital": "বটতলা চক্ষু Hospital",
+  "contact": "\n<br>01713498257<br>01631485815"
+ },
+ {
+  "id": 319,
+  "name": "ডাঃ জেসমিন উদ্দিন ",
+  "qualification": "ডিandএলভি(আই )- অপটোমেট্রিst <br>এমপিএইচand(অপথালমোলজি)<br>বিএসলিটি(Dhaka)<br>ডিএমএ(সাভার) <br>\n",
+  "specialty": "চক্ষু Specialist ",
+  "schedule": "Daily ",
+  "hospital": "বটতলা চক্ষু Hospital",
+  "contact": "01739514451<br>01707865673"
+ },
+ {
+  "id": 320,
+  "name": "ডাঃ বি কে সাহা ",
+  "qualification": "MD(মস্কো)<br>সিand(চক্ষু)",
+  "specialty": "চক্ষু Specialist <br>and ফ্যাকো Surgeon",
+  "schedule": "Morning 9 - Afternoon 2 <br>Evening 5 - Night 7 <br>সাপ্তাহিক বন্ধ Tuesday ",
+  "hospital": "আই কেয়ার Center <br>জেলা Sadar রোড <br>আকুর কুর পাড়া,<br>Tangail <br>\n",
+  "contact": "01711137392 <br>092164529"
+ },
+ {
+  "id": 321,
+  "name": "ডাঃ খন্দকার হারুন অর রশিদ ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>MD(Cardiology)<br>Consultant(Cardiology)<br>Sheikh Hasina Medical College Hospital<br>Tangail  ",
+  "specialty": "Medicine, Rheumatic Fever <br>and Cardiologist",
+  "schedule": "Evening 3 - Night 8 until ",
+  "hospital": "ল্যব জোন and Hormone Center <br>ডিst্রিক গেটের পুর্ব পাশে <br>সাবালিয়া, Tangail ",
+  "contact": "01816411350<br>01313774335"
+ },
+ {
+  "id": 322,
+  "name": "ডাঃ সাঈদ সালেহীন ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>Assistant Professor(প্যাথলজী)<br>Sheikh Hasina Medical College and Hospital <br>Tangail <br>হিষ্টো and সাইটোপ্যাথলজিষ্ট ",
+  "specialty": "হিষ্টো and সাইটোপ্যাথলজিষ্ট ",
+  "schedule": "Daily ",
+  "hospital": "ল্যব জোন and Hormone Center<br>ডিst্রিক গেটের পুর্ব পাশে<br>সাবালিয়া, Tangail",
+  "contact": "01816411350<br>01714027305<br>01714789081"
+ },
+ {
+  "id": 323,
+  "name": "ডাঃ মোঃ ওয়েস করনী ",
+  "qualification": "MBBS, BCS(Health)<br>MD(প্যাথলজী)<br>Sheikh Hasina Medical College and Hospital <br>Tangail. ",
+  "specialty": "হিষ্টো and সাইটোপ্যাথলজিষ্ট ",
+  "schedule": "Daily ",
+  "hospital": "ল্যব জোন and Hormone Center<br>ডিst্রিক গেটের পুর্ব পাশে<br>সাবালিয়া, Tangail",
+  "contact": "01816411350<br>01714027305<br>01714789081"
+ },
+ {
+  "id": 324,
+  "name": "ডাঃ সুবীর কুমার সরকার ",
+  "qualification": "বিডিএসডি(Dhaka), <br>PGT(ডেন্টিst্রি)<br>শহীদ সোহরাandয়ার্দী Hospital,Dhaka <br>স্পেশাল Training অন এস্থেটিক্স ,Motherলয়েশিয়া <br>এডভান্স Training in আন্ডোডন্টিক(Motherহিদুল<br>ইউনিভার্সিটি), থাইল্যান্ড <br>প্রাক্তন লেকচারার and Surgeon <br>কুমুDayি উইমেন্স Medical <br>কলেজ and Hospital<br>বিMDসি রেজি: নং - 4972  ",
+  "specialty": "Dental Surgeon ",
+  "schedule": "Daily <br>Morning 10 - Afternoon 1<br>বিকাল 4 - Night 9  ",
+  "hospital": " কমফোর্ট Dental সার্জারী <br>মেডিকো Hospitalের পশ্চিম পাশে<br>2য় তলা, Tangail ",
+  "contact": "01767706005<br>01689179242"
+ },
+ {
+  "id": 325,
+  "name": "ডাঃ বংশী গোপাল সরকার ",
+  "qualification": "বিএসসি(Dhaka), বিডিএস(Dhaka)<br>BCS(Health)",
+  "specialty": "Mouth and দন্ত Disease Specialist<br>and Dental Surgeon <br>\n",
+  "schedule": "Daily<br>Morning 9 - 1 <br>বিকাল 3: 30 - 6 until <br>Friday <br>Morning 9 - 1 until <br>বিকাল বন্ধ  ",
+  "hospital": "বরণি andরাল and Dental কেয়ার<br>বাজিতপুর রোড, ছয়আনি<br>পুকুর পাড়, থানা পাড়া Tangail",
+  "contact": "01737042499<br>01715087988 "
+ },
+ {
+  "id": 326,
+  "name": "ডেন্টিষ্ট<br>জাহিদ হাসান রানা ",
+  "qualification": "DMDটি(Dhaka)<br>Bangladesh  রাষ্ট্রীয় <br>Treatment অনুষদ<br>রেজি: নং- 10784 <br>এফটি Dhaka Dental কলেজ Hospital <br>সিপিআর(বারডেম Hospital)<br>\n",
+  "specialty": "Mouth and দন্ত  Treatment <br>প্রযুক্তিবিদ",
+  "schedule": "Daily <br>Morning 10 - Night 8",
+  "hospital": "Mother andরাল and <br>ডিজিল কেয়ার<br>জাহাঙ্গীর স্মৃতি Serviceশ্রম<br>শান্তিকুঞ্জ মোড়,<br>মেin রোড, Tangail ",
+  "contact": "01712292223<br>01612292223 "
+ },
+ {
+  "id": 327,
+  "name": "ডাঃ মোঃ তারিকুল <br>হাসান খান ",
+  "qualification": "বিডিএস(Dhaka Dental কলেজ)<br>রেজি: নং - 1480",
+  "specialty": "Mouth and দন্ত Disease <br>Specialist and Surgeon <br>রুট ক্যানেল and ক্যাপব্রীজ স্পেশালিষ্ট ",
+  "schedule": "Morning 10:30 - 1:30<br>বিকাল 4:30 - 8:30 until ",
+  "hospital": "কসমেটিক Dental <br>সার্জারী and ইমপ্ল্যান্ট.<br>মোবারক কমপ্লেক্স(Service Clinic)<br>পুNightন বাসষ্ট্যান্ড, Tangail ",
+  "contact": "01711617972"
+ },
+ {
+  "id": 328,
+  "name": "ডেন্টিস্ট <br>মোঃ আলাউদ্দিন ",
+  "qualification": "ডিএমটি(ডেন্টিst্রি)<br>গভ: আই এইচ টি রংপুর<br>এফটি রাজশাহী Medical <br>কলেজ and Hospital <br>Bangladesh রাষ্ট্রীয় Treatment অনুষদ<br>রেজি নং 29908<br>\n",
+  "specialty": "Mouth and দন্ত Treatment<br>প্রযুক্তিবিদ",
+  "schedule": "Daily<br>Morning 9 -  Night 9 until",
+  "hospital": "মীম আদর্শ Dental <br>কেয়ার ",
+  "contact": "01763535660"
+ },
+ {
+  "id": 329,
+  "name": "ডাঃ মোঃ আব্দুল করিম<br>ভূইয়া (সুমন) ",
+  "qualification": "বিডিএস(Dhaka)<br>PGT(শহীদ সোহরাandয়ার্দী Hospital)<br>স্পেশাল Training in ফিক্সড Orthoোডন্টিক্স<br>and ইমপ্ল্যান্ট সার্জারী ",
+  "specialty": "Mouth and দন্ত Disease Specialist<br>and Dental Surgeon",
+  "schedule": "Morning 10 - Afternoon 2 <br>বিকাল 5 - Night 10 until ",
+  "hospital": "অনিক Dental সার্জারী <br>রেজিষ্ট্রি পাড়া রোড(বুরো ংগাইলের<br>পূর্ব পাশে), Tangail ",
+  "contact": "01616236657"
+ },
+ {
+  "id": 331,
+  "name": "ডাঃ মোঃ আবু হানিফ ",
+  "qualification": "MBBS (Dhaka), <br>MCPS(সার্জারী)<br>FCPS(সার্জারী)<br>Assistant Professor-সার্জারী<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "General and andোল্যাপারস্কপিক<br>Surgeon ",
+  "schedule": "Daily",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail ",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 332,
+  "name": "ডাঃ বিধান কৃষ্ণ কর্মকার ",
+  "qualification": "MBBS (Dhaka)<br>ডি- Orthoো(Paralysis Hospital)<br>FCPS(Orthoো-এফপি)<br>Consultant Orthopedics",
+  "specialty": "Bone, Joint, Arthritis Pain and<br>Paralysis Disease Specialist",
+  "schedule": "Daily",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 333,
+  "name": "ডাঃ নাসরিন সুলতানা(নূপুর)",
+  "qualification": "MBBS(আরইউ)<br>PGT(Gynecology and Obs)<br>সিএমইউ(আল্ট্রা)<br>Medical অFissure",
+  "specialty": "Gynecology and Obs ",
+  "schedule": "Daily ",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 334,
+  "name": "ডাঃ ফারাহ মান্নান মম ",
+  "qualification": "এম্বিবিএস <br>Medical অFissure<br>বিMDসি রেজি: নং - এ-91501",
+  "specialty": "Medical অFissure",
+  "schedule": "Daily",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 335,
+  "name": "ডাঃ  সৈকত কুমার দাস(রাজীব)",
+  "qualification": "MBBS(Dhaka)<br>PGT(Medicine)<br>ডিএমইউ(আল্ট্রা)<br>Medical অFissure<br>বিMDসি রেজি: নং - এ-92067",
+  "specialty": "Medical অFissure",
+  "schedule": "Daily ",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 336,
+  "name": "ডাঃ আয়েশা আক্তার লুবা ",
+  "qualification": "MBBS(আরইউ)<br>Medical অFissure<br>রেজি নং- 100498",
+  "specialty": "Medical অFissure ",
+  "schedule": "Daily",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 337,
+  "name": "ডাঃ তাসলিমা আক্তার ",
+  "qualification": "MBBS, BCS(Health)<br>ডিজিand(Gynecology and Obs)<br>Sheikh Hasina Medical College and Hospital<br>Tangail",
+  "specialty": "Gynecology and Obs",
+  "schedule": "Daily",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 338,
+  "name": "ডাঃ মোঃ জিয়াউল ইসলাম খান ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>MD(Child)<br>Consultant(Child)<br>Sheikh Hasina Medical College Hospital,<br>Tangail.",
+  "specialty": "নবজাতক, Child কিশোর <br>Disease Specialist",
+  "schedule": "Daily<br>বিকাল 4.00 - Night 8.00 until<br>Friday <br>All day ",
+  "hospital": "বুরো হেলথ কেয়ার<br>রেজিst্রি পাড়া, Tangail",
+  "contact": "01964419<br>01733220983<br>01318230490"
+ },
+ {
+  "id": 339,
+  "name": "ডাঃ তানভীর জগলুল খান ",
+  "qualification": "MBBS(Dhaka), BCS(Health)<br>MS(Orthoো) নিটোর<br>Orthopedic Specialist and Surgeon<br>জাতীয় Orthopedic Hospital and পূনর্বাসন Everyষ্ঠান(Paralysis Hospital)<br> Dhaka",
+  "specialty": "হাড় জোড়া, মেরুদন্ড, Arthritis ব্যাথা, <br>ট্রMother, and Orthopedic Surgeon",
+  "schedule": "Every Thursday and Friday<br>বিকাল 4 - Night 8 <br><br>\n",
+  "hospital": "ডিজিল্যাব Hospital<br>Tangail লিমিটেড",
+  "contact": "092162586<br>0179300771"
+ },
+ {
+  "id": 340,
+  "name": "ডাঃ মোঃ রাহাত চৌধুরী<br>\n",
+  "qualification": "MBBS, BCS(Health)<br>CCD (বারডেম), সি-আল্ট্রা(এডভান্সড)<br>PGT(Medicine) and Gastroenterology<br>Sheikh Hasina Medical College and Hospital<br>ঙাইল.",
+  "specialty": "Liver, পরিপাকতন্ত্রের Physician and<br>ডায়াবেটিস Specialist",
+  "schedule": "Daily Dusk 7 -Night 9",
+  "hospital": "মেডিনোভা Medical Services লি:",
+  "contact": "62541<br>62542<br>62543<br>01793121241<br>01793121261"
+ },
+ {
+  "id": 341,
+  "name": "ডাঃ শাখিলুর রহমান",
+  "qualification": "ডিডিএটি, আইএফপিবি, Dhaka",
+  "specialty": "ডেন্টিst ",
+  "schedule": "Daily <br>Morning 8.00 - 1.00 <br>বিকাল 3.00 - 8.00 ট until ",
+  "hospital": "ছালেহা Dental কেয়ার<br>পাথরঘা বাজার, জনতা ব্যাংক সংলগ্ন<br>হাজী প্লাজা মসজিদ রোড.",
+  "contact": "01715210567<br>01625776230"
+ },
+ {
+  "id": 342,
+  "name": "ডা: মোঃ হারুন-অর-রশিদ",
+  "qualification": "MBBS (Dhaka), BCS (Health), PGT (ইএনটি)<br>Medical অFissure (এক্স)<br>Dhaka Medical College Hospital, Dhaka",
+  "specialty": "Medicine, Nose Ear Throat, Motherথা and ঘাড় Disease Physician and <br>Surgeon ডায়াবেটিস and Child Disease Experienced",
+  "schedule": "Saturday<br>Morning 9.00- 1.00  until",
+  "hospital": "নিরাময় প্যাথলজিক্যাল Clinic<br>তক্তারচালা বাসষ্ট্যান্ড, মির্জাপুর, Tangail",
+  "contact": "01817116687"
+ },
+ {
+  "id": 343,
+  "name": "ডাঃ মোঃ মোকছেদ আলী",
+  "qualification": "(of:) এল/এমএ<br>(andটিএ) ক্লাস-1, সি এম এইচ Dhaka<br>ডি এম এ কে এইচ ইউ",
+  "specialty": "General সার্জারী<br>অরথ, Gynecology and (Obs)<br>রেজি: নং-829",
+  "schedule": "Every<br>Thursday:, Friday and Monday",
+  "hospital": "মডাণ কেয়ার Diagnostic Center<br>পাথরঘা বাজার, মির্জাপুর, Tangail",
+  "contact": "01709367735<br>01830067605<br>01641124407"
+ },
+ {
+  "id": 344,
+  "name": "ডাঃ মোহাম্মাদ শামীম আল মামুন",
+  "qualification": "MBBS (আর এউ), BCS (Health), <br>এফ সি জি পি (Family Medicine)<br>এম ফিল (নিউক্লিয়ার Medicine কোর্স )<br>পি. জি. টি (Cardiology), BSMMU (পিজি Hospital, Dhaka)<br>স্পেশাল ট্রেin্ড in ক্রিটিক্যাল কেয়ার Medicine",
+  "specialty": "Medicine and Cardiologist",
+  "schedule": "Friday All day",
+  "hospital": "মনি Clinic and জেনারল Hospital<br>চারুবাগ সুপার Motherকেট(2য় তলা), বাসাইল",
+  "contact": "01716000876<br>01756931947"
+ },
+ {
+  "id": 345,
+  "name": "ডাঃ মোঃ রফিকুল ইসলাম",
+  "qualification": "MBBS (Dhaka), ডিডিভি (Dermatology Sexual ), PGT (Medicine)<br>এম পি এইচ, CCD (বারডেম), সি-আল্ট্রাে<br>এক্স Resident (Dermatology Sexual Department)<br>Motherয়মনসিংহ Medical College Hospital, Motherয়মনসিংহ.",
+  "specialty": "Dermatology, Sexual, Allergy and ডায়াবেটিস Specialist",
+  "schedule": "Every Sunday<br>Morning 8.00  হতে 11.00 ",
+  "hospital": "নিরাময় প্যাথলজিক্যাল ‍Clinic<br>তক্তারচালা বাসষ্ট্যান্ড, মির্জাপুর, Tangail<br>\n",
+  "contact": "01817116687"
+ },
+ {
+  "id": 346,
+  "name": "ডাঃ মোঃ মাহমুদুল হাসান",
+  "qualification": "MBBS (Dhaka), BCS (Health), সিডিসি ডায়াবেটিকস( বারডেম <br>Hospital), MS অথোপেডিক (এফ. পি), PGT (নবচজাক and<br> Child Disease), PGT(Surgery সি.এম.ইউ Dhaka)<br>পোষ্ট গ্রাজুয়েশন Training আর্থোপেডিক, Paralysis Hospital (নিটোর Dhaka)",
+  "specialty": "Arthritisব্যাথা, Rheumatic Fever, হাড়ভাঙ্গা, হাড়জোড়া, আর্থোপেডিক, <br>Child and সর্জারী বিশেজ্ঞ",
+  "schedule": "Every Sunday:<br>Morning 9.00  - Evening 4.00 ",
+  "hospital": "মনির ডায়াগনষ্টিক Center<br>তক্তারচালা বাজার, হতেয়া রোড, সখিপুর,<br> Tangail",
+  "contact": "01819959185"
+ },
+ {
+  "id": 347,
+  "name": "ডাঃ এম. এ. খালেক",
+  "qualification": "MBBS (Dhaka), PGT Chest Diseases,<br>Former Medical অFissure এন.টি.আর.এস. Hospital (Dhaka)",
+  "specialty": "Medicine and Chest Disease Specialist",
+  "schedule": "Every Monday and Wednesday<br>Morning 9.00  - Evening 4.00 ",
+  "hospital": "মনির ডায়াগনষ্টিক Center<br>তক্তারচালা বাজার, হতেয়া রোড, সখিপুর,<br>Tangail",
+  "contact": "01819959185\t"
+ },
+ {
+  "id": 348,
+  "name": "ডাঃ মোঃ হাফিজুর রহমান",
+  "qualification": "MBBS (রাজ), PGT (সার্জারী) <br>এক্স Medical অFissure কুমুDayি Medical College Hospital,<br>Tangail.",
+  "specialty": "Medicine, Arthritisব্যাথা and হাড়জোড়া Specialist",
+  "schedule": "Every Friday :<br>Morning 9.00  - Evening 4.00 ",
+  "hospital": "মনির ডায়াগনষ্টিক Center<br>তক্তারচালা বাজার, হতেয়া রোড, সখিপুর,<br>Tangail",
+  "contact": "01819959185\t"
+ },
+ {
+  "id": 349,
+  "name": "ডাঃ বশিরুল ইসলাম (বশির)",
+  "qualification": "MBBS(Dhaka), এফ সি পি এস Medicine <br>পি. জি. Hospital, Dhaka",
+  "specialty": "Medicine, Dermatology, Sexual, Sex, এলার্জী, Mother and Pediatrics Specialist",
+  "schedule": "Every Sunday and Tuesday<br>Morning 9.00  - Evening 4.00 ",
+  "hospital": "মনির ডায়াগনষ্টিক Center<br>তক্তারচালা বাজার, হতেয়া রোড, সখিপুর,<br>Tangail",
+  "contact": "01819959185\t"
+ },
+ {
+  "id": 350,
+  "name": "ডাঃ এস.এম. আবু তাহের",
+  "qualification": "MBBS, BCS (Health),<br><br>Medicine,Child, Motherনসিক and কর্ন<br>ব্যাধিতে বিশেষ Training প্রাপ্ত and Experienced<br>Fellow বিশ্বHealth সংস্থা(থাইল্যান্ড)<br>Former Civil Surgeon,Tangail",
+  "specialty": "General ফিজিশিয়ান",
+  "schedule": "Daily:<br>Morning 10 - Afternoon 2 until<br>(Friday বাদ)",
+  "hospital": "রাজধানী Nursing Home and কম্পিউর ডায়গনষ্টিক Center<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01711780348"
+ },
+ {
+  "id": 351,
+  "name": "ডাঃ লিংকু রানী কর",
+  "qualification": "MBBS, BCS (Health)<br>FCPS (Gynecology and Obs)<br>Consultant (Gynecology Department)<br>General Hospital, Tangail.",
+  "specialty": "Obstetrics and Gynecology Specialist",
+  "schedule": "Daily <br>Evening 3  - Night 8  until",
+  "hospital": "রাজধানী Nursing Home and কম্পিউর ডায়গনষ্টিক Center<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "63150<br>01711780348"
+ },
+ {
+  "id": 352,
+  "name": "ডাঃ মোঃ নুরুল ইসলাম (শামীম)",
+  "qualification": "MBBS , BCS (Health)<br>DCH, FCPS (Child)<br>বিশ্ব Health সংস্থা Fellow, সিঙ্গাপুর.<br>সিনিয়র Consultant (Child Department)<br>General Hospital, Tangail.",
+  "specialty": "Pediatrics Specialist",
+  "schedule": "Daily <br>Evening 3.00 হতে Night 8.00  until",
+  "hospital": "রাজধানী Nursing Home and কম্পিউর ডায়গনষ্টিক Center<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail",
+  "contact": "01711780348"
+ },
+ {
+  "id": 353,
+  "name": "ডাঃ মোঃ তৌহিদুল ইসলাম চৌধুরী",
+  "qualification": "MBBS, DTCD, MD(Neurology)<br>Stroke, প্যরালাইসিস, সারা শরীরে জয়েন্টে <br>জয়েন্টে Painর Specialist<br>Assistant Professor (Neurology)<br>National in্সটিটিউট of Neuro সাin্স and Hospital<br>শেরেে-ই-বাংলা নগর, Dhaka.",
+  "specialty": "Medicine, স্নায়ুDisease and Chest Disease Specialist",
+  "schedule": "Every Friday All day",
+  "hospital": "রাজধানী Nursing Home and কম্পিউর ডায়গনষ্টিক Center<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail.",
+  "contact": "63150<br>01711780348"
+ },
+ {
+  "id": 354,
+  "name": "ডাঃ মিনহাজ",
+  "qualification": "MBBS, MPhil (রিডিandলজি and ইমেজিং)<br>এসিst্যান্ট Professor <br>(রিডিandলজি and ইমেজিং)<br>Bangabandhu Sheikh Mujib Medical বিশ্ববিদ্যালয়, Dhaka.<br><br>\n",
+  "specialty": "এক্স-রে and আল্ট্রাসনোগ্রাম এর রিপোর্ট ন",
+  "schedule": "Every Friday",
+  "hospital": "রাজধানী Nursing Home and কম্পিউর ডায়গনষ্টিক Center<br>Sheikh Hasina Medical College<br>Hospital রোড, সাবালিয়া, Tangail.",
+  "contact": "63150<br>01711780348"
+ },
+ {
+  "id": 355,
+  "name": "ডাঃ মোঃ রহমতউল্লাহ খান",
+  "qualification": "MBBS (ডিএমসি), DTCD (DU)<br>এফসিসিপি (আমেরিকা), ডব্লিউ, এইচ and Fellow (ভারত)<br>ডিপ্লMother in অ্যাজMother (ইংল্যান্ড)<br>Associate Professor<br>আইএইচটি, Mohakhali, Dhaka.",
+  "specialty": "অ্যাজMother, TB, Chest Diseases and Medicine বিশেষক্ষ",
+  "hospital": "জাহানারা Clinic  and ফিজিandথেরাপী Center<br>মৌলভী  Motherর্কেট, 2য় তলা, পাকুল্যা বাজার, মির্জাপুর",
+  "contact": "01915496916<br>01726528005"
+ },
+ {
+  "id": 356,
+  "name": "ডাঃ খন্দকার হারিছ মোহাম্মদ",
+  "qualification": "এম.বি.বি.এস, BCS (Health)<br>ডি-আর্থো (আর্থেোসার্জারী)",
+  "specialty": "আর্থোপেডিক কনসালট্যান্ট<br>হাড়জোড়া, Arthritis, Pain and প্যরালাইসিস <br>Specialist and Surgeon",
+  "hospital": "জাহানারা Clinic and ফিজিandথেরাপী Center<br>মৌলভী Motherর্কেট, 2য় তলা, পাকুল্যা বাজার, মির্জাপুর",
+  "contact": "01915496916<br>01726528005\t"
+ },
+ {
+  "id": 357,
+  "name": "ডাঃ মোঃ লতিফুর রহমান (রতন)",
+  "qualification": "MBBS(Dhaka), BCS (Health)<br>MS(ইউরোলজী), FCPS ইউরোলজী and সার্জারী<br>সিনিয়র Consultant(Urologyst)<br>Assistant Professor<br>জাতীয় Kidney Diseases and Neurology Hospital<br>শের-ই-বাংলা নগর, Dhaka.",
+  "hospital": "জাহানারা Clinic and ফিজিandথেরাপী Center<br>মৌলভী Motherর্কেট, 2য় তলা, পাকুল্যা বাজার, মির্জাপুর<br>\n",
+  "contact": "01915496916<br>01726528005\t"
+ },
+ {
+  "id": 358,
+  "name": "ডাঃ মোঃ ফরিদুল ইসলাম",
+  "qualification": "MBBS(DU), CCD(বারডেম)<br>FCPS (Medicine)[এফপি]<br>Chest Diseasesতে বিশেষ প্রশিক্ষণ প্রাপ্ত<br>রেজিstার(Chest Diseases Department)<br>এনাম Medical College and Hospital.",
+  "specialty": "Medicine, Chest Diseases and ডায়াবেটিস বিশেক্ষজ্ঞ",
+  "hospital": "জাহানারা Clinic and ফিজিandথেরাপী Center<br>মৌলভী Motherর্কেট, 2য় তলা, পাকুল্যা বাজার, মির্জাপুর<br>\n",
+  "contact": "01915496916<br>01726528005"
+ },
+ {
+  "id": 359,
+  "name": "ডাঃ মোঃ ওয়েস করনী",
+  "qualification": "MBBS, BCS (Health)<br>Assistant Professor (প্যাথলজী)<br>Sheikh Hasina Medical College and Hospital, Tangail.",
+  "specialty": "হিষ্ট্রো and সাইটোপ্যাথলজিষ্ট",
+  "hospital": "ল্যাব জোন and Hormone Center<br>ডিst্রিক গেটের পূর্ব পার্শ্বে, সাবালিয়া, Tangail.",
+  "contact": "01816411350<br>01714027305<br>01714789081"
+ },
+ {
+  "id": 360,
+  "name": "ডাঃ সাঈদ সালেহীন",
+  "qualification": "MBBS, BCS (Health), MD (প্যাথলজী)<br>Assistant Professor (প্যাথলজী)<br>Sheikh Hasina Medical College and Hospital, Tangail.",
+  "specialty": "হিষ্ট্রো and সাইটোপ্যাথলজিষ্ট",
+  "hospital": "ল্যাব জোন and Hormone Center<br>ডিst্রিক গেটের পূর্ব পার্শ্বে, সাবালিয়া, Tangail.",
+  "contact": "01816411350<br>01714027305<br>01714789081"
+ },
+ {
+  "id": 361,
+  "name": "ডাঃ খন্দকার হারুন অর রশিদ",
+  "qualification": "MBBS (Dhaka), BCS (Health), MD (Cardiology)<br>কনস্যালটেন্ট (Cardiology)<br>Sheikh Hasina Medical College and Hospital, Tangail.",
+  "specialty": "Medicine and Rheumatic Fever and Cardiologist",
+  "schedule": "Daily<br>বিকাল 3 to Night 8 until<br>Friday বন্ধ",
+  "hospital": "ল্যাব জোন and Hormone Center<br>ডিst্রিক গেটের পূর্ব পার্শ্বে, সাবালিয়া, Tangail.",
+  "contact": "01816411350"
+ },
+ {
+  "id": 362,
+  "name": "ডাঃ মোঃ আবুল কালাম আজাদ",
+  "qualification": "MBBS (Dhaka), MS (চক্ষু)<br>স্পেশিয়ালিটি : ফ্যাকো সার্জারী, গ্লুকোজ and কন্ক্ট লেন্স<br>Assistant Professor<br>Sheikh Hasina Medical College and Hospital, Tangail.<br>কনসালট্যান্ট চক্ষু Specialist and Surgeon<br>জাতীয় চক্ষু Institute and Hospital, Dhaka (এক্স)",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Every Friday <br>Morning 9 to সন্ধা 7 until",
+  "hospital": "দ্বীপ আই কেয়ার Center<br>জেলা Sadar রোড, বটতলা, Tangail.",
+  "contact": "01772966100"
+ },
+ {
+  "id": 363,
+  "name": "Dr. Md. Uzzal Miah",
+  "qualification": "D.M.F (Dhaka)<br>Refraction (Eye)<br>F.T : Sheikh Hasina Medical College &amp; Hospital<br>B.M. D. C Reg: No: D-8857",
+  "specialty": "চক্ষু Specialist",
+  "schedule": "Daily<br>Morning 8  to Night 8 until",
+  "hospital": "দ্বীপ আই কেয়ার Center<br>জেলা Sadar রোড, বটতলা, Tangail.",
+  "contact": "01772966100<br>01864737373"
+ },
+ {
+  "id": 364,
+  "name": "ডাঃ এ. কে. আজাদ",
+  "qualification": "MBBS (ডিএমসি), ডিand (চক্ষু), FCPS (চক্ষু)<br>সিনিয়র কনসালট্যান্ট, Dhaka প্Disease্রেসিভ লায়ন্স চক্ষু Hospital<br>এক্স-Assistant Professor, এমএমসি and ডিসিএমসি<br>এক্স-চক্ষু Specialist and Surgeon, Islamiয়া চক্ষু Hospital<br>ফ্যাকো, নেত্রনালী and এসআইসিএস and গ্লুকোMother and <br>Medical Retina Specialist.",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Every Friday<br>Morning 9 to Afternoon 2 until.",
+  "hospital": "দ্বীপ আই কেয়ার Center<br>জেলা Sadar রোড, বটতলা, Tangail.",
+  "contact": "01772966100"
+ },
+ {
+  "id": 365,
+  "name": "অধ্যাপক ডাঃ এম এ সামাদ",
+  "qualification": "MBBS, MD, FCPS, এফআরসিপি (Glasgow, UK)<br>Kidney Diseases প্রশিক্ষনপ্রাপ্ত (ইউএসএ, জাপান, সিঙ্গাপুর, in্ডিয়া)<br>Professor and Departmentীয় প্রধান, Kidney Diseases Department<br>আনোয়ারা খান মর্ডিার্ণ Medical College and Hospital",
+  "specialty": "Kidney Diseases and Medicine Specialist",
+  "schedule": "Monthের শেষ Friday",
+  "hospital": "ক্যাম্পস Kidney and ডায়ালাইসিস Center<br>বিশ্বাস বেতকা, পুNightন বাসষ্ট্যান্ড, Dhaka রোড, Tangail.",
+  "contact": "2161361<br>01755001830"
+ },
+ {
+  "id": 366,
+  "name": "ডাঃ আব্দুল হাই",
+  "qualification": "MBBS (DU), BCS (Health)<br>ডিand (বিএসএমএমএউ, Former পিজি Hospital)<br>Consultant (অফথালমোলজী)<br>শেখ ফজিলাতুননেছা মুজিব চক্ষু Hospital and <br>প্রশিক্ষণ Institute, গোপালগঞ্জ.",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "hospital": "আশেকপুর মডার্ণ চক্ষু Hospital and ফ্যাকো Center<br>আশেকপুর ব্রীজের উত্তর পাশে, আশেকপুর, Tangail.",
+  "contact": "01302471267<br>01624303416"
+ },
+ {
+  "id": 367,
+  "name": "ডাঃ মোঃ কফিল উদ্দিন",
+  "qualification": "MBBS (রাজ)<br>Consultant<br>Professor এম.এ মতিন মেমোরিয়াল বিএনএসবি বেস<br>চক্ষু Hospital, সিরাজগঞ্জ.",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "schedule": "Every Friday<br>Morning 9 to বিকাল 4 until.",
+  "hospital": "আশেকপুর মডার্ণ চক্ষু Hospital and ফ্যাকো Center<br>আশেকপুর ব্রীজের উত্তর পাশে, আশেকপুর, Tangail.",
+  "contact": "01624303416<br>01302471267"
+ },
+ {
+  "id": 368,
+  "name": "ডাঃ আবুল কালাম আজাদ",
+  "qualification": "MBBS (ডিএমসি), ডিand, FCPS (চক্ষু)<br>সিনিয়র কনসালট্যান্ট, Dhaka প্Disease্রেসিভ লায়ন্স চক্ষু Hospital<br>এক্স-Assistant Professor, এমএমসি and ডিসিএমসি<br>এক্স-চক্ষু Specialist and Surgeon, Islamiয়া চক্ষু Hospital",
+  "specialty": "ফ্যাকো, নেত্রনালী and এসআইসিএস and গ্লুকোMother and<br>Medical Retina Specialist.",
+  "schedule": "অপারেশন করবেন<br>Every Friday",
+  "hospital": "আশেকপুর মডার্ণ চক্ষু Hospital and ফ্যাকো Center<br>আশেকপুর ব্রীজের উত্তর পাশে, আশেকপুর, Tangail.",
+  "contact": "\n<br>01302471267<br>01624303416"
+ },
+ {
+  "id": 369,
+  "name": "ডাঃ মোঃ মাহফুজ উল্লাহ",
+  "qualification": "MBBS (ডিএমসি), MS (চক্ষু),  BCS (Health)<br>Dhaka Medical College and Hospital.<br>Former চক্ষু Specialist and Surgeon<br>জাতীয় চক্ষু বিজ্ঞান in্সটিটিউট and Hospital, Dhaka<br>সিনিয়র Consultant<br>আশেকপুর মডার্ণ চক্ষু Hospital and ফ্যাকো Center, Tangail.",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "hospital": "আশেকপুর মডার্ণ চক্ষু Hospital and ফ্যাকো Center<br>আশেকপুর ব্রীজের উত্তর পাশে, আশেকপুর, Tangail.",
+  "contact": "01701803046<br>01908627954"
+ },
+ {
+  "id": 370,
+  "name": "ডাঃ মোঃ মাহফুজ উল্লাহ\t",
+  "qualification": "MBBS (ডিএমসি), MS (চক্ষু), BCS (Health)<br>Dhaka Medical College and Hospital.<br>Former চক্ষু Specialist and Surgeon<br>জাতীয় চক্ষু বিজ্ঞান in্সটিটিউট and Hospital, Dhaka",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "hospital": "আশেকপুর উন্মুক্ত চক্ষু Hospital<br>Dhaka রোড, (রোডের পূর্ব পাশে) আশেকপুর, Tangail.",
+  "contact": "01761594922<br>01558338452"
+ },
+ {
+  "id": 371,
+  "name": "ডাঃ বি, কে, সাহা",
+  "qualification": "MD (মস্কো)<br>সিand (চক্ষু)",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "schedule": "Morning 9 হতে Afternoon 2<br>বিকাল 5 হতে Night 8<br>(সাপ্তাহিক বন্ধ Tuesday)",
+  "hospital": "আই কেয়ার Center<br>জেলা Sadar রোড, আকুর কুর পাড়া, Tangail.",
+  "contact": "64529<br>01711137392"
+ },
+ {
+  "id": 372,
+  "name": "ডাঃ কে এম মিজানুর রহমান",
+  "qualification": "MBBS (রামেক), BCS (Health), FCPS (চক্ষু)<br>জাতীয় চক্ষু বিজ্ঞান Institute and Hospital<br>শের-ই-বাংলা নগর, Dhaka.",
+  "specialty": "চক্ষু Specialist and ফ্যাকো Surgeon",
+  "schedule": "Every Friday<br>Morning 9 to সন্ধা 7 until",
+  "hospital": "বটতলা চক্ষু Hospital<br>বিবেEarন্দ স্কুল সংলগ্ন (মসজিদের পশ্চিম পার্শ্বে),<br>জেলা Sadar রোড, Tangail.",
+  "contact": "01731555852<br>01609825781"
+ },
+ {
+  "id": 373,
+  "name": "Dr. Jasim Uddin",
+  "qualification": "DOLV (Eye)-Optometrist<br>MPHO (Opthalmology)<br>BSLT (DU), DMA (Savar)",
+  "specialty": "চক্ষু Specialist",
+  "schedule": "Daily<br>Morning 9 to Night 8 until",
+  "hospital": "বটতলা চক্ষু Hospital<br>বিবেEarন্দ স্কুল সংলগ্ন (মসজিদের পশ্চিম পার্শ্বে),<br>জেলা Sadar রোড, Tangail.",
+  "contact": "01739514451<br>01707865673"
+ },
+ {
+  "id": 374,
+  "name": "Dr. Abdul Hai",
+  "qualification": "MBBS (DU), BCS (Health)<br>DO (BSMMU. Ex-PG Hospital)<br>Consultant (Ophthalmology)<br>Sheikh Fazilatunnesa Mujib Eye Hospital &amp;<br>Training Institute, Gopalgonj.<br><br>\n",
+  "specialty": "Eye Specialist & Phaco Surgeon",
+  "hospital": "BOTTOLA MODERN EYE HOSPITAL &amp; <br>PHACO CENTER<br>Zilla Sadar Road, Bottola, Tangail.",
+  "contact": "01713498257<br>01631485815"
+ },
+ {
+  "id": 375,
+  "name": "ডাঃ মোঃ নজরুল ইসলাম ",
+  "qualification": "MBBS, ডিand, MCPS (চক্ষু)<br>FCPS (চক্ষু)<br>সিনিয়র Consultant (চক্ষু)<br>General Hospital, Tangail.",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "schedule": "Saturday হতে Tuesday<br>বিকাল 4 হইতে Night 8 until",
+  "hospital": "আফিয়া আই Center লি:<br>সি and বি রোড বটতলা, আকুর কুর পাড়া, Tangail.",
+  "contact": "64323<br>01746006749"
+ },
+ {
+  "id": 376,
+  "name": "ডাঃ মোঃ আবদুল রাকিব তুষার",
+  "qualification": "MBBS, ডিand, MCPS (চক্ষু)<br>চক্ষু Specialist and Surgeon<br>ফ্যাকো and Retina স্পেশালিষ্ট",
+  "specialty": "চক্ষু Specialist and Surgeon",
+  "schedule": "Thursday :<br>Evening 4 - Night 9<br>Friday :<br>Morning 9-সন্ধা 6",
+  "hospital": "আফিয়া আই Center লি:<br>সি and বি রোড বটতলা, আকুর কুর পাড়া, Tangail.",
+  "contact": "64323<br>01746006749"
+ },
+ {
+  "id": 377,
+  "name": "ডাঃ মোঃ আসাদুজ্জামান",
+  "qualification": "MBBS, MCPS (চক্ষু)<br>Assistant Professor<br>স্পেশালিটি: Cataract and General অফথ্যালমোলজি",
+  "specialty": "চক্ষু Specialist",
+  "schedule": "Tuesday<br>Afternoon 2 to 6 until<br>Friday<br>Morning 9 to 6 until",
+  "hospital": "আফিয়া আই Center লি:<br>সি and বি রোড বটতলা, আকুর কুর পাড়া, Tangail.",
+  "contact": "64323<br>01746006749"
+ },
+ {
+  "id": 378,
+  "name": "ডাঃ আ.ন.ম. বজলুর রহীম রিপন",
+  "qualification": "বিএস পিটি (ব্যাচেলর of ফিজিandথেরাপী)<br>ফ্যাকাল্টি of Medicine, DU<br>পোষ্ট গ্রাজুয়েশন ডিপ্লোMother in এক্সারসাইজ ফিজিandলজী <br>(স্পোর্টস সায়েন্স)<br>MS (ফিজিandথেরাপী)<br>PhD (স্কলার)<br>এক্স ফিজিandথেরাপীষ্ট, সিআরপি, সাভার, Dhaka.<br>ম্যানুপুলেশন and ম্যানুয়াল থেরাপি স্পেশালিst",
+  "specialty": "Arthritis, Pain, প্যারালাইসিস and স্পোর্টস inজুরি ফিজিand Specialist",
+  "schedule": "Daily<br>Morning 9 to Afternoon 2<br>বিকাল 4 to Night 8 until",
+  "hospital": "মেডিকো ফিজিandথেরাপী Center<br>রেজিst্রি পাড়া, Tangail.",
+  "contact": "01712701570"
+ }
+]
