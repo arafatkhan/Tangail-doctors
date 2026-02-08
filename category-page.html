@@ -113,6 +113,34 @@
             border-radius: 2px;
         }
 
+        .language-btn {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            font-family: 'Hind Siliguri', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .language-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            background: linear-gradient(135deg, #5568d3, #6a3f8f);
+        }
+
+        .language-btn:active {
+            transform: translateY(0);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
         .menu-toggle {
             display: none;
             flex-direction: column;
@@ -401,6 +429,12 @@
                 border-bottom: none;
             }
 
+            .language-btn {
+                width: 100%;
+                justify-content: center;
+                margin-top: 10px;
+            }
+
             .nav-link.active::after {
                 display: none;
             }
@@ -495,6 +529,7 @@
                 <li><a href="category-page.html" class="nav-link active">ক্যাটাগরি</a></li>
                 <li><a href="table.html" class="nav-link">টেবিল ভিউ</a></li>
                 <li><a href="contact.html" class="nav-link">যোগাযোগ</a></li>
+                <li><button id="languageBtn" class="language-btn">🌐 English</button></li>
             </ul>
         </div>
     </nav>
@@ -562,46 +597,204 @@
 
         let allDoctors = [];
         const categoryData = new Map();
+        let currentLanguage = localStorage.getItem('language') || 'bn';
 
-        // Define 15 main categories
+        // Define 15 main categories with bilingual names
         const categories = [
-            { name: 'প্রসূতি ও স্ত্রীরোগ বিশেষজ্ঞ', icon: '🤰', keywords: ['প্রসূতি', 'স্ত্রী', 'গাইনী', 'গাইনি', 'অবস'] },
-            { name: 'সার্জারি বিশেষজ্ঞ', icon: '🔪', keywords: ['সার্জন', 'সার্জারি', 'জেনারেল সার্জন', 'ল্যাপারোস্কোপিক'] },
-            { name: 'হৃদরোগ বিশেষজ্ঞ', icon: '❤️', keywords: ['হৃদরোগ', 'হার্ট', 'কার্ডিও', 'বাতজ্বর'] },
-            { name: 'শিশু রোগ বিশেষজ্ঞ', icon: '👶', keywords: ['শিশু', 'পেডিয়া', 'নবজাতক', 'বাচ্চা'] },
-            { name: 'মেডিসিন বিশেষজ্ঞ', icon: '💊', keywords: ['মেডিসিন', 'জ্বর', 'ডায়াবেটিস', 'থাইরয়েড'] },
-            { name: 'হাড় ও জয়েন্ট বিশেষজ্ঞ', icon: '🦴', keywords: ['হাড়', 'জোড়া', 'বাত', 'অর্থো', 'পঙ্গু'] },
-            { name: 'চর্ম ও যৌনরোগ বিশেষজ্ঞ', icon: '🩺', keywords: ['চর্ম', 'যৌন', 'সেক্স', 'এলার্জি', 'ত্বক'] },
-            { name: 'মনোরোগ বিশেষজ্ঞ', icon: '🧠', keywords: ['মনোরোগ', 'মনযৌন', 'মাদকাসক্ত', 'মানসিক'] },
-            { name: 'মস্তিষ্ক ও স্নায়ুরোগ বিশেষজ্ঞ', icon: '🧠', keywords: ['ব্রেইন', 'নিউরো', 'স্নায়ু', 'মস্তিষ্ক'] },
-            { name: 'কিডনি ও মূত্ররোগ বিশেষজ্ঞ', icon: '💧', keywords: ['কিডনি', 'মূত্র', 'ইউরো', 'পাথর'] },
-            { name: 'চোখ বিশেষজ্ঞ', icon: '👁️', keywords: ['চোখ', 'চক্ষু', 'আই', 'দৃষ্টি'] },
-            { name: 'নাক-কান-গলা বিশেষজ্ঞ', icon: '👂', keywords: ['নাক', 'কান', 'গলা', 'ইএনটি'] },
-            { name: 'দাঁত ও মুখ বিশেষজ্ঞ', icon: '🦷', keywords: ['দাঁত', 'ডেন্টাল', 'মুখ'] },
-            { name: 'ফিজিওথেরাপি বিশেষজ্ঞ', icon: '🏃', keywords: ['ফিজিও', 'ব্যথা', 'প্যারালাইসিস'] },
-            { name: 'অন্যান্য বিশেষজ্ঞ', icon: '⚕️', keywords: [] }
+            { 
+                name: { bn: 'প্রসূতি ও স্ত্রীরোগ বিশেষজ্ঞ', en: 'Obstetrics & Gynecology Specialist' },
+                icon: '🤰',
+                keywords: ['প্রসূতি', 'স্ত্রী', 'গাইনী', 'গাইনি', 'অবস', 'obstetrics', 'gynecology', 'gynecologist']
+            },
+            { 
+                name: { bn: 'সার্জারি বিশেষজ্ঞ', en: 'Surgery Specialist' },
+                icon: '🔪',
+                keywords: ['সার্জন', 'সার্জারি', 'জেনারেল সার্জন', 'ল্যাপারোস্কোপিক', 'surgeon', 'surgery']
+            },
+            { 
+                name: { bn: 'হৃদরোগ বিশেষজ্ঞ', en: 'Cardiology Specialist' },
+                icon: '❤️',
+                keywords: ['হৃদরোগ', 'হার্ট', 'কার্ডিও', 'বাতজ্বর', 'heart', 'cardiology', 'cardiac']
+            },
+            { 
+                name: { bn: 'শিশু রোগ বিশেষজ্ঞ', en: 'Pediatrics Specialist' },
+                icon: '👶',
+                keywords: ['শিশু', 'পেডিয়া', 'নবজাতক', 'বাচ্চা', 'pediatrics', 'child', 'children']
+            },
+            { 
+                name: { bn: 'মেডিসিন বিশেষজ্ঞ', en: 'Medicine Specialist' },
+                icon: '💊',
+                keywords: ['মেডিসিন', 'জ্বর', 'ডায়াবেটিস', 'থাইরয়েড', 'medicine', 'fever', 'diabetes']
+            },
+            { 
+                name: { bn: 'হাড় ও জয়েন্ট বিশেষজ্ঞ', en: 'Orthopedics & Joint Specialist' },
+                icon: '🦴',
+                keywords: ['হাড়', 'জোড়া', 'বাত', 'অর্থো', 'পঙ্গু', 'bone', 'joint', 'orthopedics', 'ortho']
+            },
+            { 
+                name: { bn: 'চর্ম ও যৌনরোগ বিশেষজ্ঞ', en: 'Dermatology & Sexual Health Specialist' },
+                icon: '🩺',
+                keywords: ['চর্ম', 'যৌন', 'সেক্স', 'এলার্জি', 'ত্বক', 'dermatology', 'skin', 'sexual', 'allergy']
+            },
+            { 
+                name: { bn: 'মনোরোগ বিশেষজ্ঞ', en: 'Psychiatry Specialist' },
+                icon: '🧠',
+                keywords: ['মনোরোগ', 'মনযৌন', 'মাদকাসক্ত', 'মানসিক', 'psychiatry', 'mental', 'psychological']
+            },
+            { 
+                name: { bn: 'মস্তিষ্ক ও স্নায়ুরোগ বিশেষজ্ঞ', en: 'Neurology Specialist' },
+                icon: '🧠',
+                keywords: ['ব্রেইন', 'নিউরো', 'স্নায়ু', 'মস্তিষ্ক', 'brain', 'neurology', 'neuro', 'nerve']
+            },
+            { 
+                name: { bn: 'কিডনি ও মূত্ররোগ বিশেষজ্ঞ', en: 'Nephrology & Urology Specialist' },
+                icon: '💧',
+                keywords: ['কিডনি', 'মূত্র', 'ইউরো', 'পাথর', 'kidney', 'urology', 'nephrology', 'urinary']
+            },
+            { 
+                name: { bn: 'চোখ বিশেষজ্ঞ', en: 'Ophthalmology Specialist' },
+                icon: '👁️',
+                keywords: ['চোখ', 'চক্ষু', 'আই', 'দৃষ্টি', 'eye', 'ophthalmology', 'vision']
+            },
+            { 
+                name: { bn: 'নাক-কান-গলা বিশেষজ্ঞ', en: 'ENT Specialist' },
+                icon: '👂',
+                keywords: ['নাক', 'কান', 'গলা', 'ইএনটি', 'ent', 'ear', 'nose', 'throat']
+            },
+            { 
+                name: { bn: 'দাঁত ও মুখ বিশেষজ্ঞ', en: 'Dental & Oral Health Specialist' },
+                icon: '🦷',
+                keywords: ['দাঁত', 'ডেন্টাল', 'মুখ', 'dental', 'tooth', 'teeth', 'oral']
+            },
+            { 
+                name: { bn: 'ফিজিওথেরাপি বিশেষজ্ঞ', en: 'Physiotherapy Specialist' },
+                icon: '🏃',
+                keywords: ['ফিজিও', 'ব্যথা', 'প্যারালাইসিস', 'physiotherapy', 'physio', 'pain', 'paralysis']
+            },
+            { 
+                name: { bn: 'অন্যান্য বিশেষজ্ঞ', en: 'Other Specialists' },
+                icon: '⚕️',
+                keywords: []
+            }
         ];
 
+        // UI Text translations
+        const uiText = {
+            bn: {
+                pageTitle: '🏥 টাঙ্গাইল ডাক্তার তালিকা',
+                pageSubtitle: 'রোগের ধরন অনুযায়ী বিশেষজ্ঞ ডাক্তার খুঁজুন',
+                backToCategories: '← ক্যাটাগরিতে ফিরে যান',
+                totalDoctors: 'জন বিশেষজ্ঞ ডাক্তার',
+                doctorsText: 'জন ডাক্তার',
+                loading: 'লোড হচ্ছে...',
+                loadError: 'ডেটা লোড করতে সমস্যা হয়েছে',
+                tableHeaders: {
+                    id: 'আইডি',
+                    name: 'ডাক্তারের নাম',
+                    qualification: 'যোগ্যতা',
+                    specialty: 'বিশেষত্ব',
+                    schedule: 'সময়সূচী',
+                    hospital: 'হাসপাতাল/ক্লিনিক',
+                    contact: 'যোগাযোগ'
+                },
+                nameNotFound: 'নাম পাওয়া যায়নি'
+            },
+            en: {
+                pageTitle: '🏥 Tangail Doctor Directory',
+                pageSubtitle: 'Find specialist doctors by disease category',
+                backToCategories: '← Back to Categories',
+                totalDoctors: 'specialist doctors',
+                doctorsText: 'doctors',
+                loading: 'Loading...',
+                loadError: 'Failed to load data',
+                tableHeaders: {
+                    id: 'ID',
+                    name: 'Doctor Name',
+                    qualification: 'Qualification',
+                    specialty: 'Specialty',
+                    schedule: 'Schedule',
+                    hospital: 'Hospital/Clinic',
+                    contact: 'Contact'
+                },
+                nameNotFound: 'Name not available'
+            }
+        };
+
+        // Toggle language
+        function toggleLanguage() {
+            currentLanguage = currentLanguage === 'bn' ? 'en' : 'bn';
+            localStorage.setItem('language', currentLanguage);
+            document.documentElement.lang = currentLanguage;
+            
+            // Update language button text
+            const langBtn = document.getElementById('languageBtn');
+            if (langBtn) {
+                langBtn.innerHTML = currentLanguage === 'bn' ? '🌐 English' : '🌐 বাংলা';
+            }
+            
+            updateUIText();
+            loadData();
+        }
+
+        // Update UI text based on current language
+        function updateUIText() {
+            const texts = uiText[currentLanguage];
+            
+            // Update page header
+            const h1 = document.querySelector('header h1');
+            if (h1) h1.textContent = texts.pageTitle;
+            
+            const subtitle = document.querySelector('header .subtitle');
+            if (subtitle) subtitle.textContent = texts.pageSubtitle;
+            
+            // Update back button
+            const backBtn = document.querySelector('.back-btn');
+            if (backBtn) backBtn.innerHTML = texts.backToCategories;
+            
+            // Update loading text
+            const loadingText = document.querySelector('#loading p');
+            if (loadingText) loadingText.textContent = texts.loading;
+            
+            // Update table headers
+            const headers = document.querySelectorAll('thead th');
+            if (headers.length >= 7) {
+                headers[0].textContent = texts.tableHeaders.id;
+                headers[1].textContent = texts.tableHeaders.name;
+                headers[2].textContent = texts.tableHeaders.qualification;
+                headers[3].textContent = texts.tableHeaders.specialty;
+                headers[4].textContent = texts.tableHeaders.schedule;
+                headers[5].textContent = texts.tableHeaders.hospital;
+                headers[6].textContent = texts.tableHeaders.contact;
+            }
+        }
+
         // Load data
-        fetch('data.json')
-            .then(res => res.json())
-            .then(data => {
-                allDoctors = data;
-                processDoctors();
-                displayCategories();
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('categorySection').style.display = 'block';
-            })
-            .catch(err => {
-                console.error('Error:', err);
-                document.getElementById('loading').innerHTML = '<p>ডেটা লোড করতে সমস্যা হয়েছে</p>';
-            });
+        function loadData() {
+            const dataFile = currentLanguage === 'bn' ? 'data.json' : 'english.json';
+            
+            fetch(dataFile)
+                .then(res => res.json())
+                .then(data => {
+                    allDoctors = data;
+                    processDoctors();
+                    displayCategories();
+                    document.getElementById('loading').style.display = 'none';
+                    document.getElementById('categorySection').style.display = 'block';
+                })
+                .catch(err => {
+                    console.error('Error:', err);
+                    document.getElementById('loading').innerHTML = `<p>${uiText[currentLanguage].loadError}</p>`;
+                });
+        }
 
         // Process doctors into categories
         function processDoctors() {
+            // Clear previous data
+            categoryData.clear();
+            
             // Initialize categories
             categories.forEach(cat => {
-                categoryData.set(cat.name, []);
+                categoryData.set(cat.name[currentLanguage], []);
             });
 
             // Categorize each doctor
@@ -617,7 +810,7 @@
                     
                     for (let keyword of cat.keywords) {
                         if (specialty.includes(keyword.toLowerCase())) {
-                            categoryData.get(cat.name).push(doctor);
+                            categoryData.get(cat.name[currentLanguage]).push(doctor);
                             categorized = true;
                             break;
                         }
@@ -627,7 +820,8 @@
 
                 // If not categorized, add to 'other'
                 if (!categorized) {
-                    categoryData.get('অন্যান্য বিশেষজ্ঞ').push(doctor);
+                    const otherCat = categories[categories.length - 1].name[currentLanguage];
+                    categoryData.get(otherCat).push(doctor);
                 }
             });
         }
@@ -636,19 +830,21 @@
         function displayCategories() {
             const grid = document.getElementById('categoryGrid');
             grid.innerHTML = '';
+            const texts = uiText[currentLanguage];
 
             categories.forEach(cat => {
-                const doctors = categoryData.get(cat.name);
+                const categoryName = cat.name[currentLanguage];
+                const doctors = categoryData.get(categoryName);
                 if (doctors && doctors.length > 0) {
                     const card = document.createElement('div');
                     card.className = 'category-card';
-                    card.onclick = () => showDoctors(cat.name, doctors);
+                    card.onclick = () => showDoctors(categoryName, doctors);
                     
                     card.innerHTML = `
                         <div class="category-icon">${cat.icon}</div>
-                        <div class="category-name">${cat.name}</div>
+                        <div class="category-name">${categoryName}</div>
                         <div class="category-count">
-                            <span>${doctors.length}</span> জন ডাক্তার
+                            <span>${doctors.length}</span> ${texts.doctorsText}
                         </div>
                     `;
                     
@@ -659,8 +855,10 @@
 
         // Show doctors table
         function showDoctors(categoryName, doctors) {
+            const texts = uiText[currentLanguage];
+            
             document.getElementById('categoryTitle').textContent = categoryName;
-            document.getElementById('categoryDescription').textContent = `মোট ${doctors.length} জন বিশেষজ্ঞ ডাক্তার`;
+            document.getElementById('categoryDescription').textContent = `${currentLanguage === 'bn' ? 'মোট' : 'Total'} ${doctors.length} ${texts.totalDoctors}`;
 
             const tbody = document.getElementById('doctorTableBody');
             tbody.innerHTML = '';
@@ -669,7 +867,7 @@
                 const row = document.createElement('tr');
                 row.innerHTML = `
                     <td>${doctor.id || ''}</td>
-                    <td><span class="doctor-name">${cleanText(doctor.name || 'নাম পাওয়া যায়নি')}</span></td>
+                    <td><span class="doctor-name">${cleanText(doctor.name || texts.nameNotFound)}</span></td>
                     <td>${formatText(doctor.qualification || '-')}</td>
                     <td class="specialty-cell">${cleanText(doctor.specialty || '-')}</td>
                     <td>${formatText(doctor.schedule || '-')}</td>
@@ -706,6 +904,22 @@
             if (!contact) return '';
             return contact.replace(/<br\s*\/?>/gi, ', ');
         }
+
+        // Initialize on page load
+        document.addEventListener('DOMContentLoaded', () => {
+            // Set initial language
+            document.documentElement.lang = currentLanguage;
+            
+            // Set language button text
+            const langBtn = document.getElementById('languageBtn');
+            if (langBtn) {
+                langBtn.innerHTML = currentLanguage === 'bn' ? '🌐 English' : '🌐 বাংলা';
+                langBtn.addEventListener('click', toggleLanguage);
+            }
+            
+            updateUIText();
+            loadData();
+        });
 
         // WhatsApp button functionality
         function toggleWhatsAppMenu() {
